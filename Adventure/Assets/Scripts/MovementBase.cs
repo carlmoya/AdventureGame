@@ -1,5 +1,7 @@
 using UnityEngine;
 
+// Carl Moya
+
 public abstract class MovementBase : MonoBehaviour
 {
     // Fields
@@ -11,7 +13,7 @@ public abstract class MovementBase : MonoBehaviour
 
     // Methods
 
-    protected void Start()
+    protected virtual void Start()
     {
         // Set reference to collider
         col = GetComponent<Collider2D>();
@@ -20,7 +22,7 @@ public abstract class MovementBase : MonoBehaviour
         rb = GetComponent<Rigidbody2D>();
     }
 
-    protected void FixedUpdate() // Not ran every frame to avoid issues w/ physics
+    protected virtual void FixedUpdate() // Not ran every frame to avoid issues w/ physics
     {
         // TODO Overhaul line
         rb.MovePosition(MovementDirection() * speed * Time.fixedDeltaTime);
@@ -28,9 +30,9 @@ public abstract class MovementBase : MonoBehaviour
 
     // Return Methods
 
-    protected abstract Vector2 MovementDirection();
+    protected abstract Vector2 MovementDirection(); // Overwritten by inheritor classes
 
-    protected bool IsMoving()
+    protected virtual bool IsMoving()
     {
         // TODO Return true depending on value of MovementDirection();
         return false;
