@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// Carl Moya
+// Script written by Carl Moya
 
 public abstract class MovementBase : MonoBehaviour
 {
@@ -24,17 +24,17 @@ public abstract class MovementBase : MonoBehaviour
 
     protected virtual void FixedUpdate() // Not ran every frame to avoid issues w/ physics
     {
-        // TODO Overhaul line
-        rb.MovePosition(MovementDirection() * speed * Time.fixedDeltaTime);
+        // Move the rigid body towards the target position
+        rb.MovePosition(Vector2.MoveTowards(rb.position, TargetPosition(), speed * Time.fixedDeltaTime));
     }
 
     // Return Methods
 
-    protected abstract Vector2 MovementDirection(); // Overwritten by inheritor classes
+    protected abstract Vector2 TargetPosition(); // Overwritten by inheritor classes
 
     protected virtual bool IsMoving()
     {
-        // TODO Return true depending on value of MovementDirection();
-        return false;
+        // Return true depending on the magnitude of the rigid body velocity
+        return rb.linearVelocity.magnitude < 0.01 ? false : true;
     }
 }

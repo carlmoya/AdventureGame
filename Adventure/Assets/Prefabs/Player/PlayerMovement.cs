@@ -1,41 +1,60 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-// Carl Moya
+// Script written by Carl Moya
 
 public class PlayerMovement : MovementBase
 {
     // Fields
 
-    protected InputAction movementAction;
+    public InputActionAsset inputActions;
+
+    protected InputAction pressAction;
+    protected InputAction positionAction;
 
     // Methods
 
-    protected override void Start()
+    protected virtual void OnEnable()
     {
-        // Run inherited behaviors
-        base.Start();
-
-        // TODO Figure this out
-        //movementAction = InputSystem.actions.FindAction("Movement");
+        // Enable gameplay action map
+        inputActions.FindActionMap("Gameplay").Enable();
     }
 
-    protected virtual void Update() // Ran every frame
+    protected virtual void OnDisable()
     {
-        
+        // Disable gameplay action map
+        inputActions.FindActionMap("Gameplay").Disable();
+    }
+
+    protected virtual void Awake()
+    {
+        // Set reference to press action
+        pressAction = InputSystem.actions.FindAction("Press");
+
+        // Set reference to position action
+        positionAction = InputSystem.actions.FindAction("Position");
     }
 
     // Return Methods
 
-    protected override Vector2 MovementDirection()
+    protected override Vector2 TargetPosition()
     {
-        if (Input.GetKey(KeyCode.W))
+        // If the press action is being performed
+        if (pressAction.inProgress == true)
         {
-            return Vector2.one;
+            // Get the current screen coordinates
+            Vector2 screenCoordinates = positionAction.ReadValue<Vector2>();
+
+            // Convert screen coordinates to world space coordinates
+            Vector3 worldCoordinates = Camera.main.ScreenToWorldPoint(new Vector3(screenCoordinates.x, screenCoordinates.y, Camera.main.nearClipPlane));
+
+            // return the target world position
+            return new Vector2(worldCoordinates.x, worldCoordinates.y);
         }
         else
         {
-            return Vector2.zero;
+            // Return the current position of the rigid body
+            return rb.position;
         }
     }
 }

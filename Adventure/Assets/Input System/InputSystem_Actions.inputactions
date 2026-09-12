@@ -1,16 +1,25 @@
 {
     "version": 1,
-    "name": "InputSystem",
+    "name": "InputSystem_Actions",
     "maps": [
         {
             "name": "Gameplay",
             "id": "6f0872c1-9380-4075-8a8e-b5d4d9504082",
             "actions": [
                 {
-                    "name": "Movment",
+                    "name": "Position",
                     "type": "PassThrough",
                     "id": "512b748e-3a50-4caf-9a7f-11340676b612",
                     "expectedControlType": "Vector2",
+                    "processors": "",
+                    "interactions": "",
+                    "initialStateCheck": false
+                },
+                {
+                    "name": "Press",
+                    "type": "Button",
+                    "id": "86ce099d-337d-4fb6-9234-bb7d4cd21b0d",
+                    "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
                     "initialStateCheck": false
@@ -24,7 +33,40 @@
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movment",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "406ceb32-9fa3-4483-a7b4-1edcf4037b5a",
+                    "path": "<Touchscreen>/primaryTouch/position",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "361cea05-e088-4184-a24e-d695973c6783",
+                    "path": "<Mouse>/leftButton",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
+                    "id": "24e6a0fa-939b-443e-85c9-38a62f82ff80",
+                    "path": "<Touchscreen>/Press",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "",
+                    "action": "Press",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
