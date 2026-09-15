@@ -12,6 +12,8 @@ public class PlayerMovement : MovementBase
     protected InputAction pressAction;
     protected InputAction positionAction;
 
+    protected Animator playerAnimator;
+
     // Methods
 
     protected virtual void OnEnable()
@@ -33,6 +35,47 @@ public class PlayerMovement : MovementBase
 
         // Set reference to position action
         positionAction = InputSystem.actions.FindAction("Position");
+
+        // Set reference to player animator
+        playerAnimator = GetComponentInChildren<Animator>();
+    }
+
+    protected virtual void Update()
+    {
+        // Set player animator values
+        SetPlayerAnimatorValues();
+    }
+
+    protected virtual void SetPlayerAnimatorValues()
+    {
+        // Set player animator velocity value
+        playerAnimator.SetFloat("Velocity", rb.linearVelocity.magnitude);
+
+        if (IsMoving() == true)
+        {
+            if (Mathf.Abs(rb.linearVelocity.x) > Mathf.Abs(rb.linearVelocity.y))
+            {
+                if (rb.linearVelocity.x > 0)
+                {
+                    playerAnimator.SetTrigger("Moving East");
+                }
+                else
+                {
+                    playerAnimator.SetTrigger("Moving West");
+                }
+            }
+            else
+            {
+                if (rb.linearVelocity.y > 0)
+                {
+                    playerAnimator.SetTrigger("Moving North");
+                }
+                else
+                {
+                    playerAnimator.SetTrigger("Moving South");
+                }
+            }
+        }
     }
 
     // Return Methods

@@ -24,8 +24,8 @@ public abstract class MovementBase : MonoBehaviour
 
     protected virtual void FixedUpdate() // Not ran every frame to avoid issues w/ physics
     {
-        // Move the rigid body towards the target position
-        rb.MovePosition(Vector2.MoveTowards(rb.position, TargetPosition(), speed * Time.fixedDeltaTime));
+        // Set the linear velocity of the rigid body
+        rb.linearVelocity = (TargetPosition() - rb.position).normalized * speed * Time.fixedDeltaTime;
     }
 
     // Return Methods
@@ -34,7 +34,7 @@ public abstract class MovementBase : MonoBehaviour
 
     protected virtual bool IsMoving()
     {
-        // Return true depending on the magnitude of the rigid body velocity
-        return rb.linearVelocity.magnitude < 0.01 ? false : true;
+        // Return true depending on the magnitude of the current velocity of the rigid body
+        return rb.linearVelocity.magnitude < 0.01f ? false : true;
     }
 }
