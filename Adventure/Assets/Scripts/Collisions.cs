@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-//PF Script handles enemy and pickup collisions, as well as health system and talsiman functions
+//PF Script handles enemy and pickup collisions, as well as health system and talisman functions
 
 public class Collisions : MonoBehaviour
 {
@@ -19,6 +19,8 @@ public class Collisions : MonoBehaviour
     {
         
     }
+
+    // TO DO: try to make it so proximity continually leeches health, add talisman functions, 
 
     private void OnTriggerEnter2D(Collider2D col)
     {
