@@ -1,0 +1,67 @@
+using UnityEngine;
+
+
+//PF Script handles enemy and pickup collisions, as well as health system and talsiman functions
+
+public class Collisions : MonoBehaviour
+{
+    public float maxEnergy = 100f, currentEnergy, enemyDmgVal = 5f, energyPickupVal = 10f;
+
+    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    void Start()
+    {   
+        currentEnergy = maxEnergy; 
+
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        
+    }
+
+    private void OnTriggerEnter2D(Collider2D col)
+    {
+
+        if(col.CompareTag("EnergyPU"))
+        {  
+            //sound trigger
+            currentEnergy += 10f;
+
+            if (currentEnergy > maxEnergy)
+            {
+                currentEnergy = maxEnergy;
+            }
+
+            Destroy(col);
+        }
+
+        if(col.CompareTag("Talisman"))
+        {
+            //Play anim/souond or smth
+            Destroy(col);
+        }
+
+        if (col.CompareTag("Enemy"))
+        {
+            currentEnergy -= enemyDmgVal;
+        }
+
+        if (col.CompareTag("FrontDoor"))
+        {
+            //message that door is locked and tell player to talk to friendly ghost
+        }
+
+
+    }
+
+    //private void OnTriggerStay2D(Collider2D col)
+    //{
+        
+    //}
+
+    //private void OnTriggerExit2D(Collider2D col)
+    //{
+        
+    //}
+}
