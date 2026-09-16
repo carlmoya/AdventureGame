@@ -5,6 +5,8 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MovementBase
 {
+    // TODO Clean up script
+
     // Fields
 
     public InputActionAsset inputActions;
@@ -13,6 +15,7 @@ public class PlayerMovement : MovementBase
     protected InputAction positionAction;
 
     protected Animator playerAnimator;
+    public string[] directionTriggers;
 
     // Methods
 
@@ -64,41 +67,13 @@ public class PlayerMovement : MovementBase
 
             int directionIndex = Mathf.FloorToInt((angle + 22.5f) / 45f) % 8;
 
-            switch (directionIndex)
-            {
-                case 0:
-                    playerAnimator.SetTrigger("Moving East");
-                    break;
-                case 1:
-                    playerAnimator.SetTrigger("Moving NorthEast");
-                    break;
-                case 2:
-                    playerAnimator.SetTrigger("Moving North");
-                    break;
-                case 3:
-                    playerAnimator.SetTrigger("Moving NorthWest");
-                    break;
-                case 4:
-                    playerAnimator.SetTrigger("Moving West");
-                    break;
-                case 5:
-                    playerAnimator.SetTrigger("Moving SouthWest");
-                    break;
-                case 6:
-                    playerAnimator.SetTrigger("Moving South");
-                    break;
-                case 7:
-                    playerAnimator.SetTrigger("Moving SouthEast");
-                    break;
-            }
-
-            // TODO Create set of direction triggers and then use settrigger(directiontriggers[directionindex])
+            playerAnimator.SetTrigger(directionTriggers[directionIndex]);
         }
     }
 
     // Return Methods
 
-    protected override Vector2 TargetPosition()
+    protected override Vector2 TargetPosition() // Defined by base class
     {
         // If the press action is being performed
         if (pressAction.inProgress == true)

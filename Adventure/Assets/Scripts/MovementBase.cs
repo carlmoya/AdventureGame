@@ -15,16 +15,12 @@ public abstract class MovementBase : MonoBehaviour
 
     protected virtual void Start()
     {
-        // Set reference to collider
         col = GetComponent<Collider2D>();
-
-        // Set reference to rigidbody
         rb = GetComponent<Rigidbody2D>();
     }
 
     protected virtual void FixedUpdate() // Not ran every frame to avoid issues w/ physics
     {
-        // Set the linear velocity of the rigid body
         rb.linearVelocity = (TargetPosition() - rb.position).normalized * speed * Time.fixedDeltaTime;
     }
 
@@ -34,7 +30,6 @@ public abstract class MovementBase : MonoBehaviour
 
     protected virtual bool IsMoving()
     {
-        // Return true depending on the magnitude of the current velocity of the rigid body
         return rb.linearVelocity.magnitude < 0.01f ? false : true;
     }
 }

@@ -1140,6 +1140,42 @@ PrefabInstance:
       propertyPath: speed
       value: 500
       objectReference: {fileID: 0}
+    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      propertyPath: directionTriggers.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      propertyPath: 'directionTriggers.Array.data[0]'
+      value: Moving East
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      propertyPath: 'directionTriggers.Array.data[1]'
+      value: Moving NorthEast
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      propertyPath: 'directionTriggers.Array.data[2]'
+      value: Moving North
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      propertyPath: 'directionTriggers.Array.data[3]'
+      value: Moving NorthWest
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      propertyPath: 'directionTriggers.Array.data[4]'
+      value: Moving West
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      propertyPath: 'directionTriggers.Array.data[5]'
+      value: Moving SouthWest
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      propertyPath: 'directionTriggers.Array.data[6]'
+      value: Moving South
+      objectReference: {fileID: 0}
+    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      propertyPath: 'directionTriggers.Array.data[7]'
+      value: Moving SouthEast
+      objectReference: {fileID: 0}
     - target: {fileID: 2075561122586499976, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
