@@ -254,6 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 10
   inputActions: {fileID: -944628639613478452, guid: 9cc3d0b9f3815834090cf819b5dac7a2, type: 3}
+  directionTriggers: []
 --- !u!114 &7025332553581868493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -270,6 +271,9 @@ MonoBehaviour:
   currentEnergy: 0
   enemyDmgVal: 5
   energyPickupVal: 10
+  source: {fileID: 3270745925838980683}
+  damaged: {fileID: 8300000, guid: 701faf037f39bdb4fa99d4eeba06d662, type: 3}
+  energyPU: {fileID: 8300000, guid: fc7b6202a907e2e458aeedd0d6c11fb4, type: 3}
 --- !u!114 &1699083632162231155
 MonoBehaviour:
   m_ObjectHideFlags: 0

@@ -5,12 +5,17 @@ using UnityEngine;
 
 public class Collisions : MonoBehaviour
 {
-    public float maxEnergy = 100f, currentEnergy, enemyDmgVal = 5f, energyPickupVal = 10f;
+    public float maxEnergy = 100f, currentEnergy, enemyDmgVal = 15f, energyPickupVal = 10f;
+
+    public AudioSource source;
+    public AudioClip damaged, energyPU;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {   
         currentEnergy = maxEnergy; 
+
+        source = GetComponent<AudioSource>();
 
     }
 
@@ -26,34 +31,33 @@ public class Collisions : MonoBehaviour
     {
 
         if(col.CompareTag("EnergyPU"))
-        {  
-            //sound trigger
+        {
+            source.clip = energyPU;
+            source.Play();
+
             currentEnergy += 10f;
+
+            Destroy(col.gameObject);
 
             if (currentEnergy > maxEnergy)
             {
                 currentEnergy = maxEnergy;
             }
-
-            Destroy(col);
         }
 
         if(col.CompareTag("Talisman"))
         {
             //Play anim/souond or smth
-            Destroy(col);
+            Destroy(col.gameObject);
         }
 
         if (col.CompareTag("Enemy"))
         {
+            source.clip = damaged;
+            source.Play();
+
             currentEnergy -= enemyDmgVal;
         }
-
-        if (col.CompareTag("FrontDoor"))
-        {
-            //message that door is locked and tell player to talk to friendly ghost
-        }
-
 
     }
 
