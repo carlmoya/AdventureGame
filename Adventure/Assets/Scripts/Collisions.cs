@@ -25,7 +25,6 @@ public class Collisions : MonoBehaviour
         
     }
 
-    // TO DO: try to make it so proximity continually leeches health, add talisman functions, 
 
     private void OnTriggerEnter2D(Collider2D col)
     {
