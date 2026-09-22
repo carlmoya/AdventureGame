@@ -252,9 +252,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: bdd8128c750cbf24b8e09bae1fdbdbf3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
-  speed: 10
+  speed: 500
   inputActions: {fileID: -944628639613478452, guid: 9cc3d0b9f3815834090cf819b5dac7a2, type: 3}
-  directionTriggers: []
+  directionTriggers:
+  - Moving East
+  - Moving NorthEast
+  - Moving North
+  - Moving NorthWest
+  - Moving West
+  - Moving SouthWest
+  - Moving South
+  - Moving SouthEast
 --- !u!114 &7025332553581868493
 MonoBehaviour:
   m_ObjectHideFlags: 0
