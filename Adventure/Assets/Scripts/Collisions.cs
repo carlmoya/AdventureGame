@@ -44,12 +44,6 @@ public class Collisions : MonoBehaviour
             }
         }
 
-        if(col.CompareTag("Talisman"))
-        {
-            //Play anim/souond or smth
-            Destroy(col.gameObject);
-        }
-
         if (col.CompareTag("Enemy"))
         {
             source.clip = damaged;
