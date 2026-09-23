@@ -16,10 +16,8 @@ public class AiMovement : BaseMovement
 
     protected override Vector2 TargetPosition() // Defined by base class
     {
-        // Go thru dislikes
         foreach (string dislike in dislikes)
         {
-            // If a disliked game object is found
             if (FoundGameObjectWithTag(dislike, out GameObject dislikedGameObject))
             {
                 // Get the direction away from the disliked game object
@@ -30,13 +28,10 @@ public class AiMovement : BaseMovement
             }
         }
 
-        // Go thru likes
         foreach (string like in likes)
         {
-            // If a liked game object is found
             if (FoundGameObjectWithTag(like, out GameObject likedGameObject))
             {
-                // Return the position of the liked game object
                 return likedGameObject.transform.position;
             }
         }

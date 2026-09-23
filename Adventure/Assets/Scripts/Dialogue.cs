@@ -1,4 +1,3 @@
-using TMPro;
 using UnityEngine;
 
 // Script written by Carl Moya

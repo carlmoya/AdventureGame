@@ -1,14 +1,9 @@
 using UnityEngine;
-using UnityEngine.InputSystem;
 
 // Script written by Carl Moya
 
 public class PlayerMovement : BaseMovement
 {
-    // TODO Clean up script
-
-    // TODO Write comments
-
     // Fields
 
     protected PlayerInput playerInput;
@@ -20,38 +15,29 @@ public class PlayerMovement : BaseMovement
 
     protected virtual void Awake()
     {
-        // Set reference to player input
         playerInput = GetComponent<PlayerInput>();
-
-        // Set reference to player animator
         playerAnimator = GetComponentInChildren<Animator>();
     }
 
     protected virtual void Update()
     {
-        // Set player animator values
         SetPlayerAnimatorValues();
     }
 
     protected virtual void SetPlayerAnimatorValues()
     {
-        // Set animator velocity value
         playerAnimator.SetFloat("Velocity", rb.linearVelocity.magnitude);
 
         if (IsMoving())
         {
-            // Get angle in degrees
+            // Get the angle of the rigidbody linear velocity in degrees
             float angle = Mathf.Atan2(rb.linearVelocity.y, rb.linearVelocity.x) * Mathf.Rad2Deg;
 
             // Avoid negative angles
-            if (angle < 0)
-            {
-                angle += 360f;
-            }
+            if (angle < 0) { angle += 360f; }
 
-            int directionIndex = Mathf.FloorToInt((angle + 22.5f) / 45f) % 8;
-
-            playerAnimator.SetTrigger(directionTriggers[directionIndex]);
+            // Set the trigger that cooresponds to the angle's compass direction
+            playerAnimator.SetTrigger(directionTriggers[Mathf.FloorToInt((angle + 22.5f) / 45f) % 8]);
         }
     }
 
@@ -59,6 +45,7 @@ public class PlayerMovement : BaseMovement
 
     protected override Vector2 TargetPosition() // Defined by base class
     {
+        // Return any pressed world coordinates or the current position of the rigidbody
         return playerInput.PressedWorldCoordinates(out Vector2 pressedWorldCoordinates) ? pressedWorldCoordinates : rb.position;
     }
 }

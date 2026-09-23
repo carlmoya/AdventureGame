@@ -6,8 +6,8 @@ public class Hover : MonoBehaviour
 {
     // Fields
 
-    public Vector2 frequencies = Vector2.one;
     public Vector2 amplitudes = Vector2.one;
+    public Vector2 frequencies = Vector2.one;
 
     public bool useUnscaledDeltaTime = false;
 
