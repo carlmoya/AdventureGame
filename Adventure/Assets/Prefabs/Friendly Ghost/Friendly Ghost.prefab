@@ -127,8 +127,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6e6bc36e50108774a9ced69d3eb585f3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Hover
-  frequency: 8
-  amplitude: 0.1
+  frequencies: {x: 0, y: 8}
+  amplitudes: {x: 0, y: 0.1}
+  useUnscaledDeltaTime: 1
 --- !u!1 &8815427054634395848
 GameObject:
   m_ObjectHideFlags: 0
