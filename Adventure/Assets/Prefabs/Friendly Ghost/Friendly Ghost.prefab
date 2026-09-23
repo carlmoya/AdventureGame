@@ -244,4 +244,4 @@ MonoBehaviour:
   likes:
   - Player
   dislikes: []
-  searchRadius: 5
+  searchRadius: 10

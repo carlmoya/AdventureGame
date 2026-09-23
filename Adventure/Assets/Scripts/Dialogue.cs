@@ -1,16 +1,17 @@
 using TMPro;
 using UnityEngine;
 
+// Script written by Carl Moya
+
 public class Dialogue : MonoBehaviour
 {
     // Fields
 
-    [Header("Dialogue Settings")]
-    public string[] dialogueLines = new string[0];
-
-    [Header("Color Settings")]
     public Color dialogueBoxColor = Color.black;
     public Color dialogueTextColor = Color.white;
+
+    [Space(15)]
+    public string[] dialogueLines = new string[0];
 
     private int currentLine;
     private DialogueBox dialogueBox;

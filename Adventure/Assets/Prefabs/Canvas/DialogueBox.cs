@@ -3,6 +3,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 
+// Script written by Carl Moya
+
 public class DialogueBox : MonoBehaviour
 {
     // TODO Prevent dialogues from triggering while displaying text

@@ -643,10 +643,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1646424871589280317, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: searchRadius
-      value: 10
-      objectReference: {fileID: 0}
     - target: {fileID: 7701066825995082330, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
       propertyPath: m_LocalPosition.x
       value: 6.0372405
@@ -716,11 +712,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f064437f8f0fc4c45a877049316f19ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  dialogueBoxColor: {r: 0, g: 0, b: 0, a: 1}
+  dialogueTextColor: {r: 1, g: 1, b: 1, a: 1}
   dialogueLines:
   - Test 1
   - Test 2
-  dialogueBoxColor: {r: 0, g: 0, b: 0, a: 1}
-  dialogueTextColor: {r: 1, g: 1, b: 1, a: 1}
 --- !u!1 &1639827682
 GameObject:
   m_ObjectHideFlags: 0
