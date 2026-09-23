@@ -3,14 +3,13 @@ using UnityEngine;
 
 // Script written by Carl Moya
 
-public class Dialogue : MonoBehaviour
+public class Dialogue : MonoBehaviour, IInteractable
 {
     // Fields
 
     public Color dialogueBoxColor = Color.black;
     public Color dialogueTextColor = Color.white;
 
-    [Space(15)]
     public string[] dialogueLines = new string[0];
 
     private int currentLine;
@@ -24,15 +23,7 @@ public class Dialogue : MonoBehaviour
         dialogueBox = FindFirstObjectByType<DialogueBox>();
     }
 
-    private void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.J))
-        {
-            Speak();
-        }
-    }
-
-    public void Speak()
+    void IInteractable.Interact()
     {
         StartCoroutine(dialogueBox.DisplayText(dialogueLines[currentLine], dialogueBoxColor, dialogueTextColor));
 

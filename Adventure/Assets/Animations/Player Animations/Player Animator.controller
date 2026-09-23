@@ -7,7 +7,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Walk_SE
+  m_Name: Walk_SE
   m_Speed: 0.175
   m_CycleOffset: 0
   m_Transitions:
@@ -184,7 +184,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Idle_E
+  m_Name: Idle_E
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -285,7 +285,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Idle_SW
+  m_Name: Idle_SW
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -361,7 +361,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Idle_S
+  m_Name: Idle_S
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -387,7 +387,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Walk_W
+  m_Name: Walk_W
   m_Speed: 0.25
   m_CycleOffset: 0
   m_Transitions:
@@ -414,7 +414,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Idle_NW
+  m_Name: Idle_NW
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -439,7 +439,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Animator
+  m_Name: Player Animator
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: Move.N
@@ -566,7 +566,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Idle_SE
+  m_Name: Idle_SE
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -592,7 +592,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Walk_N
+  m_Name: Walk_N
   m_Speed: 0.175
   m_CycleOffset: 0
   m_Transitions:
@@ -619,7 +619,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Walk_E
+  m_Name: Walk_E
   m_Speed: 0.25
   m_CycleOffset: 0
   m_Transitions:
@@ -721,7 +721,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Idle_W
+  m_Name: Idle_W
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -747,7 +747,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Walk_NE
+  m_Name: Walk_NE
   m_Speed: 0.175
   m_CycleOffset: 0
   m_Transitions:
@@ -774,7 +774,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Walk_S
+  m_Name: Walk_S
   m_Speed: 0.175
   m_CycleOffset: 0
   m_Transitions:
@@ -801,7 +801,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Walk_NW
+  m_Name: Walk_NW
   m_Speed: 0.175
   m_CycleOffset: 0
   m_Transitions:
@@ -878,7 +878,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Idle_NE
+  m_Name: Idle_NE
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -929,7 +929,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Idle_N
+  m_Name: Idle_N
   m_Speed: 1
   m_CycleOffset: 0
   m_Transitions: []
@@ -955,7 +955,7 @@ AnimatorState:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Player_Walk_SW
+  m_Name: Walk_SW
   m_Speed: 0.175
   m_CycleOffset: 0
   m_Transitions:

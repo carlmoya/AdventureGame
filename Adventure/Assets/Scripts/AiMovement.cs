@@ -41,19 +41,14 @@ public class AiMovement : BaseMovement
             }
         }
 
-        // Return the current position of the rigidbody
         return rb.position;
     }
 
     protected bool FoundGameObjectWithTag(string tag, out GameObject gameObjectWithTag)
     {
-        // If the tag is null or empty
         if (string.IsNullOrEmpty(tag))
         {
-            // Set game object with tag to null
             gameObjectWithTag = null;
-
-            // Return false
             return false;
         }
 

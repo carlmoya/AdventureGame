@@ -1,6 +1,6 @@
 {
     "version": 1,
-    "name": "InputSystem_Actions",
+    "name": "Input Action Maps",
     "maps": [
         {
             "name": "Gameplay",
@@ -67,34 +67,6 @@
                     "processors": "",
                     "groups": "",
                     "action": "Press",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                }
-            ]
-        },
-        {
-            "name": "Menu",
-            "id": "99355c64-395a-41c9-a958-ef09acc35d9f",
-            "actions": [
-                {
-                    "name": "New action",
-                    "type": "Button",
-                    "id": "d73dfb52-87c8-4d08-a255-3079d91c8890",
-                    "expectedControlType": "",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": false
-                }
-            ],
-            "bindings": [
-                {
-                    "name": "",
-                    "id": "93cb303c-4874-43b9-b803-4a34807cd410",
-                    "path": "",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "New action",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }

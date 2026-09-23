@@ -1,6 +1,6 @@
 using UnityEngine;
 
-// Script written by Carl Moya
+// Script written by Carl "skrelpish" Moya
 
 public abstract class BaseMovement : MonoBehaviour
 {
@@ -15,20 +15,16 @@ public abstract class BaseMovement : MonoBehaviour
 
     protected virtual void Start()
     {
-        // Set collider reference
         col = GetComponent<Collider2D>();
-
-        // Set rigidbody reference
         rb = GetComponent<Rigidbody2D>();
     }
 
     protected virtual void FixedUpdate() // Not ran every frame to avoid issues with physics
     {
-        // Get the desired movement direction
-        Vector2 desiredMovementDirection = (TargetPosition() - rb.position).normalized;
+        Vector2 desiredDirection = (TargetPosition() - rb.position).normalized;
 
-        // Move the rigidbody in the direction of the desired movement at a constant rate
-        rb.linearVelocity = desiredMovementDirection * speed * Time.fixedDeltaTime;
+        // Move the rigidbody in the desired direction at a constant rate
+        rb.linearVelocity = desiredDirection * speed * Time.fixedDeltaTime;
     }
 
     // Return Methods
@@ -37,7 +33,6 @@ public abstract class BaseMovement : MonoBehaviour
 
     protected virtual bool IsMoving()
     {
-        // Return true based on the magnitude of the linear velocity of the rigidbody
         return rb.linearVelocity.magnitude < 0.01f ? false : true;
     }
 }
