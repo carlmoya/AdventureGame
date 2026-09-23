@@ -3,7 +3,7 @@ using UnityEngine.InputSystem;
 
 // Script written by Carl Moya
 
-public class PlayerMovement : MovementBase
+public class PlayerMovement : BaseMovement
 {
     // TODO Clean up script
 

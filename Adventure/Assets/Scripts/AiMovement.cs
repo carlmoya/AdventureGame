@@ -1,45 +1,75 @@
 using UnityEngine;
 using System.Linq;
 
-public class AiMovement : MovementBase
+// Script written by Carl Moya
+
+public class AiMovement : BaseMovement
 {
     // Fields
 
-    public string[] likes;
-    public string[] dislikes;
+    public string[] likes = new string[0];
+    public string[] dislikes = new string[0];
 
-    public float searchRadius;
+    public float searchRadius = 5f;
 
     // Return Methods
 
     protected override Vector2 TargetPosition() // Defined by base class
     {
+        // Go thru dislikes
         foreach (string dislike in dislikes)
         {
+            // If a disliked game object is found
             if (FoundGameObjectWithTag(dislike, out GameObject dislikedGameObject))
             {
-                return new Ray2D(transform.position, dislikedGameObject.transform.position - transform.position).GetPoint(-searchRadius);
+                // Get the direction away from the disliked game object
+                Vector2 awayDirection = ((Vector2)transform.position - (Vector2)dislikedGameObject.transform.position).normalized;
+
+                // Return a position away from the disliked game object
+                return (Vector2)transform.position + (awayDirection * searchRadius);
             }
         }
 
+        // Go thru likes
         foreach (string like in likes)
         {
+            // If a liked game object is found
             if (FoundGameObjectWithTag(like, out GameObject likedGameObject))
             {
+                // Return the position of the liked game object
                 return likedGameObject.transform.position;
             }
         }
 
-        return rb.position; // BUG: Not causing ai to stand still
+        // Return the current position of the rigidbody
+        return rb.position;
     }
 
     protected bool FoundGameObjectWithTag(string tag, out GameObject gameObjectWithTag)
     {
-        gameObjectWithTag = Physics2D.OverlapCircleAll(transform.position, searchRadius)
-            .Where(otherCollider => otherCollider.CompareTag(tag) == true)
-            .OrderBy(otherCollider => Vector2.Distance(otherCollider.transform.position, transform.position))
-            .FirstOrDefault().gameObject;
+        // If the tag is null or empty
+        if (string.IsNullOrEmpty(tag))
+        {
+            // Set game object with tag to null
+            gameObjectWithTag = null;
 
-        return gameObjectWithTag != null;
+            // Return false
+            return false;
+        }
+
+        // Get all colliders within search radius
+        Collider2D closestColliderWithTag = Physics2D.OverlapCircleAll(transform.position, searchRadius)
+
+            // Check for tag
+            .Where(otherCollider => otherCollider.CompareTag(tag) == true)
+
+            // Sort by distance
+            .OrderBy(otherCollider => Vector2.Distance(otherCollider.transform.position, transform.position))
+
+            // Set closest collider with tag
+            .FirstOrDefault();
+
+        // Set game object with tag and return true if not null
+        return (gameObjectWithTag = closestColliderWithTag?.gameObject) != null;
     }
 }
