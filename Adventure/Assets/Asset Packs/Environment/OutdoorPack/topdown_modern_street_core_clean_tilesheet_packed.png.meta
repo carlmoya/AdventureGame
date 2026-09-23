@@ -1,0 +1,5733 @@
+fileFormatVersion: 2
+guid: f7038bfcd432a024cb4628b13ba18b46
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -1619282510845557641
+    second: topdown_modern_street_core_clean_tilesheet_packed_0
+  - first:
+      213: 580188685618274170
+    second: topdown_modern_street_core_clean_tilesheet_packed_1
+  - first:
+      213: 3099601243603871983
+    second: topdown_modern_street_core_clean_tilesheet_packed_2
+  - first:
+      213: -3302453650127396150
+    second: topdown_modern_street_core_clean_tilesheet_packed_3
+  - first:
+      213: 4720700008620813639
+    second: topdown_modern_street_core_clean_tilesheet_packed_4
+  - first:
+      213: 7740647387168914446
+    second: topdown_modern_street_core_clean_tilesheet_packed_5
+  - first:
+      213: -5673886703293682136
+    second: topdown_modern_street_core_clean_tilesheet_packed_6
+  - first:
+      213: 1816897399021717930
+    second: topdown_modern_street_core_clean_tilesheet_packed_7
+  - first:
+      213: -7272431490487629187
+    second: topdown_modern_street_core_clean_tilesheet_packed_8
+  - first:
+      213: -776818391926376388
+    second: topdown_modern_street_core_clean_tilesheet_packed_9
+  - first:
+      213: -2757769676606099409
+    second: topdown_modern_street_core_clean_tilesheet_packed_10
+  - first:
+      213: -458855518117773656
+    second: topdown_modern_street_core_clean_tilesheet_packed_11
+  - first:
+      213: 1605241979526201557
+    second: topdown_modern_street_core_clean_tilesheet_packed_12
+  - first:
+      213: 1518684393946456756
+    second: topdown_modern_street_core_clean_tilesheet_packed_13
+  - first:
+      213: -8002934226349086389
+    second: topdown_modern_street_core_clean_tilesheet_packed_14
+  - first:
+      213: -5110749421453671571
+    second: topdown_modern_street_core_clean_tilesheet_packed_15
+  - first:
+      213: -5743460830729985922
+    second: topdown_modern_street_core_clean_tilesheet_packed_16
+  - first:
+      213: 4719415844363705753
+    second: topdown_modern_street_core_clean_tilesheet_packed_17
+  - first:
+      213: -5359257414942966362
+    second: topdown_modern_street_core_clean_tilesheet_packed_18
+  - first:
+      213: -1618758192600940905
+    second: topdown_modern_street_core_clean_tilesheet_packed_19
+  - first:
+      213: -5415874345559138748
+    second: topdown_modern_street_core_clean_tilesheet_packed_20
+  - first:
+      213: 7578719673529575151
+    second: topdown_modern_street_core_clean_tilesheet_packed_21
+  - first:
+      213: 7582896663592590761
+    second: topdown_modern_street_core_clean_tilesheet_packed_22
+  - first:
+      213: 3216489100782426129
+    second: topdown_modern_street_core_clean_tilesheet_packed_23
+  - first:
+      213: 5460260604982584777
+    second: topdown_modern_street_core_clean_tilesheet_packed_24
+  - first:
+      213: 6034524085116056215
+    second: topdown_modern_street_core_clean_tilesheet_packed_25
+  - first:
+      213: -4861406536449970369
+    second: topdown_modern_street_core_clean_tilesheet_packed_26
+  - first:
+      213: 3337912291274351435
+    second: topdown_modern_street_core_clean_tilesheet_packed_27
+  - first:
+      213: 4575278803747626089
+    second: topdown_modern_street_core_clean_tilesheet_packed_28
+  - first:
+      213: 7106217719702543859
+    second: topdown_modern_street_core_clean_tilesheet_packed_29
+  - first:
+      213: -3361056624502027428
+    second: topdown_modern_street_core_clean_tilesheet_packed_30
+  - first:
+      213: -666572283572872125
+    second: topdown_modern_street_core_clean_tilesheet_packed_31
+  - first:
+      213: 3040826280715642055
+    second: topdown_modern_street_core_clean_tilesheet_packed_32
+  - first:
+      213: -2703954919986728078
+    second: topdown_modern_street_core_clean_tilesheet_packed_33
+  - first:
+      213: -3681909670608492790
+    second: topdown_modern_street_core_clean_tilesheet_packed_34
+  - first:
+      213: -2073894002967588750
+    second: topdown_modern_street_core_clean_tilesheet_packed_35
+  - first:
+      213: 6193007372486286828
+    second: topdown_modern_street_core_clean_tilesheet_packed_36
+  - first:
+      213: -2731982342152712794
+    second: topdown_modern_street_core_clean_tilesheet_packed_37
+  - first:
+      213: -908934099585622237
+    second: topdown_modern_street_core_clean_tilesheet_packed_38
+  - first:
+      213: -3482605933156687325
+    second: topdown_modern_street_core_clean_tilesheet_packed_39
+  - first:
+      213: 5983699029594545889
+    second: topdown_modern_street_core_clean_tilesheet_packed_40
+  - first:
+      213: 6421070969960678371
+    second: topdown_modern_street_core_clean_tilesheet_packed_41
+  - first:
+      213: -7392610239071964269
+    second: topdown_modern_street_core_clean_tilesheet_packed_42
+  - first:
+      213: 6338880183473057860
+    second: topdown_modern_street_core_clean_tilesheet_packed_43
+  - first:
+      213: 5939648226941135486
+    second: topdown_modern_street_core_clean_tilesheet_packed_44
+  - first:
+      213: 8424601301777453903
+    second: topdown_modern_street_core_clean_tilesheet_packed_45
+  - first:
+      213: 1577044678860062707
+    second: topdown_modern_street_core_clean_tilesheet_packed_46
+  - first:
+      213: -2774658111896936696
+    second: topdown_modern_street_core_clean_tilesheet_packed_47
+  - first:
+      213: 62938104716615210
+    second: topdown_modern_street_core_clean_tilesheet_packed_48
+  - first:
+      213: 2471788874522755547
+    second: topdown_modern_street_core_clean_tilesheet_packed_49
+  - first:
+      213: 6465140110795190687
+    second: topdown_modern_street_core_clean_tilesheet_packed_50
+  - first:
+      213: 1018127494473998560
+    second: topdown_modern_street_core_clean_tilesheet_packed_51
+  - first:
+      213: -2877968829032895071
+    second: topdown_modern_street_core_clean_tilesheet_packed_52
+  - first:
+      213: -1961982624980716068
+    second: topdown_modern_street_core_clean_tilesheet_packed_53
+  - first:
+      213: -6584319938856824839
+    second: topdown_modern_street_core_clean_tilesheet_packed_54
+  - first:
+      213: 3577349870069225581
+    second: topdown_modern_street_core_clean_tilesheet_packed_55
+  - first:
+      213: -832511195371457211
+    second: topdown_modern_street_core_clean_tilesheet_packed_56
+  - first:
+      213: 5026489773924793030
+    second: topdown_modern_street_core_clean_tilesheet_packed_57
+  - first:
+      213: 3984298506032720161
+    second: topdown_modern_street_core_clean_tilesheet_packed_58
+  - first:
+      213: 7663109565764826476
+    second: topdown_modern_street_core_clean_tilesheet_packed_59
+  - first:
+      213: 8096234278211358903
+    second: topdown_modern_street_core_clean_tilesheet_packed_60
+  - first:
+      213: -3784005737429938619
+    second: topdown_modern_street_core_clean_tilesheet_packed_61
+  - first:
+      213: -662160347177304339
+    second: topdown_modern_street_core_clean_tilesheet_packed_62
+  - first:
+      213: 317031555080152924
+    second: topdown_modern_street_core_clean_tilesheet_packed_63
+  - first:
+      213: 2077445857930494047
+    second: topdown_modern_street_core_clean_tilesheet_packed_64
+  - first:
+      213: -415216784512606312
+    second: topdown_modern_street_core_clean_tilesheet_packed_65
+  - first:
+      213: -8929347112713956018
+    second: topdown_modern_street_core_clean_tilesheet_packed_66
+  - first:
+      213: -5581980024375015768
+    second: topdown_modern_street_core_clean_tilesheet_packed_67
+  - first:
+      213: -5838365855054811793
+    second: topdown_modern_street_core_clean_tilesheet_packed_68
+  - first:
+      213: 1295827699532464132
+    second: topdown_modern_street_core_clean_tilesheet_packed_69
+  - first:
+      213: 6329524734814551217
+    second: topdown_modern_street_core_clean_tilesheet_packed_70
+  - first:
+      213: -5342094572734163916
+    second: topdown_modern_street_core_clean_tilesheet_packed_71
+  - first:
+      213: -5792879924317936926
+    second: topdown_modern_street_core_clean_tilesheet_packed_72
+  - first:
+      213: -4797330648352902702
+    second: topdown_modern_street_core_clean_tilesheet_packed_73
+  - first:
+      213: -5696829525123961214
+    second: topdown_modern_street_core_clean_tilesheet_packed_74
+  - first:
+      213: 188922723487830423
+    second: topdown_modern_street_core_clean_tilesheet_packed_75
+  - first:
+      213: -8805027243740154853
+    second: topdown_modern_street_core_clean_tilesheet_packed_76
+  - first:
+      213: 1788454052775075194
+    second: topdown_modern_street_core_clean_tilesheet_packed_77
+  - first:
+      213: -1183226178325416909
+    second: topdown_modern_street_core_clean_tilesheet_packed_78
+  - first:
+      213: 5729479635848622772
+    second: topdown_modern_street_core_clean_tilesheet_packed_79
+  - first:
+      213: 2461557696390012390
+    second: topdown_modern_street_core_clean_tilesheet_packed_80
+  - first:
+      213: -5047839156381010369
+    second: topdown_modern_street_core_clean_tilesheet_packed_81
+  - first:
+      213: -6534246751885210703
+    second: topdown_modern_street_core_clean_tilesheet_packed_82
+  - first:
+      213: 8515516349818278393
+    second: topdown_modern_street_core_clean_tilesheet_packed_83
+  - first:
+      213: -3848656232316886450
+    second: topdown_modern_street_core_clean_tilesheet_packed_84
+  - first:
+      213: -4499089038812516796
+    second: topdown_modern_street_core_clean_tilesheet_packed_85
+  - first:
+      213: 1109634907712903704
+    second: topdown_modern_street_core_clean_tilesheet_packed_86
+  - first:
+      213: 5687504546072020418
+    second: topdown_modern_street_core_clean_tilesheet_packed_87
+  - first:
+      213: 6975901967243756988
+    second: topdown_modern_street_core_clean_tilesheet_packed_88
+  - first:
+      213: 8671463259999312000
+    second: topdown_modern_street_core_clean_tilesheet_packed_89
+  - first:
+      213: 3345771516384329111
+    second: topdown_modern_street_core_clean_tilesheet_packed_90
+  - first:
+      213: -7191363357693977538
+    second: topdown_modern_street_core_clean_tilesheet_packed_91
+  - first:
+      213: 5780007639623290394
+    second: topdown_modern_street_core_clean_tilesheet_packed_92
+  - first:
+      213: 5496188576516836439
+    second: topdown_modern_street_core_clean_tilesheet_packed_93
+  - first:
+      213: 5827345505778929327
+    second: topdown_modern_street_core_clean_tilesheet_packed_94
+  - first:
+      213: 5468997577222439666
+    second: topdown_modern_street_core_clean_tilesheet_packed_95
+  - first:
+      213: 8969614724735143376
+    second: topdown_modern_street_core_clean_tilesheet_packed_96
+  - first:
+      213: 4709883821145881788
+    second: topdown_modern_street_core_clean_tilesheet_packed_97
+  - first:
+      213: 3895824940106245303
+    second: topdown_modern_street_core_clean_tilesheet_packed_98
+  - first:
+      213: -1578270393974591304
+    second: topdown_modern_street_core_clean_tilesheet_packed_99
+  - first:
+      213: 9013216343705646079
+    second: topdown_modern_street_core_clean_tilesheet_packed_100
+  - first:
+      213: -2359418739880013511
+    second: topdown_modern_street_core_clean_tilesheet_packed_101
+  - first:
+      213: 6065989694504720043
+    second: topdown_modern_street_core_clean_tilesheet_packed_102
+  - first:
+      213: -6527909198795533893
+    second: topdown_modern_street_core_clean_tilesheet_packed_103
+  - first:
+      213: 5198724520896542160
+    second: topdown_modern_street_core_clean_tilesheet_packed_104
+  - first:
+      213: -300620363645643657
+    second: topdown_modern_street_core_clean_tilesheet_packed_105
+  - first:
+      213: -4017922526408997893
+    second: topdown_modern_street_core_clean_tilesheet_packed_106
+  - first:
+      213: 1506574553429831560
+    second: topdown_modern_street_core_clean_tilesheet_packed_107
+  - first:
+      213: 2703084193778135962
+    second: topdown_modern_street_core_clean_tilesheet_packed_108
+  - first:
+      213: -7146966339359075223
+    second: topdown_modern_street_core_clean_tilesheet_packed_109
+  - first:
+      213: 4426103645180668599
+    second: topdown_modern_street_core_clean_tilesheet_packed_110
+  - first:
+      213: 1356210667675316489
+    second: topdown_modern_street_core_clean_tilesheet_packed_111
+  - first:
+      213: -2478069540603172969
+    second: topdown_modern_street_core_clean_tilesheet_packed_112
+  - first:
+      213: -723757872561365140
+    second: topdown_modern_street_core_clean_tilesheet_packed_113
+  - first:
+      213: -517668402844489880
+    second: topdown_modern_street_core_clean_tilesheet_packed_114
+  - first:
+      213: 3709376930732686935
+    second: topdown_modern_street_core_clean_tilesheet_packed_115
+  - first:
+      213: -7344146633429860267
+    second: topdown_modern_street_core_clean_tilesheet_packed_116
+  - first:
+      213: -3422922964185027907
+    second: topdown_modern_street_core_clean_tilesheet_packed_117
+  - first:
+      213: -8528540841722333342
+    second: topdown_modern_street_core_clean_tilesheet_packed_118
+  - first:
+      213: 1681981188036716332
+    second: topdown_modern_street_core_clean_tilesheet_packed_119
+  - first:
+      213: 7679777544611625182
+    second: topdown_modern_street_core_clean_tilesheet_packed_120
+  - first:
+      213: 665067186980373007
+    second: topdown_modern_street_core_clean_tilesheet_packed_121
+  - first:
+      213: -5575866950132336202
+    second: topdown_modern_street_core_clean_tilesheet_packed_122
+  - first:
+      213: 2912788216022093731
+    second: topdown_modern_street_core_clean_tilesheet_packed_123
+  - first:
+      213: 5646457870971317883
+    second: topdown_modern_street_core_clean_tilesheet_packed_124
+  - first:
+      213: -3725904184976890072
+    second: topdown_modern_street_core_clean_tilesheet_packed_125
+  - first:
+      213: -4657209213821312510
+    second: topdown_modern_street_core_clean_tilesheet_packed_126
+  - first:
+      213: 7607935087101786181
+    second: topdown_modern_street_core_clean_tilesheet_packed_127
+  - first:
+      213: -455910913435890048
+    second: topdown_modern_street_core_clean_tilesheet_packed_128
+  - first:
+      213: -8727967662196765417
+    second: topdown_modern_street_core_clean_tilesheet_packed_129
+  - first:
+      213: -4248868683921126233
+    second: topdown_modern_street_core_clean_tilesheet_packed_130
+  - first:
+      213: -8929958739761743193
+    second: topdown_modern_street_core_clean_tilesheet_packed_131
+  - first:
+      213: -5868860306645439676
+    second: topdown_modern_street_core_clean_tilesheet_packed_132
+  - first:
+      213: 9109990953488479124
+    second: topdown_modern_street_core_clean_tilesheet_packed_133
+  - first:
+      213: -888670110952945289
+    second: topdown_modern_street_core_clean_tilesheet_packed_134
+  - first:
+      213: 3860367075144912569
+    second: topdown_modern_street_core_clean_tilesheet_packed_135
+  - first:
+      213: 2099224794360963022
+    second: topdown_modern_street_core_clean_tilesheet_packed_136
+  - first:
+      213: -548566905602885626
+    second: topdown_modern_street_core_clean_tilesheet_packed_137
+  - first:
+      213: 8942682932552621758
+    second: topdown_modern_street_core_clean_tilesheet_packed_138
+  - first:
+      213: -3173606289011512768
+    second: topdown_modern_street_core_clean_tilesheet_packed_139
+  - first:
+      213: -3741004570479199027
+    second: topdown_modern_street_core_clean_tilesheet_packed_140
+  - first:
+      213: -1239592006670574790
+    second: topdown_modern_street_core_clean_tilesheet_packed_141
+  - first:
+      213: -8115899007797936657
+    second: topdown_modern_street_core_clean_tilesheet_packed_142
+  - first:
+      213: -6448001214642353885
+    second: topdown_modern_street_core_clean_tilesheet_packed_143
+  - first:
+      213: -9041789448886969437
+    second: topdown_modern_street_core_clean_tilesheet_packed_144
+  - first:
+      213: 4299547058739666862
+    second: topdown_modern_street_core_clean_tilesheet_packed_145
+  - first:
+      213: -8709032708058785491
+    second: topdown_modern_street_core_clean_tilesheet_packed_146
+  - first:
+      213: 6318863838116682831
+    second: topdown_modern_street_core_clean_tilesheet_packed_147
+  - first:
+      213: -7077828027998875707
+    second: topdown_modern_street_core_clean_tilesheet_packed_148
+  - first:
+      213: -9006347972123681782
+    second: topdown_modern_street_core_clean_tilesheet_packed_149
+  - first:
+      213: 7914030147972451648
+    second: topdown_modern_street_core_clean_tilesheet_packed_150
+  - first:
+      213: 4883754122212443149
+    second: topdown_modern_street_core_clean_tilesheet_packed_151
+  - first:
+      213: -2976978852733488895
+    second: topdown_modern_street_core_clean_tilesheet_packed_152
+  - first:
+      213: -5354557714352867781
+    second: topdown_modern_street_core_clean_tilesheet_packed_153
+  - first:
+      213: 7435771138539600234
+    second: topdown_modern_street_core_clean_tilesheet_packed_154
+  - first:
+      213: -6908078118802079619
+    second: topdown_modern_street_core_clean_tilesheet_packed_155
+  - first:
+      213: -6968453750323543853
+    second: topdown_modern_street_core_clean_tilesheet_packed_156
+  - first:
+      213: 8944351656994240937
+    second: topdown_modern_street_core_clean_tilesheet_packed_157
+  - first:
+      213: 2115126922030133956
+    second: topdown_modern_street_core_clean_tilesheet_packed_158
+  - first:
+      213: -846645877940478616
+    second: topdown_modern_street_core_clean_tilesheet_packed_159
+  - first:
+      213: 4911278512124737500
+    second: topdown_modern_street_core_clean_tilesheet_packed_160
+  - first:
+      213: -964664779986751415
+    second: topdown_modern_street_core_clean_tilesheet_packed_161
+  - first:
+      213: -4748947256464763236
+    second: topdown_modern_street_core_clean_tilesheet_packed_162
+  - first:
+      213: -3587640941393648293
+    second: topdown_modern_street_core_clean_tilesheet_packed_163
+  - first:
+      213: 3813146493404071854
+    second: topdown_modern_street_core_clean_tilesheet_packed_164
+  - first:
+      213: -1573088846380886720
+    second: topdown_modern_street_core_clean_tilesheet_packed_165
+  - first:
+      213: -5069924027056044810
+    second: topdown_modern_street_core_clean_tilesheet_packed_166
+  - first:
+      213: -6523272206609626445
+    second: topdown_modern_street_core_clean_tilesheet_packed_167
+  - first:
+      213: -315420668896077225
+    second: topdown_modern_street_core_clean_tilesheet_packed_168
+  - first:
+      213: -4272479009040808933
+    second: topdown_modern_street_core_clean_tilesheet_packed_169
+  - first:
+      213: -8649799256738131510
+    second: topdown_modern_street_core_clean_tilesheet_packed_170
+  - first:
+      213: -6900189307000384655
+    second: topdown_modern_street_core_clean_tilesheet_packed_171
+  - first:
+      213: 2546000534214001762
+    second: topdown_modern_street_core_clean_tilesheet_packed_172
+  - first:
+      213: -4918710767778144900
+    second: topdown_modern_street_core_clean_tilesheet_packed_173
+  - first:
+      213: -3210622937029847222
+    second: topdown_modern_street_core_clean_tilesheet_packed_174
+  - first:
+      213: -7363177077565008004
+    second: topdown_modern_street_core_clean_tilesheet_packed_175
+  - first:
+      213: 7226768003048052761
+    second: topdown_modern_street_core_clean_tilesheet_packed_176
+  - first:
+      213: -5131769686451497057
+    second: topdown_modern_street_core_clean_tilesheet_packed_177
+  - first:
+      213: -5814576518705607830
+    second: topdown_modern_street_core_clean_tilesheet_packed_178
+  - first:
+      213: 1773521820367229448
+    second: topdown_modern_street_core_clean_tilesheet_packed_179
+  - first:
+      213: 5316406531630744358
+    second: topdown_modern_street_core_clean_tilesheet_packed_180
+  - first:
+      213: 3251781089206326963
+    second: topdown_modern_street_core_clean_tilesheet_packed_181
+  - first:
+      213: 149869281769233306
+    second: topdown_modern_street_core_clean_tilesheet_packed_182
+  - first:
+      213: -8825500851431914278
+    second: topdown_modern_street_core_clean_tilesheet_packed_183
+  - first:
+      213: -334206979621993053
+    second: topdown_modern_street_core_clean_tilesheet_packed_184
+  - first:
+      213: -6692728935567199491
+    second: topdown_modern_street_core_clean_tilesheet_packed_185
+  - first:
+      213: -5756147598426203412
+    second: topdown_modern_street_core_clean_tilesheet_packed_186
+  - first:
+      213: 3305873713406474352
+    second: topdown_modern_street_core_clean_tilesheet_packed_187
+  - first:
+      213: 5153290822168429921
+    second: topdown_modern_street_core_clean_tilesheet_packed_188
+  - first:
+      213: 1316523577104950678
+    second: topdown_modern_street_core_clean_tilesheet_packed_189
+  - first:
+      213: 691286194046154716
+    second: topdown_modern_street_core_clean_tilesheet_packed_190
+  - first:
+      213: -2399346086519267237
+    second: topdown_modern_street_core_clean_tilesheet_packed_191
+  - first:
+      213: 4572979468544641871
+    second: topdown_modern_street_core_clean_tilesheet_packed_192
+  - first:
+      213: -748580383096903745
+    second: topdown_modern_street_core_clean_tilesheet_packed_193
+  - first:
+      213: -653611230417832914
+    second: topdown_modern_street_core_clean_tilesheet_packed_194
+  - first:
+      213: -679849260288877056
+    second: topdown_modern_street_core_clean_tilesheet_packed_195
+  - first:
+      213: -6858391530716221596
+    second: topdown_modern_street_core_clean_tilesheet_packed_196
+  - first:
+      213: -5090783658307811247
+    second: topdown_modern_street_core_clean_tilesheet_packed_197
+  - first:
+      213: -7409070380559495741
+    second: topdown_modern_street_core_clean_tilesheet_packed_198
+  - first:
+      213: 6357636572707403461
+    second: topdown_modern_street_core_clean_tilesheet_packed_199
+  - first:
+      213: -5957105333101392033
+    second: topdown_modern_street_core_clean_tilesheet_packed_200
+  - first:
+      213: -8749573898348437678
+    second: topdown_modern_street_core_clean_tilesheet_packed_201
+  - first:
+      213: 1875354077597613818
+    second: topdown_modern_street_core_clean_tilesheet_packed_202
+  - first:
+      213: 7541546254959603967
+    second: topdown_modern_street_core_clean_tilesheet_packed_203
+  - first:
+      213: -4824907006236039190
+    second: topdown_modern_street_core_clean_tilesheet_packed_204
+  - first:
+      213: -3590988093097955320
+    second: topdown_modern_street_core_clean_tilesheet_packed_205
+  - first:
+      213: -1468899328300582484
+    second: topdown_modern_street_core_clean_tilesheet_packed_206
+  - first:
+      213: 960002463918498929
+    second: topdown_modern_street_core_clean_tilesheet_packed_207
+  - first:
+      213: 2889627101244498196
+    second: topdown_modern_street_core_clean_tilesheet_packed_208
+  - first:
+      213: -5745122176613454915
+    second: topdown_modern_street_core_clean_tilesheet_packed_209
+  - first:
+      213: -6163347644547103287
+    second: topdown_modern_street_core_clean_tilesheet_packed_210
+  - first:
+      213: 5739412119439697109
+    second: topdown_modern_street_core_clean_tilesheet_packed_211
+  - first:
+      213: 6748602678663787067
+    second: topdown_modern_street_core_clean_tilesheet_packed_212
+  - first:
+      213: 2787346328927686698
+    second: topdown_modern_street_core_clean_tilesheet_packed_213
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 64
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: iOS
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WindowsStoreApps
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_0
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2437
+        width: 228
+        height: 232
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7744c0eb2272789e0800000000000000
+      internalID: -1619282510845557641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_1
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 2442
+        width: 87
+        height: 227
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7f5afc198e3d0800800000000000000
+      internalID: 580188685618274170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_2
+      rect:
+        serializedVersion: 2
+        x: 402
+        y: 2447
+        width: 276
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe82e5e98eef30b20800000000000000
+      internalID: 3099601243603871983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_3
+      rect:
+        serializedVersion: 2
+        x: 712
+        y: 2450
+        width: 129
+        height: 219
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac2e6f007e35b22d0800000000000000
+      internalID: -3302453650127396150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_4
+      rect:
+        serializedVersion: 2
+        x: 875
+        y: 2454
+        width: 149
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 74de60185ab438140800000000000000
+      internalID: 4720700008620813639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_5
+      rect:
+        serializedVersion: 2
+        x: 1058
+        y: 2454
+        width: 137
+        height: 215
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0c32c379cd4c6b60800000000000000
+      internalID: 7740647387168914446
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_6
+      rect:
+        serializedVersion: 2
+        x: 1229
+        y: 2455
+        width: 214
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82e2e5ada1e4241b0800000000000000
+      internalID: -5673886703293682136
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_7
+      rect:
+        serializedVersion: 2
+        x: 1477
+        y: 2456
+        width: 112
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa9450ede8ae63910800000000000000
+      internalID: 1816897399021717930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_8
+      rect:
+        serializedVersion: 2
+        x: 1623
+        y: 2459
+        width: 208
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7ace142712231b90800000000000000
+      internalID: -7272431490487629187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_9
+      rect:
+        serializedVersion: 2
+        x: 1865
+        y: 2459
+        width: 97
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c38fc3ec9cf2835f0800000000000000
+      internalID: -776818391926376388
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_10
+      rect:
+        serializedVersion: 2
+        x: 1996
+        y: 2460
+        width: 106
+        height: 209
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f20bc85271f6ab9d0800000000000000
+      internalID: -2757769676606099409
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_11
+      rect:
+        serializedVersion: 2
+        x: 2136
+        y: 2462
+        width: 214
+        height: 207
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aebc5f5651d1a9f0800000000000000
+      internalID: -458855518117773656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_12
+      rect:
+        serializedVersion: 2
+        x: 2384
+        y: 2463
+        width: 168
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d044305317f64610800000000000000
+      internalID: 1605241979526201557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_13
+      rect:
+        serializedVersion: 2
+        x: 2586
+        y: 2465
+        width: 92
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2ab13f863731510800000000000000
+      internalID: 1518684393946456756
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_14
+      rect:
+        serializedVersion: 2
+        x: 2712
+        y: 2466
+        width: 171
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b49a5a5f8bddfe090800000000000000
+      internalID: -8002934226349086389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_15
+      rect:
+        serializedVersion: 2
+        x: 2917
+        y: 2467
+        width: 159
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d638836aa78f219b0800000000000000
+      internalID: -5110749421453671571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_16
+      rect:
+        serializedVersion: 2
+        x: 3110
+        y: 2469
+        width: 159
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7028fafdc02b40b0800000000000000
+      internalID: -5743460830729985922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_17
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 2205
+        width: 211
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99d16a6b4bbbe7140800000000000000
+      internalID: 4719415844363705753
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_18
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 2205
+        width: 192
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad327296c710a5b0800000000000000
+      internalID: -5359257414942966362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_19
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 2205
+        width: 186
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79e74c810040989e0800000000000000
+      internalID: -1618758192600940905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_20
+      rect:
+        serializedVersion: 2
+        x: 710
+        y: 2205
+        width: 149
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44edbcc2af2f6d4b0800000000000000
+      internalID: -5415874345559138748
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_21
+      rect:
+        serializedVersion: 2
+        x: 893
+        y: 2206
+        width: 244
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe6aef8a3650d2960800000000000000
+      internalID: 7578719673529575151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_22
+      rect:
+        serializedVersion: 2
+        x: 1171
+        y: 2206
+        width: 166
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ad5ee1f65cdb3960800000000000000
+      internalID: 7582896663592590761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_23
+      rect:
+        serializedVersion: 2
+        x: 1371
+        y: 2206
+        width: 159
+        height: 197
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1185d04abc343ac20800000000000000
+      internalID: 3216489100782426129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_24
+      rect:
+        serializedVersion: 2
+        x: 1564
+        y: 2207
+        width: 221
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5eb0d271eb6cb40800000000000000
+      internalID: 5460260604982584777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_25
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 2207
+        width: 204
+        height: 196
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 792b1e1eeafeeb350800000000000000
+      internalID: 6034524085116056215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_26
+      rect:
+        serializedVersion: 2
+        x: 2057
+        y: 2208
+        width: 206
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3f232e0380d88cb0800000000000000
+      internalID: -4861406536449970369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_27
+      rect:
+        serializedVersion: 2
+        x: 2297
+        y: 2208
+        width: 200
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4361dc3b85a25e20800000000000000
+      internalID: 3337912291274351435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_28
+      rect:
+        serializedVersion: 2
+        x: 2531
+        y: 2208
+        width: 127
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96c50c5c4d7ae7f30800000000000000
+      internalID: 4575278803747626089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_29
+      rect:
+        serializedVersion: 2
+        x: 2692
+        y: 2209
+        width: 234
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3fdd47f9d5b5e9260800000000000000
+      internalID: 7106217719702543859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_30
+      rect:
+        serializedVersion: 2
+        x: 2960
+        y: 2209
+        width: 94
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b4592cec02b51d0800000000000000
+      internalID: -3361056624502027428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_31
+      rect:
+        serializedVersion: 2
+        x: 3088
+        y: 2209
+        width: 67
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34c948c2a0cdfb6f0800000000000000
+      internalID: -666572283572872125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_32
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1979
+        width: 177
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c46abd246f233a20800000000000000
+      internalID: 3040826280715642055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_33
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 1979
+        width: 52
+        height: 192
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2737581935f997ad0800000000000000
+      internalID: -2703954919986728078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_34
+      rect:
+        serializedVersion: 2
+        x: 316
+        y: 1980
+        width: 161
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a072e4489aa37ecc0800000000000000
+      internalID: -3681909670608492790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_35
+      rect:
+        serializedVersion: 2
+        x: 511
+        y: 1980
+        width: 108
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 270dd4b646c0833e0800000000000000
+      internalID: -2073894002967588750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_36
+      rect:
+        serializedVersion: 2
+        x: 653
+        y: 1982
+        width: 90
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ced9b60b46bf1f550800000000000000
+      internalID: 6193007372486286828
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_37
+      rect:
+        serializedVersion: 2
+        x: 777
+        y: 1983
+        width: 188
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad0953d88c061ad0800000000000000
+      internalID: -2731982342152712794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_38
+      rect:
+        serializedVersion: 2
+        x: 999
+        y: 1983
+        width: 187
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f95fd8041d263f0800000000000000
+      internalID: -908934099585622237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_39
+      rect:
+        serializedVersion: 2
+        x: 1220
+        y: 1983
+        width: 181
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 322278dfa5c4bafc0800000000000000
+      internalID: -3482605933156687325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_40
+      rect:
+        serializedVersion: 2
+        x: 1435
+        y: 1983
+        width: 171
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ee15dd709e5a0350800000000000000
+      internalID: 5983699029594545889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_41
+      rect:
+        serializedVersion: 2
+        x: 1640
+        y: 1983
+        width: 147
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e34412e60a3c1950800000000000000
+      internalID: 6421070969960678371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_42
+      rect:
+        serializedVersion: 2
+        x: 1821
+        y: 1983
+        width: 125
+        height: 188
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3933331c72c286990800000000000000
+      internalID: -7392610239071964269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_43
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1985
+        width: 260
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440bca921f938f750800000000000000
+      internalID: 6338880183473057860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_44
+      rect:
+        serializedVersion: 2
+        x: 2274
+        y: 1985
+        width: 222
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7aea91c79edd6250800000000000000
+      internalID: 5939648226941135486
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_45
+      rect:
+        serializedVersion: 2
+        x: 2530
+        y: 1985
+        width: 135
+        height: 186
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f431dbe9f323ae470800000000000000
+      internalID: 8424601301777453903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_46
+      rect:
+        serializedVersion: 2
+        x: 2699
+        y: 1987
+        width: 195
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ffbf56a7c9c2e510800000000000000
+      internalID: 1577044678860062707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_47
+      rect:
+        serializedVersion: 2
+        x: 2928
+        y: 1987
+        width: 166
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80f1a33e52f6e79d0800000000000000
+      internalID: -2774658111896936696
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_48
+      rect:
+        serializedVersion: 2
+        x: 3128
+        y: 2000
+        width: 55
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2e587e6fd99fd000800000000000000
+      internalID: 62938104716615210
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_49
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 1994
+        width: 53
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd101b1a2ee8d4220800000000000000
+      internalID: 2471788874522755547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_50
+      rect:
+        serializedVersion: 2
+        x: 3238
+        y: 1987
+        width: 54
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91b31f4daac8b950800000000000000
+      internalID: 6465140110795190687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_51
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1761
+        width: 132
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e06e2cdf8d112e00800000000000000
+      internalID: 1018127494473998560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_52
+      rect:
+        serializedVersion: 2
+        x: 185
+        y: 1762
+        width: 185
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ade8de19966f08d0800000000000000
+      internalID: -2877968829032895071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_53
+      rect:
+        serializedVersion: 2
+        x: 404
+        y: 1762
+        width: 152
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd539869233a5c4e0800000000000000
+      internalID: -1961982624980716068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_54
+      rect:
+        serializedVersion: 2
+        x: 590
+        y: 1762
+        width: 138
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ffcaec96ebcf94a0800000000000000
+      internalID: -6584319938856824839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_55
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 1762
+        width: 76
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6814c2d0cc45a130800000000000000
+      internalID: 3577349870069225581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_56
+      rect:
+        serializedVersion: 2
+        x: 872
+        y: 1763
+        width: 179
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54539588a735274f0800000000000000
+      internalID: -832511195371457211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_57
+      rect:
+        serializedVersion: 2
+        x: 1085
+        y: 1763
+        width: 142
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cabbe161dda1c540800000000000000
+      internalID: 5026489773924793030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_58
+      rect:
+        serializedVersion: 2
+        x: 1261
+        y: 1763
+        width: 90
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 129233ba1621b4730800000000000000
+      internalID: 3984298506032720161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_59
+      rect:
+        serializedVersion: 2
+        x: 1385
+        y: 1764
+        width: 166
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c657f469c85d85a60800000000000000
+      internalID: 7663109565764826476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_60
+      rect:
+        serializedVersion: 2
+        x: 1585
+        y: 1764
+        width: 135
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b0112b2e2a9b5070800000000000000
+      internalID: 8096234278211358903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_61
+      rect:
+        serializedVersion: 2
+        x: 1754
+        y: 1764
+        width: 130
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54ec27094d28c7bc0800000000000000
+      internalID: -3784005737429938619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_62
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1764
+        width: 111
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: deeb52a2ca88fc6f0800000000000000
+      internalID: -662160347177304339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_63
+      rect:
+        serializedVersion: 2
+        x: 2063
+        y: 1765
+        width: 67
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5764270582566400800000000000000
+      internalID: 317031555080152924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_64
+      rect:
+        serializedVersion: 2
+        x: 2164
+        y: 1766
+        width: 244
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f50cd02400294dc10800000000000000
+      internalID: 2077445857930494047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_65
+      rect:
+        serializedVersion: 2
+        x: 2442
+        y: 1766
+        width: 243
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f985ec88adc3af0800000000000000
+      internalID: -415216784512606312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_66
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 1766
+        width: 224
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4556865c16941480800000000000000
+      internalID: -8929347112713956018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_67
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 1766
+        width: 78
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a60dcf0eb2d882b0800000000000000
+      internalID: -5581980024375015768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_68
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1549
+        width: 252
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d20b41035f9fea0800000000000000
+      internalID: -5838365855054811793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_69
+      rect:
+        serializedVersion: 2
+        x: 305
+        y: 1549
+        width: 245
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4008eb85d64bbf110800000000000000
+      internalID: 1295827699532464132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_70
+      rect:
+        serializedVersion: 2
+        x: 584
+        y: 1549
+        width: 245
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bc7ba7063df6d750800000000000000
+      internalID: 6329524734814551217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_71
+      rect:
+        serializedVersion: 2
+        x: 863
+        y: 1549
+        width: 245
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43453ab2a411dd5b0800000000000000
+      internalID: -5342094572734163916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_72
+      rect:
+        serializedVersion: 2
+        x: 1142
+        y: 1549
+        width: 245
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e2a98c966e8b9fa0800000000000000
+      internalID: -5792879924317936926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_73
+      rect:
+        serializedVersion: 2
+        x: 1421
+        y: 1549
+        width: 245
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d1b4d251357c6db0800000000000000
+      internalID: -4797330648352902702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_74
+      rect:
+        serializedVersion: 2
+        x: 1700
+        y: 1549
+        width: 244
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28e6701eabbc0f0b0800000000000000
+      internalID: -5696829525123961214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_75
+      rect:
+        serializedVersion: 2
+        x: 1978
+        y: 1549
+        width: 243
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 791dd7f47303f9200800000000000000
+      internalID: 188922723487830423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_76
+      rect:
+        serializedVersion: 2
+        x: 2255
+        y: 1549
+        width: 243
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b143b337f524ec580800000000000000
+      internalID: -8805027243740154853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_77
+      rect:
+        serializedVersion: 2
+        x: 2532
+        y: 1549
+        width: 183
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a7d14c04c7dd1d810800000000000000
+      internalID: 1788454052775075194
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_78
+      rect:
+        serializedVersion: 2
+        x: 2749
+        y: 1549
+        width: 168
+        height: 178
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33478ff4f06549fe0800000000000000
+      internalID: -1183226178325416909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_79
+      rect:
+        serializedVersion: 2
+        x: 2951
+        y: 1550
+        width: 246
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b2779a6f53338f40800000000000000
+      internalID: 5729479635848622772
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_80
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1338
+        width: 245
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ed9477dea5392220800000000000000
+      internalID: 2461557696390012390
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_81
+      rect:
+        serializedVersion: 2
+        x: 298
+        y: 1338
+        width: 245
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f363a98280972f9b0800000000000000
+      internalID: -5047839156381010369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_82
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 1338
+        width: 244
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1bbc127f231b155a0800000000000000
+      internalID: -6534246751885210703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_83
+      rect:
+        serializedVersion: 2
+        x: 855
+        y: 1338
+        width: 244
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f113f5c0013d2670800000000000000
+      internalID: 8515516349818278393
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_84
+      rect:
+        serializedVersion: 2
+        x: 1133
+        y: 1338
+        width: 243
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42a82a3c83d69ac0800000000000000
+      internalID: -3848656232316886450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_85
+      rect:
+        serializedVersion: 2
+        x: 1410
+        y: 1338
+        width: 225
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44ee9bc3b560091c0800000000000000
+      internalID: -4499089038812516796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_86
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1338
+        width: 137
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81ad998c117366f00800000000000000
+      internalID: 1109634907712903704
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_87
+      rect:
+        serializedVersion: 2
+        x: 1840
+        y: 1339
+        width: 243
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2c5ca0f30431eee40800000000000000
+      internalID: 5687504546072020418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_88
+      rect:
+        serializedVersion: 2
+        x: 2117
+        y: 1339
+        width: 241
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb5438911e16fc060800000000000000
+      internalID: 6975901967243756988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_89
+      rect:
+        serializedVersion: 2
+        x: 2392
+        y: 1339
+        width: 241
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0881c1f34e9375870800000000000000
+      internalID: 8671463259999312000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_90
+      rect:
+        serializedVersion: 2
+        x: 2667
+        y: 1339
+        width: 107
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 79d35bda7719e6e20800000000000000
+      internalID: 3345771516384329111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_91
+      rect:
+        serializedVersion: 2
+        x: 2808
+        y: 1340
+        width: 242
+        height: 175
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e3cd3eda025233c90800000000000000
+      internalID: -7191363357693977538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_92
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 1130
+        width: 243
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e4ace0356b63050800000000000000
+      internalID: 5780007639623290394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_93
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 1130
+        width: 242
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75c88d9e362664c40800000000000000
+      internalID: 5496188576516836439
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_94
+      rect:
+        serializedVersion: 2
+        x: 572
+        y: 1130
+        width: 242
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae0c67ecd3eed050800000000000000
+      internalID: 5827345505778929327
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_95
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 1130
+        width: 242
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2c0db0258c5eb40800000000000000
+      internalID: 5468997577222439666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_96
+      rect:
+        serializedVersion: 2
+        x: 1124
+        y: 1130
+        width: 242
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0dd83ffa1197a7c70800000000000000
+      internalID: 8969614724735143376
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_97
+      rect:
+        serializedVersion: 2
+        x: 1400
+        y: 1130
+        width: 242
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cbc72cc916edc5140800000000000000
+      internalID: 4709883821145881788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_98
+      rect:
+        serializedVersion: 2
+        x: 1676
+        y: 1130
+        width: 242
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4e32e5420c01630800000000000000
+      internalID: 3895824940106245303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_99
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1130
+        width: 242
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0f0af407bd81ae0800000000000000
+      internalID: -1578270393974591304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_100
+      rect:
+        serializedVersion: 2
+        x: 2228
+        y: 1130
+        width: 241
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff3f152b280651d70800000000000000
+      internalID: 9013216343705646079
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_101
+      rect:
+        serializedVersion: 2
+        x: 2503
+        y: 1130
+        width: 241
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9315d052829a14fd0800000000000000
+      internalID: -2359418739880013511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_102
+      rect:
+        serializedVersion: 2
+        x: 2778
+        y: 1130
+        width: 241
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba65228fc79be2450800000000000000
+      internalID: 6065989694504720043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_103
+      rect:
+        serializedVersion: 2
+        x: 3053
+        y: 1130
+        width: 241
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb199c78b253865a0800000000000000
+      internalID: -6527909198795533893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_104
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 922
+        width: 227
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d5b6216864952840800000000000000
+      internalID: 5198724520896542160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_105
+      rect:
+        serializedVersion: 2
+        x: 280
+        y: 922
+        width: 176
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77417ac3f5bf3dbf0800000000000000
+      internalID: -300620363645643657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_106
+      rect:
+        serializedVersion: 2
+        x: 490
+        y: 922
+        width: 149
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf30a5600c87d38c0800000000000000
+      internalID: -4017922526408997893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_107
+      rect:
+        serializedVersion: 2
+        x: 673
+        y: 922
+        width: 64
+        height: 174
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fe3dcf29d68e410800000000000000
+      internalID: 1506574553429831560
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_108
+      rect:
+        serializedVersion: 2
+        x: 771
+        y: 923
+        width: 261
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a937e10b0c8438520800000000000000
+      internalID: 2703084193778135962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_109
+      rect:
+        serializedVersion: 2
+        x: 1066
+        y: 923
+        width: 208
+        height: 173
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96414d80bffd0dc90800000000000000
+      internalID: -7146966339359075223
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_110
+      rect:
+        serializedVersion: 2
+        x: 1308
+        y: 924
+        width: 107
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ba2e0690ddac6d30800000000000000
+      internalID: 4426103645180668599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_111
+      rect:
+        serializedVersion: 2
+        x: 1449
+        y: 924
+        width: 76
+        height: 172
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 901f16faa6a32d210800000000000000
+      internalID: 1356210667675316489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_112
+      rect:
+        serializedVersion: 2
+        x: 1559
+        y: 968
+        width: 100
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 797e1a7d1e02c9dd0800000000000000
+      internalID: -2478069540603172969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_113
+      rect:
+        serializedVersion: 2
+        x: 1642
+        y: 925
+        width: 91
+        height: 119
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6f569eac02b4f5f0800000000000000
+      internalID: -723757872561365140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_114
+      rect:
+        serializedVersion: 2
+        x: 1767
+        y: 925
+        width: 137
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 867a201945fd0d8f0800000000000000
+      internalID: -517668402844489880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_115
+      rect:
+        serializedVersion: 2
+        x: 1938
+        y: 925
+        width: 108
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75eb9565aaa5a7330800000000000000
+      internalID: 3709376930732686935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_116
+      rect:
+        serializedVersion: 2
+        x: 2080
+        y: 926
+        width: 136
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55048004c89541a90800000000000000
+      internalID: -7344146633429860267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_117
+      rect:
+        serializedVersion: 2
+        x: 2250
+        y: 926
+        width: 102
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dba693213b55f70d0800000000000000
+      internalID: -3422922964185027907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_118
+      rect:
+        serializedVersion: 2
+        x: 2386
+        y: 927
+        width: 181
+        height: 169
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 267bab46a4984a980800000000000000
+      internalID: -8528540841722333342
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_119
+      rect:
+        serializedVersion: 2
+        x: 2601
+        y: 928
+        width: 187
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2761df9af8975710800000000000000
+      internalID: 1681981188036716332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_120
+      rect:
+        serializedVersion: 2
+        x: 2822
+        y: 928
+        width: 161
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed8f894dcfc049a60800000000000000
+      internalID: 7679777544611625182
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_121
+      rect:
+        serializedVersion: 2
+        x: 3017
+        y: 928
+        width: 133
+        height: 168
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f02cbb7351bca3900800000000000000
+      internalID: 665067186980373007
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_122
+      rect:
+        serializedVersion: 2
+        x: 3184
+        y: 929
+        width: 103
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b975821d8a8e92b0800000000000000
+      internalID: -5575866950132336202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_123
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 721
+        width: 102
+        height: 167
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3afc0f9237d4c6820800000000000000
+      internalID: 2912788216022093731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_124
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 723
+        width: 169
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7e2476748f3c5e40800000000000000
+      internalID: 5646457870971317883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_125
+      rect:
+        serializedVersion: 2
+        x: 358
+        y: 723
+        width: 81
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827af4b62edea4cc0800000000000000
+      internalID: -3725904184976890072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_126
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 724
+        width: 188
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 202218d15e44e5fb0800000000000000
+      internalID: -4657209213821312510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_127
+      rect:
+        serializedVersion: 2
+        x: 695
+        y: 724
+        width: 138
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 548bee437a0d49960800000000000000
+      internalID: 7607935087101786181
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_128
+      rect:
+        serializedVersion: 2
+        x: 867
+        y: 724
+        width: 106
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08e0e6390774ca9f0800000000000000
+      internalID: -455910913435890048
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_129
+      rect:
+        serializedVersion: 2
+        x: 1007
+        y: 725
+        width: 138
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71d4aab67a700e680800000000000000
+      internalID: -8727967662196765417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_130
+      rect:
+        serializedVersion: 2
+        x: 1179
+        y: 726
+        width: 205
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ac8995817cf805c0800000000000000
+      internalID: -4248868683921126233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_131
+      rect:
+        serializedVersion: 2
+        x: 1418
+        y: 726
+        width: 198
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7aa3b91d6d9621480800000000000000
+      internalID: -8929958739761743193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_132
+      rect:
+        serializedVersion: 2
+        x: 1650
+        y: 726
+        width: 180
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44b220a45ae9d8ea0800000000000000
+      internalID: -5868860306645439676
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_133
+      rect:
+        serializedVersion: 2
+        x: 1864
+        y: 726
+        width: 168
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 493f3b161803d6e70800000000000000
+      internalID: 9109990953488479124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_134
+      rect:
+        serializedVersion: 2
+        x: 2066
+        y: 727
+        width: 223
+        height: 161
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77984221e3fcaa3f0800000000000000
+      internalID: -888670110952945289
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_135
+      rect:
+        serializedVersion: 2
+        x: 2323
+        y: 729
+        width: 225
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9be40a8d667c29530800000000000000
+      internalID: 3860367075144912569
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_136
+      rect:
+        serializedVersion: 2
+        x: 2582
+        y: 729
+        width: 216
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ecfd39b04d1f12d10800000000000000
+      internalID: 2099224794360963022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_137
+      rect:
+        serializedVersion: 2
+        x: 2832
+        y: 729
+        width: 154
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 60831084e491368f0800000000000000
+      internalID: -548566905602885626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_138
+      rect:
+        serializedVersion: 2
+        x: 3020
+        y: 729
+        width: 122
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe5fbd2fbaca1c70800000000000000
+      internalID: 8942682932552621758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_139
+      rect:
+        serializedVersion: 2
+        x: 3176
+        y: 729
+        width: 99
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04ae58605e515f3d0800000000000000
+      internalID: -3173606289011512768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_140
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 528
+        width: 73
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcc7971f928451cc0800000000000000
+      internalID: -3741004570479199027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_141
+      rect:
+        serializedVersion: 2
+        x: 126
+        y: 530
+        width: 190
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3b9cf733a51ccee0800000000000000
+      internalID: -1239592006670574790
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_142
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 530
+        width: 173
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fed324f2ad88e5f80800000000000000
+      internalID: -8115899007797936657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_143
+      rect:
+        serializedVersion: 2
+        x: 557
+        y: 530
+        width: 155
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32984f9ee091486a0800000000000000
+      internalID: -6448001214642353885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_144
+      rect:
+        serializedVersion: 2
+        x: 746
+        y: 530
+        width: 93
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ab9735d66c158280800000000000000
+      internalID: -9041789448886969437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_145
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 531
+        width: 238
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eafd04b154f0bab30800000000000000
+      internalID: 4299547058739666862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_146
+      rect:
+        serializedVersion: 2
+        x: 1145
+        y: 531
+        width: 110
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29d5eaf4ec432780800000000000000
+      internalID: -8709032708058785491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_147
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 532
+        width: 183
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4c91079e2d11b750800000000000000
+      internalID: 6318863838116682831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_148
+      rect:
+        serializedVersion: 2
+        x: 1506
+        y: 533
+        width: 217
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cfc2d198e086cd90800000000000000
+      internalID: -7077828027998875707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_149
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 533
+        width: 162
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0c120eac36030380800000000000000
+      internalID: -9006347972123681782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_150
+      rect:
+        serializedVersion: 2
+        x: 1953
+        y: 534
+        width: 239
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04d41af3d7844dd60800000000000000
+      internalID: 7914030147972451648
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_151
+      rect:
+        serializedVersion: 2
+        x: 2226
+        y: 534
+        width: 224
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0482d8bf7496c340800000000000000
+      internalID: 4883754122212443149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_152
+      rect:
+        serializedVersion: 2
+        x: 2484
+        y: 536
+        width: 119
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10178f29185afa6d0800000000000000
+      internalID: -2976978852733488895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_153
+      rect:
+        serializedVersion: 2
+        x: 2637
+        y: 536
+        width: 40
+        height: 151
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b367ba2e02ac0b5b0800000000000000
+      internalID: -5354557714352867781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_154
+      rect:
+        serializedVersion: 2
+        x: 2711
+        y: 538
+        width: 234
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6931cf347a213760800000000000000
+      internalID: 7435771138539600234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_155
+      rect:
+        serializedVersion: 2
+        x: 2979
+        y: 538
+        width: 231
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7047203d839120a0800000000000000
+      internalID: -6908078118802079619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_156
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 345
+        width: 224
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3d00a3a0c341b4f90800000000000000
+      internalID: -6968453750323543853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_157
+      rect:
+        serializedVersion: 2
+        x: 277
+        y: 345
+        width: 216
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a9715d5178b02c70800000000000000
+      internalID: 8944351656994240937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_158
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 345
+        width: 204
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c2b87aaab07a5d10800000000000000
+      internalID: 2115126922030133956
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_159
+      rect:
+        serializedVersion: 2
+        x: 765
+        y: 346
+        width: 225
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86d1fca4f0c1044f0800000000000000
+      internalID: -846645877940478616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_160
+      rect:
+        serializedVersion: 2
+        x: 1024
+        y: 347
+        width: 155
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7343429cd582440800000000000000
+      internalID: 4911278512124737500
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_161
+      rect:
+        serializedVersion: 2
+        x: 1213
+        y: 348
+        width: 207
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9403f8d5e72dc92f0800000000000000
+      internalID: -964664779986751415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_162
+      rect:
+        serializedVersion: 2
+        x: 1454
+        y: 348
+        width: 159
+        height: 146
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c961a5991a9581eb0800000000000000
+      internalID: -4748947256464763236
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_163
+      rect:
+        serializedVersion: 2
+        x: 1647
+        y: 349
+        width: 125
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b55659a6293263ec0800000000000000
+      internalID: -3587640941393648293
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_164
+      rect:
+        serializedVersion: 2
+        x: 1806
+        y: 353
+        width: 87
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea740e768840be430800000000000000
+      internalID: 3813146493404071854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_165
+      rect:
+        serializedVersion: 2
+        x: 1927
+        y: 354
+        width: 227
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 045965f57044b2ae0800000000000000
+      internalID: -1573088846380886720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_166
+      rect:
+        serializedVersion: 2
+        x: 2188
+        y: 355
+        width: 216
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f44b1185f204a9b0800000000000000
+      internalID: -5069924027056044810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_167
+      rect:
+        serializedVersion: 2
+        x: 2438
+        y: 355
+        width: 207
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3bacad76d7ea875a0800000000000000
+      internalID: -6523272206609626445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_168
+      rect:
+        serializedVersion: 2
+        x: 2703
+        y: 445
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75a12a3a2966f9bf0800000000000000
+      internalID: -315420668896077225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_169
+      rect:
+        serializedVersion: 2
+        x: 2742
+        y: 454
+        width: 38
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b144fc35afa15b4c0800000000000000
+      internalID: -4272479009040808933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_170
+      rect:
+        serializedVersion: 2
+        x: 2792
+        y: 449
+        width: 38
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac19fa3976db5f780800000000000000
+      internalID: -8649799256738131510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_171
+      rect:
+        serializedVersion: 2
+        x: 2835
+        y: 399
+        width: 45
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1731b41526a9d30a0800000000000000
+      internalID: -6900189307000384655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_172
+      rect:
+        serializedVersion: 2
+        x: 2977
+        y: 357
+        width: 159
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 264c7cf1ff5355320800000000000000
+      internalID: 2546000534214001762
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_173
+      rect:
+        serializedVersion: 2
+        x: 2679
+        y: 380
+        width: 48
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7dd1bdfd9a3dbbb0800000000000000
+      internalID: -4918710767778144900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_174
+      rect:
+        serializedVersion: 2
+        x: 2728
+        y: 357
+        width: 39
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a475d9a03739173d0800000000000000
+      internalID: -3210622937029847222
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_175
+      rect:
+        serializedVersion: 2
+        x: 2779
+        y: 356
+        width: 39
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c775071b57db0d990800000000000000
+      internalID: -7363177077565008004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_176
+      rect:
+        serializedVersion: 2
+        x: 2825
+        y: 373
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91896dfa533aa4460800000000000000
+      internalID: 7226768003048052761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_177
+      rect:
+        serializedVersion: 2
+        x: 2914
+        y: 363
+        width: 76
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f97d0f1d8aa48c8b0800000000000000
+      internalID: -5131769686451497057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_178
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 174
+        width: 202
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6b893396797e4fa0800000000000000
+      internalID: -5814576518705607830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_179
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 174
+        width: 91
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8029468f2b0dc9810800000000000000
+      internalID: 1773521820367229448
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_180
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 212
+        width: 91
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 623ca6fa29ba7c940800000000000000
+      internalID: 5316406531630744358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_181
+      rect:
+        serializedVersion: 2
+        x: 446
+        y: 175
+        width: 178
+        height: 136
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6d9750ca5a02d20800000000000000
+      internalID: 3251781089206326963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_182
+      rect:
+        serializedVersion: 2
+        x: 658
+        y: 177
+        width: 197
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9b19965151741200800000000000000
+      internalID: 149869281769233306
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_183
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 181
+        width: 217
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad44e713cb5858580800000000000000
+      internalID: -8825500851431914278
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_184
+      rect:
+        serializedVersion: 2
+        x: 1140
+        y: 182
+        width: 229
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a5cc22d588ac5bf0800000000000000
+      internalID: -334206979621993053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_185
+      rect:
+        serializedVersion: 2
+        x: 1403
+        y: 182
+        width: 209
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df2f9812e76ae13a0800000000000000
+      internalID: -6692728935567199491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_186
+      rect:
+        serializedVersion: 2
+        x: 1646
+        y: 186
+        width: 177
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cea9611b14e0e10b0800000000000000
+      internalID: -5756147598426203412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_187
+      rect:
+        serializedVersion: 2
+        x: 1862
+        y: 237
+        width: 77
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 078f4e780a2d0ed20800000000000000
+      internalID: 3305873713406474352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_188
+      rect:
+        serializedVersion: 2
+        x: 1928
+        y: 253
+        width: 88
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16541af03ba248740800000000000000
+      internalID: 5153290822168429921
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_189
+      rect:
+        serializedVersion: 2
+        x: 1933
+        y: 188
+        width: 99
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69564c7d73b354210800000000000000
+      internalID: 1316523577104950678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_190
+      rect:
+        serializedVersion: 2
+        x: 1999
+        y: 229
+        width: 78
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd7b0428121f79900800000000000000
+      internalID: 691286194046154716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_191
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 187
+        width: 196
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b50abc3527fc3bed0800000000000000
+      internalID: -2399346086519267237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_192
+      rect:
+        serializedVersion: 2
+        x: 2341
+        y: 187
+        width: 75
+        height: 124
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4b02c3199c767f30800000000000000
+      internalID: 4572979468544641871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_193
+      rect:
+        serializedVersion: 2
+        x: 2450
+        y: 191
+        width: 131
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb7eea39b128c95f0800000000000000
+      internalID: -748580383096903745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_194
+      rect:
+        serializedVersion: 2
+        x: 2615
+        y: 199
+        width: 86
+        height: 112
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e243db58c08ede6f0800000000000000
+      internalID: -653611230417832914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_195
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 192
+        width: 82
+        height: 110
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00e5ba323b0b096f0800000000000000
+      internalID: -679849260288877056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_196
+      rect:
+        serializedVersion: 2
+        x: 2811
+        y: 193
+        width: 159
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46fac197d3912d0a0800000000000000
+      internalID: -6858391530716221596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_197
+      rect:
+        serializedVersion: 2
+        x: 3004
+        y: 193
+        width: 69
+        height: 118
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15803322c37e959b0800000000000000
+      internalID: -5090783658307811247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_198
+      rect:
+        serializedVersion: 2
+        x: 1857
+        y: 187
+        width: 74
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cd02ea6eb1bd2990800000000000000
+      internalID: -7409070380559495741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_199
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 23
+        width: 216
+        height: 117
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c6b14757ccda3850800000000000000
+      internalID: 6357636572707403461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_200
+      rect:
+        serializedVersion: 2
+        x: 269
+        y: 26
+        width: 150
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5f08eaf24c145da0800000000000000
+      internalID: -5957105333101392033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_201
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 27
+        width: 224
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25f59ec85e4439680800000000000000
+      internalID: -8749573898348437678
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_202
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 27
+        width: 165
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afe3947f898960a10800000000000000
+      internalID: 1875354077597613818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_203
+      rect:
+        serializedVersion: 2
+        x: 910
+        y: 27
+        width: 153
+        height: 113
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff07b00bc54f8a860800000000000000
+      internalID: 7541546254959603967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_204
+      rect:
+        serializedVersion: 2
+        x: 1097
+        y: 29
+        width: 195
+        height: 111
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae7e10b24ac7a0db0800000000000000
+      internalID: -4824907006236039190
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_205
+      rect:
+        serializedVersion: 2
+        x: 1326
+        y: 31
+        width: 193
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8003d3eea5f3a2ec0800000000000000
+      internalID: -3590988093097955320
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_206
+      rect:
+        serializedVersion: 2
+        x: 1553
+        y: 40
+        width: 176
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca975dde7db6d9be0800000000000000
+      internalID: -1468899328300582484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_207
+      rect:
+        serializedVersion: 2
+        x: 1763
+        y: 45
+        width: 116
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 174ac55972d925d00800000000000000
+      internalID: 960002463918498929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_208
+      rect:
+        serializedVersion: 2
+        x: 1848
+        y: 55
+        width: 108
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4112507e9840a1820800000000000000
+      internalID: 2889627101244498196
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_209
+      rect:
+        serializedVersion: 2
+        x: 1990
+        y: 45
+        width: 150
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dbb6cbfb1d93540b0800000000000000
+      internalID: -5745122176613454915
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_210
+      rect:
+        serializedVersion: 2
+        x: 2174
+        y: 59
+        width: 80
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c5878bd8f3677aa0800000000000000
+      internalID: -6163347644547103287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_211
+      rect:
+        serializedVersion: 2
+        x: 2283
+        y: 53
+        width: 82
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d466c6f9ec76af40800000000000000
+      internalID: 5739412119439697109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_212
+      rect:
+        serializedVersion: 2
+        x: 2399
+        y: 54
+        width: 156
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b323100716ad7ad50800000000000000
+      internalID: 6748602678663787067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: topdown_modern_street_core_clean_tilesheet_packed_213
+      rect:
+        serializedVersion: 2
+        x: 2589
+        y: 66
+        width: 116
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2059b9d7b4aea620800000000000000
+      internalID: 2787346328927686698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      topdown_modern_street_core_clean_tilesheet_packed_0: -1619282510845557641
+      topdown_modern_street_core_clean_tilesheet_packed_1: 580188685618274170
+      topdown_modern_street_core_clean_tilesheet_packed_10: -2757769676606099409
+      topdown_modern_street_core_clean_tilesheet_packed_100: 9013216343705646079
+      topdown_modern_street_core_clean_tilesheet_packed_101: -2359418739880013511
+      topdown_modern_street_core_clean_tilesheet_packed_102: 6065989694504720043
+      topdown_modern_street_core_clean_tilesheet_packed_103: -6527909198795533893
+      topdown_modern_street_core_clean_tilesheet_packed_104: 5198724520896542160
+      topdown_modern_street_core_clean_tilesheet_packed_105: -300620363645643657
+      topdown_modern_street_core_clean_tilesheet_packed_106: -4017922526408997893
+      topdown_modern_street_core_clean_tilesheet_packed_107: 1506574553429831560
+      topdown_modern_street_core_clean_tilesheet_packed_108: 2703084193778135962
+      topdown_modern_street_core_clean_tilesheet_packed_109: -7146966339359075223
+      topdown_modern_street_core_clean_tilesheet_packed_11: -458855518117773656
+      topdown_modern_street_core_clean_tilesheet_packed_110: 4426103645180668599
+      topdown_modern_street_core_clean_tilesheet_packed_111: 1356210667675316489
+      topdown_modern_street_core_clean_tilesheet_packed_112: -2478069540603172969
+      topdown_modern_street_core_clean_tilesheet_packed_113: -723757872561365140
+      topdown_modern_street_core_clean_tilesheet_packed_114: -517668402844489880
+      topdown_modern_street_core_clean_tilesheet_packed_115: 3709376930732686935
+      topdown_modern_street_core_clean_tilesheet_packed_116: -7344146633429860267
+      topdown_modern_street_core_clean_tilesheet_packed_117: -3422922964185027907
+      topdown_modern_street_core_clean_tilesheet_packed_118: -8528540841722333342
+      topdown_modern_street_core_clean_tilesheet_packed_119: 1681981188036716332
+      topdown_modern_street_core_clean_tilesheet_packed_12: 1605241979526201557
+      topdown_modern_street_core_clean_tilesheet_packed_120: 7679777544611625182
+      topdown_modern_street_core_clean_tilesheet_packed_121: 665067186980373007
+      topdown_modern_street_core_clean_tilesheet_packed_122: -5575866950132336202
+      topdown_modern_street_core_clean_tilesheet_packed_123: 2912788216022093731
+      topdown_modern_street_core_clean_tilesheet_packed_124: 5646457870971317883
+      topdown_modern_street_core_clean_tilesheet_packed_125: -3725904184976890072
+      topdown_modern_street_core_clean_tilesheet_packed_126: -4657209213821312510
+      topdown_modern_street_core_clean_tilesheet_packed_127: 7607935087101786181
+      topdown_modern_street_core_clean_tilesheet_packed_128: -455910913435890048
+      topdown_modern_street_core_clean_tilesheet_packed_129: -8727967662196765417
+      topdown_modern_street_core_clean_tilesheet_packed_13: 1518684393946456756
+      topdown_modern_street_core_clean_tilesheet_packed_130: -4248868683921126233
+      topdown_modern_street_core_clean_tilesheet_packed_131: -8929958739761743193
+      topdown_modern_street_core_clean_tilesheet_packed_132: -5868860306645439676
+      topdown_modern_street_core_clean_tilesheet_packed_133: 9109990953488479124
+      topdown_modern_street_core_clean_tilesheet_packed_134: -888670110952945289
+      topdown_modern_street_core_clean_tilesheet_packed_135: 3860367075144912569
+      topdown_modern_street_core_clean_tilesheet_packed_136: 2099224794360963022
+      topdown_modern_street_core_clean_tilesheet_packed_137: -548566905602885626
+      topdown_modern_street_core_clean_tilesheet_packed_138: 8942682932552621758
+      topdown_modern_street_core_clean_tilesheet_packed_139: -3173606289011512768
+      topdown_modern_street_core_clean_tilesheet_packed_14: -8002934226349086389
+      topdown_modern_street_core_clean_tilesheet_packed_140: -3741004570479199027
+      topdown_modern_street_core_clean_tilesheet_packed_141: -1239592006670574790
+      topdown_modern_street_core_clean_tilesheet_packed_142: -8115899007797936657
+      topdown_modern_street_core_clean_tilesheet_packed_143: -6448001214642353885
+      topdown_modern_street_core_clean_tilesheet_packed_144: -9041789448886969437
+      topdown_modern_street_core_clean_tilesheet_packed_145: 4299547058739666862
+      topdown_modern_street_core_clean_tilesheet_packed_146: -8709032708058785491
+      topdown_modern_street_core_clean_tilesheet_packed_147: 6318863838116682831
+      topdown_modern_street_core_clean_tilesheet_packed_148: -7077828027998875707
+      topdown_modern_street_core_clean_tilesheet_packed_149: -9006347972123681782
+      topdown_modern_street_core_clean_tilesheet_packed_15: -5110749421453671571
+      topdown_modern_street_core_clean_tilesheet_packed_150: 7914030147972451648
+      topdown_modern_street_core_clean_tilesheet_packed_151: 4883754122212443149
+      topdown_modern_street_core_clean_tilesheet_packed_152: -2976978852733488895
+      topdown_modern_street_core_clean_tilesheet_packed_153: -5354557714352867781
+      topdown_modern_street_core_clean_tilesheet_packed_154: 7435771138539600234
+      topdown_modern_street_core_clean_tilesheet_packed_155: -6908078118802079619
+      topdown_modern_street_core_clean_tilesheet_packed_156: -6968453750323543853
+      topdown_modern_street_core_clean_tilesheet_packed_157: 8944351656994240937
+      topdown_modern_street_core_clean_tilesheet_packed_158: 2115126922030133956
+      topdown_modern_street_core_clean_tilesheet_packed_159: -846645877940478616
+      topdown_modern_street_core_clean_tilesheet_packed_16: -5743460830729985922
+      topdown_modern_street_core_clean_tilesheet_packed_160: 4911278512124737500
+      topdown_modern_street_core_clean_tilesheet_packed_161: -964664779986751415
+      topdown_modern_street_core_clean_tilesheet_packed_162: -4748947256464763236
+      topdown_modern_street_core_clean_tilesheet_packed_163: -3587640941393648293
+      topdown_modern_street_core_clean_tilesheet_packed_164: 3813146493404071854
+      topdown_modern_street_core_clean_tilesheet_packed_165: -1573088846380886720
+      topdown_modern_street_core_clean_tilesheet_packed_166: -5069924027056044810
+      topdown_modern_street_core_clean_tilesheet_packed_167: -6523272206609626445
+      topdown_modern_street_core_clean_tilesheet_packed_168: -315420668896077225
+      topdown_modern_street_core_clean_tilesheet_packed_169: -4272479009040808933
+      topdown_modern_street_core_clean_tilesheet_packed_17: 4719415844363705753
+      topdown_modern_street_core_clean_tilesheet_packed_170: -8649799256738131510
+      topdown_modern_street_core_clean_tilesheet_packed_171: -6900189307000384655
+      topdown_modern_street_core_clean_tilesheet_packed_172: 2546000534214001762
+      topdown_modern_street_core_clean_tilesheet_packed_173: -4918710767778144900
+      topdown_modern_street_core_clean_tilesheet_packed_174: -3210622937029847222
+      topdown_modern_street_core_clean_tilesheet_packed_175: -7363177077565008004
+      topdown_modern_street_core_clean_tilesheet_packed_176: 7226768003048052761
+      topdown_modern_street_core_clean_tilesheet_packed_177: -5131769686451497057
+      topdown_modern_street_core_clean_tilesheet_packed_178: -5814576518705607830
+      topdown_modern_street_core_clean_tilesheet_packed_179: 1773521820367229448
+      topdown_modern_street_core_clean_tilesheet_packed_18: -5359257414942966362
+      topdown_modern_street_core_clean_tilesheet_packed_180: 5316406531630744358
+      topdown_modern_street_core_clean_tilesheet_packed_181: 3251781089206326963
+      topdown_modern_street_core_clean_tilesheet_packed_182: 149869281769233306
+      topdown_modern_street_core_clean_tilesheet_packed_183: -8825500851431914278
+      topdown_modern_street_core_clean_tilesheet_packed_184: -334206979621993053
+      topdown_modern_street_core_clean_tilesheet_packed_185: -6692728935567199491
+      topdown_modern_street_core_clean_tilesheet_packed_186: -5756147598426203412
+      topdown_modern_street_core_clean_tilesheet_packed_187: 3305873713406474352
+      topdown_modern_street_core_clean_tilesheet_packed_188: 5153290822168429921
+      topdown_modern_street_core_clean_tilesheet_packed_189: 1316523577104950678
+      topdown_modern_street_core_clean_tilesheet_packed_19: -1618758192600940905
+      topdown_modern_street_core_clean_tilesheet_packed_190: 691286194046154716
+      topdown_modern_street_core_clean_tilesheet_packed_191: -2399346086519267237
+      topdown_modern_street_core_clean_tilesheet_packed_192: 4572979468544641871
+      topdown_modern_street_core_clean_tilesheet_packed_193: -748580383096903745
+      topdown_modern_street_core_clean_tilesheet_packed_194: -653611230417832914
+      topdown_modern_street_core_clean_tilesheet_packed_195: -679849260288877056
+      topdown_modern_street_core_clean_tilesheet_packed_196: -6858391530716221596
+      topdown_modern_street_core_clean_tilesheet_packed_197: -5090783658307811247
+      topdown_modern_street_core_clean_tilesheet_packed_198: -7409070380559495741
+      topdown_modern_street_core_clean_tilesheet_packed_199: 6357636572707403461
+      topdown_modern_street_core_clean_tilesheet_packed_2: 3099601243603871983
+      topdown_modern_street_core_clean_tilesheet_packed_20: -5415874345559138748
+      topdown_modern_street_core_clean_tilesheet_packed_200: -5957105333101392033
+      topdown_modern_street_core_clean_tilesheet_packed_201: -8749573898348437678
+      topdown_modern_street_core_clean_tilesheet_packed_202: 1875354077597613818
+      topdown_modern_street_core_clean_tilesheet_packed_203: 7541546254959603967
+      topdown_modern_street_core_clean_tilesheet_packed_204: -4824907006236039190
+      topdown_modern_street_core_clean_tilesheet_packed_205: -3590988093097955320
+      topdown_modern_street_core_clean_tilesheet_packed_206: -1468899328300582484
+      topdown_modern_street_core_clean_tilesheet_packed_207: 960002463918498929
+      topdown_modern_street_core_clean_tilesheet_packed_208: 2889627101244498196
+      topdown_modern_street_core_clean_tilesheet_packed_209: -5745122176613454915
+      topdown_modern_street_core_clean_tilesheet_packed_21: 7578719673529575151
+      topdown_modern_street_core_clean_tilesheet_packed_210: -6163347644547103287
+      topdown_modern_street_core_clean_tilesheet_packed_211: 5739412119439697109
+      topdown_modern_street_core_clean_tilesheet_packed_212: 6748602678663787067
+      topdown_modern_street_core_clean_tilesheet_packed_213: 2787346328927686698
+      topdown_modern_street_core_clean_tilesheet_packed_22: 7582896663592590761
+      topdown_modern_street_core_clean_tilesheet_packed_23: 3216489100782426129
+      topdown_modern_street_core_clean_tilesheet_packed_24: 5460260604982584777
+      topdown_modern_street_core_clean_tilesheet_packed_25: 6034524085116056215
+      topdown_modern_street_core_clean_tilesheet_packed_26: -4861406536449970369
+      topdown_modern_street_core_clean_tilesheet_packed_27: 3337912291274351435
+      topdown_modern_street_core_clean_tilesheet_packed_28: 4575278803747626089
+      topdown_modern_street_core_clean_tilesheet_packed_29: 7106217719702543859
+      topdown_modern_street_core_clean_tilesheet_packed_3: -3302453650127396150
+      topdown_modern_street_core_clean_tilesheet_packed_30: -3361056624502027428
+      topdown_modern_street_core_clean_tilesheet_packed_31: -666572283572872125
+      topdown_modern_street_core_clean_tilesheet_packed_32: 3040826280715642055
+      topdown_modern_street_core_clean_tilesheet_packed_33: -2703954919986728078
+      topdown_modern_street_core_clean_tilesheet_packed_34: -3681909670608492790
+      topdown_modern_street_core_clean_tilesheet_packed_35: -2073894002967588750
+      topdown_modern_street_core_clean_tilesheet_packed_36: 6193007372486286828
+      topdown_modern_street_core_clean_tilesheet_packed_37: -2731982342152712794
+      topdown_modern_street_core_clean_tilesheet_packed_38: -908934099585622237
+      topdown_modern_street_core_clean_tilesheet_packed_39: -3482605933156687325
+      topdown_modern_street_core_clean_tilesheet_packed_4: 4720700008620813639
+      topdown_modern_street_core_clean_tilesheet_packed_40: 5983699029594545889
+      topdown_modern_street_core_clean_tilesheet_packed_41: 6421070969960678371
+      topdown_modern_street_core_clean_tilesheet_packed_42: -7392610239071964269
+      topdown_modern_street_core_clean_tilesheet_packed_43: 6338880183473057860
+      topdown_modern_street_core_clean_tilesheet_packed_44: 5939648226941135486
+      topdown_modern_street_core_clean_tilesheet_packed_45: 8424601301777453903
+      topdown_modern_street_core_clean_tilesheet_packed_46: 1577044678860062707
+      topdown_modern_street_core_clean_tilesheet_packed_47: -2774658111896936696
+      topdown_modern_street_core_clean_tilesheet_packed_48: 62938104716615210
+      topdown_modern_street_core_clean_tilesheet_packed_49: 2471788874522755547
+      topdown_modern_street_core_clean_tilesheet_packed_5: 7740647387168914446
+      topdown_modern_street_core_clean_tilesheet_packed_50: 6465140110795190687
+      topdown_modern_street_core_clean_tilesheet_packed_51: 1018127494473998560
+      topdown_modern_street_core_clean_tilesheet_packed_52: -2877968829032895071
+      topdown_modern_street_core_clean_tilesheet_packed_53: -1961982624980716068
+      topdown_modern_street_core_clean_tilesheet_packed_54: -6584319938856824839
+      topdown_modern_street_core_clean_tilesheet_packed_55: 3577349870069225581
+      topdown_modern_street_core_clean_tilesheet_packed_56: -832511195371457211
+      topdown_modern_street_core_clean_tilesheet_packed_57: 5026489773924793030
+      topdown_modern_street_core_clean_tilesheet_packed_58: 3984298506032720161
+      topdown_modern_street_core_clean_tilesheet_packed_59: 7663109565764826476
+      topdown_modern_street_core_clean_tilesheet_packed_6: -5673886703293682136
+      topdown_modern_street_core_clean_tilesheet_packed_60: 8096234278211358903
+      topdown_modern_street_core_clean_tilesheet_packed_61: -3784005737429938619
+      topdown_modern_street_core_clean_tilesheet_packed_62: -662160347177304339
+      topdown_modern_street_core_clean_tilesheet_packed_63: 317031555080152924
+      topdown_modern_street_core_clean_tilesheet_packed_64: 2077445857930494047
+      topdown_modern_street_core_clean_tilesheet_packed_65: -415216784512606312
+      topdown_modern_street_core_clean_tilesheet_packed_66: -8929347112713956018
+      topdown_modern_street_core_clean_tilesheet_packed_67: -5581980024375015768
+      topdown_modern_street_core_clean_tilesheet_packed_68: -5838365855054811793
+      topdown_modern_street_core_clean_tilesheet_packed_69: 1295827699532464132
+      topdown_modern_street_core_clean_tilesheet_packed_7: 1816897399021717930
+      topdown_modern_street_core_clean_tilesheet_packed_70: 6329524734814551217
+      topdown_modern_street_core_clean_tilesheet_packed_71: -5342094572734163916
+      topdown_modern_street_core_clean_tilesheet_packed_72: -5792879924317936926
+      topdown_modern_street_core_clean_tilesheet_packed_73: -4797330648352902702
+      topdown_modern_street_core_clean_tilesheet_packed_74: -5696829525123961214
+      topdown_modern_street_core_clean_tilesheet_packed_75: 188922723487830423
+      topdown_modern_street_core_clean_tilesheet_packed_76: -8805027243740154853
+      topdown_modern_street_core_clean_tilesheet_packed_77: 1788454052775075194
+      topdown_modern_street_core_clean_tilesheet_packed_78: -1183226178325416909
+      topdown_modern_street_core_clean_tilesheet_packed_79: 5729479635848622772
+      topdown_modern_street_core_clean_tilesheet_packed_8: -7272431490487629187
+      topdown_modern_street_core_clean_tilesheet_packed_80: 2461557696390012390
+      topdown_modern_street_core_clean_tilesheet_packed_81: -5047839156381010369
+      topdown_modern_street_core_clean_tilesheet_packed_82: -6534246751885210703
+      topdown_modern_street_core_clean_tilesheet_packed_83: 8515516349818278393
+      topdown_modern_street_core_clean_tilesheet_packed_84: -3848656232316886450
+      topdown_modern_street_core_clean_tilesheet_packed_85: -4499089038812516796
+      topdown_modern_street_core_clean_tilesheet_packed_86: 1109634907712903704
+      topdown_modern_street_core_clean_tilesheet_packed_87: 5687504546072020418
+      topdown_modern_street_core_clean_tilesheet_packed_88: 6975901967243756988
+      topdown_modern_street_core_clean_tilesheet_packed_89: 8671463259999312000
+      topdown_modern_street_core_clean_tilesheet_packed_9: -776818391926376388
+      topdown_modern_street_core_clean_tilesheet_packed_90: 3345771516384329111
+      topdown_modern_street_core_clean_tilesheet_packed_91: -7191363357693977538
+      topdown_modern_street_core_clean_tilesheet_packed_92: 5780007639623290394
+      topdown_modern_street_core_clean_tilesheet_packed_93: 5496188576516836439
+      topdown_modern_street_core_clean_tilesheet_packed_94: 5827345505778929327
+      topdown_modern_street_core_clean_tilesheet_packed_95: 5468997577222439666
+      topdown_modern_street_core_clean_tilesheet_packed_96: 8969614724735143376
+      topdown_modern_street_core_clean_tilesheet_packed_97: 4709883821145881788
+      topdown_modern_street_core_clean_tilesheet_packed_98: 3895824940106245303
+      topdown_modern_street_core_clean_tilesheet_packed_99: -1578270393974591304
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
