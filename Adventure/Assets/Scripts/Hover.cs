@@ -6,11 +6,9 @@ public class Hover : MonoBehaviour
 {
     // Fields
 
-    [Header("Hover Settings")]
     public Vector2 frequencies = Vector2.one;
     public Vector2 amplitudes = Vector2.one;
 
-    [Header("Update Settings")]
     public bool useUnscaledDeltaTime = false;
 
     private Vector2 midline;
@@ -20,30 +18,23 @@ public class Hover : MonoBehaviour
 
     private void Start()
     {
-        // Set midline
         midline = transform.localPosition;
     }
 
     private void Update()
     {
-        // Increase the elapsed time
-        elapsedTime += useUnscaledDeltaTime ? Time.unscaledDeltaTime : Time.deltaTime;
-
-        // Set the current position
         transform.localPosition = TargetPosition();
+
+        elapsedTime += useUnscaledDeltaTime ? Time.unscaledDeltaTime : Time.deltaTime;
     }
 
     // Return Methods
 
     private Vector2 TargetPosition()
     {
-        // Get the target x position
         float targetX = midline.x + SinePoint(amplitudes.x, frequencies.x);
-
-        // Get the target y position
         float targetY = midline.y + SinePoint(amplitudes.y, frequencies.y);
 
-        // Return the target position
         return new Vector2(targetX, targetY);
     }
 

@@ -406,8 +406,47 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 4889362278299658697, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+      insertIndex: 3
+      addedObject: {fileID: 705356445}
   m_SourcePrefab: {fileID: 100100000, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+--- !u!1 &705356437 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 4889362278299658697, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
+  m_PrefabInstance: {fileID: 658722477}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &705356445
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 705356437}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27b010f3ac3064397211a12aa2af37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInput
+  inputActions: {fileID: -944628639613478452, guid: 9cc3d0b9f3815834090cf819b5dac7a2, type: 3}
+  pressAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: de7f126e-8952-4a03-aae3-688df994eb9c
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
+  positionAction:
+    m_Name: 
+    m_Type: 0
+    m_ExpectedControlType: 
+    m_Id: 93807a48-96cc-4e78-beac-ead2251cb0a5
+    m_Processors: 
+    m_Interactions: 
+    m_SingletonActionBindings: []
+    m_Flags: 0
 --- !u!1 &1189503327
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,37 +7,21 @@ public class PlayerMovement : BaseMovement
 {
     // TODO Clean up script
 
+    // TODO Write comments
+
     // Fields
 
-    public InputActionAsset inputActions;
-
-    protected InputAction pressAction;
-    protected InputAction positionAction;
+    protected PlayerInput playerInput;
 
     protected Animator playerAnimator;
     protected string[] directionTriggers = { "Move.E", "Move.NE", "Move.N", "Move.NW", "Move.W", "Move.SW", "Move.S", "Move.SE" };
 
     // Methods
 
-    protected virtual void OnEnable()
-    {
-        // Enable gameplay action map
-        inputActions.FindActionMap("Gameplay").Enable();
-    }
-
-    protected virtual void OnDisable()
-    {
-        // Disable gameplay action map
-        inputActions.FindActionMap("Gameplay").Disable();
-    }
-
     protected virtual void Awake()
     {
-        // Set reference to press action
-        pressAction = InputSystem.actions.FindAction("Press");
-
-        // Set reference to position action
-        positionAction = InputSystem.actions.FindAction("Position");
+        // Set reference to player input
+        playerInput = GetComponent<PlayerInput>();
 
         // Set reference to player animator
         playerAnimator = GetComponentInChildren<Animator>();
@@ -75,22 +59,6 @@ public class PlayerMovement : BaseMovement
 
     protected override Vector2 TargetPosition() // Defined by base class
     {
-        // If the press action is being performed
-        if (pressAction.inProgress == true)
-        {
-            // Get the current screen coordinates
-            Vector2 screenCoordinates = positionAction.ReadValue<Vector2>();
-
-            // Convert screen coordinates to world space coordinates
-            Vector3 worldCoordinates = Camera.main.ScreenToWorldPoint(new Vector3(screenCoordinates.x, screenCoordinates.y, Camera.main.nearClipPlane));
-
-            // return the target world position
-            return new Vector2(worldCoordinates.x, worldCoordinates.y);
-        }
-        else
-        {
-            // Return the current position of the rigid body
-            return rb.position;
-        }
+        return playerInput.PressedWorldCoordinates(out Vector2 pressedWorldCoordinates) ? pressedWorldCoordinates : rb.position;
     }
 }
