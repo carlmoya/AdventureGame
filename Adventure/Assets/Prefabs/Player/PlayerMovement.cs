@@ -15,7 +15,7 @@ public class PlayerMovement : BaseMovement
     protected InputAction positionAction;
 
     protected Animator playerAnimator;
-    public string[] directionTriggers;
+    protected string[] directionTriggers = { "Move.E", "Move.NE", "Move.N", "Move.NW", "Move.W", "Move.SW", "Move.S", "Move.SE" };
 
     // Methods
 

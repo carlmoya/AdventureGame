@@ -10,7 +10,7 @@ public class AiMovement : BaseMovement
     public string[] likes = new string[0];
     public string[] dislikes = new string[0];
 
-    public float searchRadius = 5f;
+    public float searchRadius = 10f;
 
     // Return Methods
 
