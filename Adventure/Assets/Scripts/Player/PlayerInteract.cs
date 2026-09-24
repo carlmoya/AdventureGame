@@ -26,7 +26,7 @@ public class PlayerInteract : MonoBehaviour
     private void CheckInteraction()
     {
         // If the player tapped the screen
-        if (playerInput.TappedWorldCoordinates(out Vector2 tappedWorldCoordinates))
+        if (playerInput.TryGetTappedWorldPosition(out Vector2 tappedWorldPosition))
         {
             // TODO Check if tapped world coordinates is within max interaction distance
 

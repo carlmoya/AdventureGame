@@ -45,7 +45,7 @@ public class PlayerMovement : BaseMovement
 
     protected override Vector2 TargetPosition() // Defined by base class
     {
-        // Return any pressed world coordinates or the current position of the rigidbody
-        return playerInput.PressedWorldCoordinates(out Vector2 pressedWorldCoordinates) ? pressedWorldCoordinates : rb.position;
+        // Return the pressed world position or the current position of the rigidbody
+        return playerInput.TryGetPressedWorldPosition(out Vector2 pressedWorldPosition) ? pressedWorldPosition : rb.position;
     }
 }

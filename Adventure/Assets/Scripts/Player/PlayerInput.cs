@@ -1,6 +1,7 @@
 using UnityEngine;
-using System.Collections;
 using UnityEngine.InputSystem;
+
+// Script written by Carl Moya
 
 public class PlayerInput : MonoBehaviour
 {
@@ -8,19 +9,19 @@ public class PlayerInput : MonoBehaviour
 
     public InputActionAsset inputActions;
 
-    [HideInInspector]
-    public InputAction pressAction;
+    public InputAction pressAction {  get; private set; }
+    public InputAction positionAction { get; private set; }
 
-    [HideInInspector]
-    public InputAction positionAction;
-
-    [HideInInspector]
-    public Vector2 lastTouchedWorldPosition;
-
-    [HideInInspector]
-    public Vector2 lastTouchedScreenPosition;
+    public Vector2 lastTouchedWorldPosition { get; private set; }
+    public Vector2 lastTouchedScreenPosition { get; private set; }
 
     // Methods
+
+    private void Awake()
+    {
+        pressAction = InputSystem.actions.FindAction("Press");
+        positionAction = InputSystem.actions.FindAction("Position");
+    }
 
     private void OnEnable()
     {
@@ -32,96 +33,47 @@ public class PlayerInput : MonoBehaviour
         inputActions.FindActionMap("Gameplay").Disable();
     }
 
-    private void Awake()
-    {
-        pressAction = InputSystem.actions.FindAction("Press");
-        positionAction = InputSystem.actions.FindAction("Position");
-    }
-
     private void Update()
     {
-        if (PressedWorldCoordinates(out Vector2 pressedWorldCoordinates))
+        if (TryGetPressedScreenPosition(out Vector2 pressedScreenPosition))
         {
-            lastTouchedWorldPosition = pressedWorldCoordinates;
-        }
-
-        if (PressedScreenCoordinates(out Vector2 pressedScreenCoordinates))
-        {
-            lastTouchedScreenPosition = pressedScreenCoordinates;
+            lastTouchedScreenPosition = pressedScreenPosition;
+            lastTouchedWorldPosition = ScreenPositionToWorldPosition(lastTouchedScreenPosition);
         }
     }
 
     // Return Methods
 
-    public bool PressedWorldCoordinates(out Vector2 pressedWorldCoordinates)
+    public bool TryGetPressedScreenPosition(out Vector2 pressedScreenPosition)
     {
-        if (PressedScreenCoordinates(out Vector2 pressedScreenCoordinates))
-        {
-            // Convert pressed screen coordinates to world space coordinates
-            Vector3 worldSpaceCoordinates = Camera.main.ScreenToWorldPoint(new Vector3(pressedScreenCoordinates.x, pressedScreenCoordinates.y, Camera.main.nearClipPlane));
-
-            pressedWorldCoordinates = new Vector2(worldSpaceCoordinates.x, worldSpaceCoordinates.y);
-
-            return true;
-        }
-        else
-        {
-            pressedWorldCoordinates = Vector2.zero;
-
-            return false;
-        }
+        // Return true and the pressed screen position if the screen is being pressed
+        return (pressedScreenPosition = pressAction.inProgress ? positionAction.ReadValue<Vector2>() : Vector2.zero) != Vector2.zero;
     }
 
-    public bool PressedScreenCoordinates(out Vector2 pressedScreenCoordinates)
+    public bool TryGetPressedWorldPosition(out Vector2 pressedWorldPosition)
     {
-        // If the player is pressing on the screen
-        if (pressAction.inProgress == true)
-        {
-            // Set pressed screen coordinates to the value of the position action
-            pressedScreenCoordinates = positionAction.ReadValue<Vector2>();
-
-            return true;
-        }
-        else
-        {
-            pressedScreenCoordinates = Vector2.zero;
-
-            return false;
-        }
+        // Return true and the pressed world position if the screen is being pressed
+        return (pressedWorldPosition = TryGetPressedScreenPosition(out Vector2 pressedScreenPosition) ? ScreenPositionToWorldPosition(pressedScreenPosition) : Vector2.zero) != Vector2.zero;
     }
 
-    public bool TappedWorldCoordinates(out Vector2 tappedWorldCoordinates)
+    public bool TryGetTappedScreenPosition(out Vector2 tappedScreenPosition)
     {
-        if (TappedScreenCoordinates(out Vector2 tappedScreenCoordinates))
-        {
-            // Convert pressed screen coordinates to world space coordinates
-            Vector3 worldSpaceCoordinates = Camera.main.ScreenToWorldPoint(new Vector3(tappedScreenCoordinates.x, tappedScreenCoordinates.y, Camera.main.nearClipPlane));
-
-            tappedWorldCoordinates = new Vector2(worldSpaceCoordinates.x, worldSpaceCoordinates.y);
-
-            return true;
-        }
-        else
-        {
-            tappedWorldCoordinates = Vector2.zero;
-
-            return false;
-        }
+        // Return true and the tapped screen position if the press action was released this frame
+        return (tappedScreenPosition = pressAction.WasReleasedThisFrame() ? lastTouchedScreenPosition : Vector2.zero) != Vector2.zero;
     }
 
-    public bool TappedScreenCoordinates(out Vector2 tappedScreenCoordinates)
+    public bool TryGetTappedWorldPosition(out Vector2 tappedWorldPosition)
     {
-        if (pressAction.WasReleasedThisFrame() == true)
-        {
-            tappedScreenCoordinates = lastTouchedScreenPosition;
+        // Return true and the tapped world position if the press action was released this frame
+        return (tappedWorldPosition = pressAction.WasReleasedThisFrame() ? lastTouchedWorldPosition : Vector2.zero) != Vector2.zero;
+    }
 
-            return true;
-        }
-        else
-        {
-            tappedScreenCoordinates = Vector2.zero;
+    private Vector2 ScreenPositionToWorldPosition(Vector2 screenPosition)
+    {
+        // Convert screen position to world position
+        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, Camera.main.nearClipPlane));
 
-            return false;
-        }
+        // Return world position
+        return new Vector2(worldPosition.x, worldPosition.y);
     }
 }
