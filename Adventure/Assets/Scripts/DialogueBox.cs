@@ -10,6 +10,8 @@ public class DialogueBox : MonoBehaviour
 
     public float characterDisplayDelay = 0.025f;
 
+    public AnimationCurve animationCurve;
+
     private TMP_Text text;
     private CanvasGroup canvasGroup;
 
@@ -66,7 +68,7 @@ public class DialogueBox : MonoBehaviour
         {
             float time = elapsedTime / 0.5f;
 
-            float currentAlpha = Mathf.Lerp(startOpacity, targetOpacity, time);
+            float currentAlpha = Mathf.Lerp(startOpacity, targetOpacity, animationCurve.Evaluate(time));
 
             canvasGroup.alpha = currentAlpha;
 
@@ -84,7 +86,7 @@ public class DialogueBox : MonoBehaviour
         {
             float time = elapsedTime / 0.5f;
 
-            Vector3 currentPosition = Vector3.Lerp(startPosition, targetPosition, time);
+            Vector3 currentPosition = Vector3.Lerp(startPosition, targetPosition, animationCurve.Evaluate(time));
 
             Camera.main.transform.position = currentPosition;
 

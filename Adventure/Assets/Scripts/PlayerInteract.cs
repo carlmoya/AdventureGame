@@ -7,25 +7,25 @@ public class PlayerInteract : MonoBehaviour
 {
     // Fields
 
-    public float maxInteractionDistance = 5f;
-
     private PlayerInput playerInput;
 
     // Methods
 
     private void Start()
     {
+        // Set reference to player input component
         playerInput = GetComponent<PlayerInput>();
     }
 
     private void Update()
     {
-        // If the screen is tapped and the tapped world position is within the max interaction distance
-        if (playerInput.TryGetTappedWorldPosition(out Vector2 tappedWorldPosition) && Vector2.Distance(transform.position, tappedWorldPosition) < maxInteractionDistance)
+        // If the screen is tapped
+        if (playerInput.TryGetTappedWorldPosition(out Vector2 tappedWorldPosition))
         {
-            // If an interactable if found at the tapped world position and can be interacted with
+            // If a valid interactable is found at the tapped world position
             if (FoundInteractable(tappedWorldPosition, out BaseInteractable interactable) && interactable.CanInteract() == true)
             {
+                // Interact with the interactable
                 interactable.Interact();
             }
         }
@@ -45,11 +45,12 @@ public class PlayerInteract : MonoBehaviour
             .Where(interactable => interactable != null)
 
             // Sort by distance
-            .OrderBy(interactable => Vector2.Distance(((MonoBehaviour)interactable).transform.position, searchPosition))
+            .OrderBy(interactable => Vector2.Distance((interactable).transform.position, searchPosition))
 
             // Set closest interactable
             .FirstOrDefault();
 
+        // Return true if the closest interactable is not null
         return closestInteractable != null;
     }
 }

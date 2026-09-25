@@ -184,6 +184,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 676362123056896645, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: interactable
+      value: 
+      objectReference: {fileID: 1051742231}
     - target: {fileID: 7701066825995082330, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
       propertyPath: m_LocalPosition.x
       value: -3
@@ -253,9 +257,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f064437f8f0fc4c45a877049316f19ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
-  showInteractPrompt: 1
-  interactPromptPrefab: {fileID: 5595358621687050690, guid: 37f3807478842164fbdfe89363928615, type: 3}
-  interactPromptVerticalOffset: 1
+  maxDistanceFromPlayerToInteract: 5
   dialogueLines:
   - Test 1
   - Test 2
@@ -269,6 +271,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 676362123056896645, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: interactable
+      value: 
+      objectReference: {fileID: 1632722459}
     - target: {fileID: 7701066825995082330, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
       propertyPath: m_LocalPosition.x
       value: 11
@@ -338,9 +344,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f064437f8f0fc4c45a877049316f19ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
-  showInteractPrompt: 1
-  interactPromptPrefab: {fileID: 5595358621687050690, guid: 37f3807478842164fbdfe89363928615, type: 3}
-  interactPromptVerticalOffset: 1
+  maxDistanceFromPlayerToInteract: 5
   dialogueLines:
   - Test 1 afsdlkfja s fjlsdajf fda jfjdsk
   - Test 2
@@ -354,6 +358,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 676362123056896645, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: interactable
+      value: 
+      objectReference: {fileID: 1633355898}
     - target: {fileID: 7701066825995082330, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
       propertyPath: m_LocalPosition.x
       value: 5
@@ -423,9 +431,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f064437f8f0fc4c45a877049316f19ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
-  showInteractPrompt: 1
-  interactPromptPrefab: {fileID: 5595358621687050690, guid: 37f3807478842164fbdfe89363928615, type: 3}
-  interactPromptVerticalOffset: 1
+  maxDistanceFromPlayerToInteract: 5
   dialogueLines:
   - Test 1
   - Test 2
@@ -597,6 +603,18 @@ PrefabInstance:
     - target: {fileID: 984160572095371842, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_Curve.Array.size
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_Curve.Array.data[1].time
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_Curve.Array.data[1].value
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3671726920270674650, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
       propertyPath: m_Name

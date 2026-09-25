@@ -6,39 +6,33 @@ public abstract class BaseInteractable : MonoBehaviour
 {
     // Fields
 
-    [Header("Interact Prompt Settings")]
+    [Header("Inherited Settings")]
     [Space(15)]
-    public bool showInteractPrompt = true;
-    public GameObject interactPromptPrefab;
-    public float interactPromptVerticalOffset = 1f;
+    public float maxInteractionDistance = 5f;
 
     protected PlayerInteract playerInteract;
 
     // Methods
 
-    protected virtual void Start()
+    protected virtual void Start() // Can be overwritten by inheritor classes
     {
+        // Set reference to player interact component
         playerInteract = FindFirstObjectByType<PlayerInteract>();
-
-        if (showInteractPrompt == true)
-        {
-            // Spawn interact prompt as a child of this transform
-            Instantiate(interactPromptPrefab, transform.position + (Vector3.up * interactPromptVerticalOffset), Quaternion.identity, transform);
-        }
     }
 
-    public abstract void Interact(); // Overwritten by inheritor classes
+    public abstract void Interact(); // Must be overwritten by inheritor classes
 
     // Return Methods
 
     public virtual bool CanInteract()
     {
+        // Return true if the interactable is within the max interaction distance
         return WithinMaxInteractionDistance();
     }
 
     public virtual bool WithinMaxInteractionDistance()
     {
         // Return true if the interactable is within the max interaction distance
-        return Vector2.Distance(transform.position, playerInteract.transform.position) < playerInteract.maxInteractionDistance;
+        return Vector2.Distance(transform.position, playerInteract.transform.position) < maxInteractionDistance;
     }
 }

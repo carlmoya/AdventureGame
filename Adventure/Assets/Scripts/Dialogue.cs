@@ -6,7 +6,7 @@ public class Dialogue : BaseInteractable
 {
     // Fields
 
-    [Header("Dialogue Settings")]
+    [Header("\nDialogue Settings")]
     [Space(15)]
     public string[] dialogueLines = new string[0];
 
