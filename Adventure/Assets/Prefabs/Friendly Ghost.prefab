@@ -142,6 +142,7 @@ GameObject:
   - component: {fileID: 2730228241804921794}
   - component: {fileID: 5419610791683811834}
   - component: {fileID: 1646424871589280317}
+  - component: {fileID: 5217904229175042511}
   m_Layer: 0
   m_Name: Friendly Ghost
   m_TagString: Friendly
@@ -244,7 +245,26 @@ MonoBehaviour:
   speed: 250
   likes: []
   dislikes: []
-  searchRadius: 10
+  searchRadius: 7.5
+--- !u!114 &5217904229175042511
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8815427054634395848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f064437f8f0fc4c45a877049316f19ab, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Dialogue
+  maxInteractionDistance: 7.5
+  repeatLastLine: 1
+  dialogueLines:
+  - Test 1 Test 1 Test 1 Test 1 Test 1 Test 1
+  - Test 2 Test 2 Test 2 Test 2 Test 2 Test 2
+  - Test 3 Test 3 Test 3 Test 3 Test 3 Test 3
+  - Test 4 Test 4 Test 4 Test 4 Test 4 Test 4
 --- !u!1001 &1911712232992494820
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -256,7 +276,7 @@ PrefabInstance:
     - target: {fileID: 1433604703091723873, guid: 37f3807478842164fbdfe89363928615, type: 3}
       propertyPath: interactable
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 5217904229175042511}
     - target: {fileID: 1433604703091723873, guid: 37f3807478842164fbdfe89363928615, type: 3}
       propertyPath: animationDuration
       value: 0.25

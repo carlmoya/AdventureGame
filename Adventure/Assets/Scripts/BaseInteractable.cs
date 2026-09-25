@@ -24,13 +24,13 @@ public abstract class BaseInteractable : MonoBehaviour
 
     // Return Methods
 
-    public virtual bool CanInteract()
+    public virtual bool CanInteract() // Can be overwritten by inheritor classes
     {
         // Return true if the interactable is within the max interaction distance
         return WithinMaxInteractionDistance();
     }
 
-    public virtual bool WithinMaxInteractionDistance()
+    public virtual bool WithinMaxInteractionDistance() // Can be overwritten by inheritor classes
     {
         // Return true if the interactable is within the max interaction distance
         return Vector2.Distance(transform.position, playerInteract.transform.position) < maxInteractionDistance;

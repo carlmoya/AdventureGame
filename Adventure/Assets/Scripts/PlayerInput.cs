@@ -19,25 +19,34 @@ public class PlayerInput : MonoBehaviour
 
     private void Awake()
     {
+        // Set press action to appropriate input system action
         pressAction = InputSystem.actions.FindAction("Press");
+
+        // Set position action to appropriate input system action
         positionAction = InputSystem.actions.FindAction("Position");
     }
 
     public void OnEnable()
     {
+        // Enable gameplay action map
         inputActions.FindActionMap("Gameplay").Enable();
     }
 
     public void OnDisable()
     {
+        // Disable gameplay action map
         inputActions.FindActionMap("Gameplay").Disable();
     }
 
     private void Update()
     {
+        // If the screen is pressed
         if (TryGetPressedScreenPosition(out Vector2 pressedScreenPosition))
         {
+            // Set the last touched screen position using the pressed screen position
             lastTouchedScreenPosition = pressedScreenPosition;
+
+            // Set the last touched world using the last touched screen position
             lastTouchedWorldPosition = ScreenPositionToWorldPosition(lastTouchedScreenPosition);
         }
     }

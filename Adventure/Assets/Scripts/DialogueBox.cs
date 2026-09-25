@@ -12,6 +12,8 @@ public class DialogueBox : MonoBehaviour
 
     public AnimationCurve animationCurve;
 
+    public bool isAnimating {  get; private set; }
+
     private TMP_Text text;
     private CanvasGroup canvasGroup;
 
@@ -31,11 +33,15 @@ public class DialogueBox : MonoBehaviour
 
     // Coroutines
 
-    public IEnumerator DisplayText(string inputText, Vector2 speakerPosition)
+    public IEnumerator TextAnimation(string inputText, Vector2 speakerPosition)
     {
         player.GetComponent<PlayerInput>().OnDisable();
 
         text.text = "";
+
+        isAnimating = true;
+
+        Time.timeScale = 0f;
 
         StartCoroutine(OpacityAnimation(1f));
         StartCoroutine(CameraMoveAnimation(new Vector3(speakerPosition.x, speakerPosition.y, -10f)));
@@ -55,6 +61,10 @@ public class DialogueBox : MonoBehaviour
         player.GetComponent<PlayerInput>().OnEnable();
 
         StopAllCoroutines();
+
+        isAnimating = false;
+
+        Time.timeScale = 1f;
 
         StartCoroutine(OpacityAnimation(0f));
         StartCoroutine(CameraMoveAnimation(new Vector3(player.transform.position.x, player.transform.position.y, -10f)));
