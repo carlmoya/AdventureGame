@@ -25,9 +25,8 @@ public class Dialogue : BaseInteractable
 
     public override void Interact()
     {
-        StartCoroutine(dialogueBox.DisplayText(dialogueLines[currentLine]));
+        StartCoroutine(dialogueBox.DisplayText(dialogueLines[currentLine], transform.position));
 
-        // Iterate the current line
         currentLine++;
     }
 }

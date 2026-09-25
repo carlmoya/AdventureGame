@@ -23,12 +23,12 @@ public class PlayerInput : MonoBehaviour
         positionAction = InputSystem.actions.FindAction("Position");
     }
 
-    private void OnEnable()
+    public void OnEnable()
     {
         inputActions.FindActionMap("Gameplay").Enable();
     }
 
-    private void OnDisable()
+    public void OnDisable()
     {
         inputActions.FindActionMap("Gameplay").Disable();
     }

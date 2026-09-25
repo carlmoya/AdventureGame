@@ -1,42 +1,42 @@
 using TMPro;
 using UnityEngine;
-using UnityEngine.UI;
 using System.Collections;
 
 // Script written by Carl Moya
 
 public class DialogueBox : MonoBehaviour
 {
-    // TODO Prevent dialogues from triggering while displaying text
-
     // Fields
 
-    public float characterDisplayDelay = 0.05f;
+    public float characterDisplayDelay = 0.025f;
 
-    private Image box;
     private TMP_Text text;
+    private CanvasGroup canvasGroup;
+
+    private GameObject player;
 
     // Methods
 
     private void Start()
     {
-        // Set reference to box
-        box = GetComponent<Image>();
-
-        // Set reference to text
         text = GetComponentInChildren<TMP_Text>();
+        canvasGroup = GetComponent<CanvasGroup>();
+
+        player = FindFirstObjectByType<PlayerMovement>().gameObject;
+
+        canvasGroup.alpha = 0f;
     }
 
     // Coroutines
 
-    public IEnumerator DisplayText(string inputText)
+    public IEnumerator DisplayText(string inputText, Vector2 speakerPosition)
     {
-        // Reset text contents
+        player.GetComponent<PlayerInput>().OnDisable();
+
         text.text = "";
 
-        // TODO Wait for camera move animation
-
-        // TODO Wait for box visibility animation
+        StartCoroutine(OpacityAnimation(1f));
+        StartCoroutine(CameraMoveAnimation(new Vector3(speakerPosition.x, speakerPosition.y, -10f)));
 
         // Go thru characters in input text
         foreach (char character in inputText)
@@ -48,18 +48,49 @@ public class DialogueBox : MonoBehaviour
             yield return new WaitForSecondsRealtime(characterDisplayDelay);
         }
 
-        // TODO Wait for box visibility animation
+        yield return new WaitForSecondsRealtime(1f);
 
-        // TODO Wait for camera move animation
+        player.GetComponent<PlayerInput>().OnEnable();
+
+        StopAllCoroutines();
+
+        StartCoroutine(OpacityAnimation(0f));
+        StartCoroutine(CameraMoveAnimation(new Vector3(player.transform.position.x, player.transform.position.y, -10f)));
     }
 
-    public IEnumerator boxVisibilityAnimation()
+    public IEnumerator OpacityAnimation(float targetOpacity)
     {
-        yield return null;
+        float startOpacity = canvasGroup.alpha;
+
+        for (float elapsedTime = 0f; elapsedTime < 0.5f; elapsedTime += Time.unscaledDeltaTime)
+        {
+            float time = elapsedTime / 0.5f;
+
+            float currentAlpha = Mathf.Lerp(startOpacity, targetOpacity, time);
+
+            canvasGroup.alpha = currentAlpha;
+
+            yield return null;
+        }
+
+        canvasGroup.alpha = targetOpacity;
     }
 
-    public IEnumerator CameraMoveAnimation()
+    public IEnumerator CameraMoveAnimation(Vector3 targetPosition)
     {
-        yield return null;
+        Vector3 startPosition = Camera.main.transform.position;
+
+        for (float elapsedTime = 0f; elapsedTime < 0.5f; elapsedTime += Time.unscaledDeltaTime)
+        {
+            float time = elapsedTime / 0.5f;
+
+            Vector3 currentPosition = Vector3.Lerp(startPosition, targetPosition, time);
+
+            Camera.main.transform.position = currentPosition;
+
+            yield return null;
+        }
+
+        Camera.main.transform.position = targetPosition;
     }
 }
