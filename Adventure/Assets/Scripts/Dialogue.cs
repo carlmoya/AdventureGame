@@ -2,13 +2,12 @@ using UnityEngine;
 
 // Script written by Carl Moya
 
-public class Dialogue : MonoBehaviour, IInteractable
+public class Dialogue : BaseInteractable
 {
     // Fields
 
-    public Color dialogueBoxColor = Color.black;
-    public Color dialogueTextColor = Color.white;
-
+    [Header("Dialogue Settings")]
+    [Space(15)]
     public string[] dialogueLines = new string[0];
 
     private int currentLine;
@@ -16,15 +15,17 @@ public class Dialogue : MonoBehaviour, IInteractable
 
     // Methods
 
-    public void Start()
+    protected override void Start()
     {
-        // Set reference to dialogue box
+        // Run inherited behaviors
+        base.Start();
+
         dialogueBox = FindFirstObjectByType<DialogueBox>();
     }
 
-    void IInteractable.Interact()
+    public override void Interact()
     {
-        StartCoroutine(dialogueBox.DisplayText(dialogueLines[currentLine], dialogueBoxColor, dialogueTextColor));
+        StartCoroutine(dialogueBox.DisplayText(dialogueLines[currentLine]));
 
         // Iterate the current line
         currentLine++;

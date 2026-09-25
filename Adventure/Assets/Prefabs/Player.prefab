@@ -148,7 +148,9 @@ GameObject:
   - component: {fileID: 2075561122586499976}
   - component: {fileID: 6859565346414325603}
   - component: {fileID: 7479328689286908997}
+  - component: {fileID: 2222005096997068320}
   - component: {fileID: 2070130649217798616}
+  - component: {fileID: 8146903934866041098}
   - component: {fileID: 7025332553581868493}
   - component: {fileID: 1699083632162231155}
   - component: {fileID: 3270745925838980683}
@@ -240,6 +242,19 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 4
+--- !u!114 &2222005096997068320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4889362278299658697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fc27b010f3ac3064397211a12aa2af37, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInput
+  inputActions: {fileID: -944628639613478452, guid: 9cc3d0b9f3815834090cf819b5dac7a2, type: 3}
 --- !u!114 &2070130649217798616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -253,16 +268,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::PlayerMovement
   speed: 500
-  inputActions: {fileID: -944628639613478452, guid: 9cc3d0b9f3815834090cf819b5dac7a2, type: 3}
-  directionTriggers:
-  - Moving East
-  - Moving NorthEast
-  - Moving North
-  - Moving NorthWest
-  - Moving West
-  - Moving SouthWest
-  - Moving South
-  - Moving SouthEast
+--- !u!114 &8146903934866041098
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4889362278299658697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ec5568509efa1c240918eeef11db5969, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PlayerInteract
+  maxInteractionDistance: 5
 --- !u!114 &7025332553581868493
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -294,6 +312,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fd67b73d70415544f8920176ee49e3a5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: '::'
+  source: {fileID: 0}
+  pu: {fileID: 0}
 --- !u!82 &3270745925838980683
 AudioSource:
   m_ObjectHideFlags: 0

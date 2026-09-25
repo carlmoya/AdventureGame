@@ -11,7 +11,7 @@ public class DialogueBox : MonoBehaviour
 
     // Fields
 
-    public float characterDisplayDelay = 0.1f;
+    public float characterDisplayDelay = 0.05f;
 
     private Image box;
     private TMP_Text text;
@@ -29,7 +29,7 @@ public class DialogueBox : MonoBehaviour
 
     // Coroutines
 
-    public IEnumerator DisplayText(string inputText, Color boxColor, Color textColor)
+    public IEnumerator DisplayText(string inputText)
     {
         // Reset text contents
         text.text = "";
@@ -37,12 +37,6 @@ public class DialogueBox : MonoBehaviour
         // TODO Wait for camera move animation
 
         // TODO Wait for box visibility animation
-
-        // Set box color
-        box.color = boxColor;
-
-        // Set text color
-        text.color = textColor;
 
         // Go thru characters in input text
         foreach (char character in inputText)

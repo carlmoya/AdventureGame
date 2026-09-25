@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f064437f8f0fc4c45a877049316f19ab
+guid: 13bd12cc61a232c45b8fb26196053aa6
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
   defaultReferences:
-  - interactPromptPrefab: {fileID: 5595358621687050690, guid: 37f3807478842164fbdfe89363928615, type: 3}
+  - interactPrompt: {fileID: 5595358621687050690, guid: 37f3807478842164fbdfe89363928615, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

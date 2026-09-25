@@ -7,7 +7,7 @@ public class PlayerInteract : MonoBehaviour
 {
     // Fields
 
-    public float maxInteractionDistance = 2f;
+    public float maxInteractionDistance = 5f;
 
     private PlayerInput playerInput;
 
@@ -20,26 +20,36 @@ public class PlayerInteract : MonoBehaviour
 
     private void Update()
     {
-        CheckInteraction();
-    }
-
-    private void CheckInteraction()
-    {
-        // If the player tapped the screen
-        if (playerInput.TryGetTappedWorldPosition(out Vector2 tappedWorldPosition))
+        // If the screen is tapped and the tapped world position is within the max interaction distance
+        if (playerInput.TryGetTappedWorldPosition(out Vector2 tappedWorldPosition) && Vector2.Distance(transform.position, tappedWorldPosition) < maxInteractionDistance)
         {
-            // TODO Check if tapped world coordinates is within max interaction distance
-
-            // TODO Search for closest interactible to tapped world coordinates
-
-            // TODO trigger interactible method
+            // If an interactable if found at the tapped world position and can be interacted with
+            if (FoundInteractable(tappedWorldPosition, out BaseInteractable interactable) && interactable.CanInteract() == true)
+            {
+                interactable.Interact();
+            }
         }
     }
 
     // Return Methods
 
-    /*private bool FoundInteractible(out IInteractible interactible)
+    private bool FoundInteractable(Vector2 searchPosition, out BaseInteractable closestInteractable)
     {
-        
-    }*/
+        // Get all colliders within search radius
+        closestInteractable = Physics2D.OverlapCircleAll(searchPosition, 0.5f)
+
+            // Select interactable component
+            .Select(otherCollider => otherCollider.GetComponent<BaseInteractable>())
+
+            // Check that interactable component is not null
+            .Where(interactable => interactable != null)
+
+            // Sort by distance
+            .OrderBy(interactable => Vector2.Distance(((MonoBehaviour)interactable).transform.position, searchPosition))
+
+            // Set closest interactable
+            .FirstOrDefault();
+
+        return closestInteractable != null;
+    }
 }
