@@ -9,32 +9,42 @@ public class DialogueBox : MonoBehaviour
     // Fields
 
     public float characterDisplayDelay = 0.025f;
-
+    public float animationDuration = 0.5f;
     public AnimationCurve animationCurve;
 
     public bool isAnimating {  get; private set; }
 
     private TMP_Text text;
+    private Transform player;
     private CanvasGroup canvasGroup;
-
-    private GameObject player;
 
     // Methods
 
     private void Start()
     {
+        // Get reference to text component
         text = GetComponentInChildren<TMP_Text>();
+
+        // Get reference to canvas group component
         canvasGroup = GetComponent<CanvasGroup>();
 
-        player = FindFirstObjectByType<PlayerMovement>().gameObject;
+        // Get reference to player transform component
+        player = GameObject.FindWithTag("Player").transform;
 
+        // Hide dialogue box
         canvasGroup.alpha = 0f;
+
+        // Scale down to 75%
+        transform.localScale = Vector3.one * 0.75f;
     }
 
     // Coroutines
 
     public IEnumerator TextAnimation(string inputText, Vector2 speakerPosition)
     {
+        // TODO Write comments
+        // TODO Clean up method
+
         player.GetComponent<PlayerInput>().OnDisable();
 
         text.text = "";
@@ -43,8 +53,7 @@ public class DialogueBox : MonoBehaviour
 
         Time.timeScale = 0f;
 
-        StartCoroutine(OpacityAnimation(1f));
-        StartCoroutine(CameraMoveAnimation(new Vector3(speakerPosition.x, speakerPosition.y, -10f)));
+        yield return StartCoroutine(TextBoxAnimation(1f, Vector3.one, new Vector3(speakerPosition.x, speakerPosition.y, -10f)));
 
         // Go thru characters in input text
         foreach (char character in inputText)
@@ -58,51 +67,67 @@ public class DialogueBox : MonoBehaviour
 
         yield return new WaitForSecondsRealtime(1f);
 
-        player.GetComponent<PlayerInput>().OnEnable();
+        //player.GetComponent<PlayerInput>().OnEnable();
 
         StopAllCoroutines();
 
-        isAnimating = false;
+        //isAnimating = false;
 
         Time.timeScale = 1f;
 
-        StartCoroutine(OpacityAnimation(0f));
-        StartCoroutine(CameraMoveAnimation(new Vector3(player.transform.position.x, player.transform.position.y, -10f)));
+        yield return StartCoroutine(TextBoxAnimation(0f, Vector3.one * 0.75f, new Vector3(player.position.x, player.position.y, -10f)));
+
+        isAnimating = false;
+
+        player.GetComponent<PlayerInput>().OnEnable();
     }
 
-    public IEnumerator OpacityAnimation(float targetOpacity)
+    private IEnumerator TextBoxAnimation(float targetOpacity, Vector3 targetScale, Vector3 targetCameraPosition)
     {
+        // Get start opacity from canvas group
         float startOpacity = canvasGroup.alpha;
 
-        for (float elapsedTime = 0f; elapsedTime < 0.5f; elapsedTime += Time.unscaledDeltaTime)
+        // Get start scale from transform
+        Vector3 startScale = transform.localScale;
+
+        // Get start camera position from main camera
+        Vector3 startCameraPosition = Camera.main.transform.position;
+
+        // Track & increase the elapsed time of the animation
+        for (float elapsedTime = 0f; elapsedTime < animationDuration; elapsedTime += Time.unscaledDeltaTime)
         {
-            float time = elapsedTime / 0.5f;
+            // Normalize elapsed time
+            float time = elapsedTime / animationDuration;
 
-            float currentAlpha = Mathf.Lerp(startOpacity, targetOpacity, animationCurve.Evaluate(time));
+            // Interpolate opacity over time
+            float currentOpacity = Mathf.Lerp(startOpacity, targetOpacity, animationCurve.Evaluate(time));
 
-            canvasGroup.alpha = currentAlpha;
+            // Apply current opacity to canvas group
+            canvasGroup.alpha = currentOpacity;
 
+            // Interpolate scale over time
+            Vector3 currentScale = Vector3.Lerp(startScale, targetScale, animationCurve.Evaluate(time));
+
+            // Apply current scale to transform
+            transform.localScale = currentScale;
+
+            // Interpolate camera position over time
+            Vector3 currentCameraPosition = Vector3.Lerp(startCameraPosition, targetCameraPosition, animationCurve.Evaluate(time));
+
+            // Apply current camera position to main camera
+            Camera.main.transform.position = currentCameraPosition;
+
+            // Wait for next frame
             yield return null;
         }
 
+        // Ensure target opacity
         canvasGroup.alpha = targetOpacity;
-    }
 
-    public IEnumerator CameraMoveAnimation(Vector3 targetPosition)
-    {
-        Vector3 startPosition = Camera.main.transform.position;
+        // Ensure target scale
+        transform.localScale = targetScale;
 
-        for (float elapsedTime = 0f; elapsedTime < 0.5f; elapsedTime += Time.unscaledDeltaTime)
-        {
-            float time = elapsedTime / 0.5f;
-
-            Vector3 currentPosition = Vector3.Lerp(startPosition, targetPosition, animationCurve.Evaluate(time));
-
-            Camera.main.transform.position = currentPosition;
-
-            yield return null;
-        }
-
-        Camera.main.transform.position = targetPosition;
+        // Ensure target camera location
+        Camera.main.transform.position = targetCameraPosition;
     }
 }
