@@ -1,7 +1,8 @@
 using UnityEngine;
 
 
-//PF Script handles enemy and pickup collisions, as well as health system and talisman functions
+//PF
+//Script handles enemy and pickup collisions, as well as health system and talisman functions
 
 public class Collisions : MonoBehaviour
 {
@@ -54,13 +55,4 @@ public class Collisions : MonoBehaviour
 
     }
 
-    //private void OnTriggerStay2D(Collider2D col)
-    //{
-        
-    //}
-
-    //private void OnTriggerExit2D(Collider2D col)
-    //{
-        
-    //}
 }

@@ -1,6 +1,7 @@
 using UnityEngine;
 
-//PF script handles enemy movement and behaviors
+//PF
+//script handles enemy movement and behaviors
 
 public class Ghost_Enemy_Movement : MonoBehaviour
 {
