@@ -20,6 +20,7 @@ TagManager:
   - BathroomValid
   - BathroomInvalid
   - TalismanCollect
+  - DoorInteract
   layers:
   - Default
   - TransparentFX
