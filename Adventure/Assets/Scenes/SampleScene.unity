@@ -130,9 +130,10 @@ GameObject:
   - component: {fileID: 24524748}
   - component: {fileID: 24524750}
   - component: {fileID: 24524749}
+  - component: {fileID: 24524751}
   m_Layer: 0
   m_Name: RegisterInvalid (2)
-  m_TagString: Untagged
+  m_TagString: RegistersInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -182,7 +183,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -257,6 +258,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &24524751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24524747}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &51462117
 GameObject:
   m_ObjectHideFlags: 0
@@ -268,9 +283,10 @@ GameObject:
   - component: {fileID: 51462118}
   - component: {fileID: 51462120}
   - component: {fileID: 51462119}
+  - component: {fileID: 51462121}
   m_Layer: 0
   m_Name: BathroomInvalid (6)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -320,7 +336,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -395,6 +411,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &51462121
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 51462117}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &89936871
 GameObject:
   m_ObjectHideFlags: 0
@@ -406,9 +436,10 @@ GameObject:
   - component: {fileID: 89936872}
   - component: {fileID: 89936874}
   - component: {fileID: 89936873}
+  - component: {fileID: 89936875}
   m_Layer: 0
   m_Name: BathroomInvalid (4)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -458,7 +489,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -533,6 +564,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &89936875
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 89936871}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &111628573
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -606,9 +651,10 @@ GameObject:
   - component: {fileID: 148143267}
   - component: {fileID: 148143269}
   - component: {fileID: 148143268}
+  - component: {fileID: 148143270}
   m_Layer: 0
   m_Name: ShelfInvalid
-  m_TagString: Untagged
+  m_TagString: ShelvesInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -658,7 +704,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -733,6 +779,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &148143270
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 148143266}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &167367068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -942,9 +1002,10 @@ GameObject:
   - component: {fileID: 185785880}
   - component: {fileID: 185785882}
   - component: {fileID: 185785881}
+  - component: {fileID: 185785883}
   m_Layer: 0
   m_Name: RegisterInvalid (1)
-  m_TagString: Untagged
+  m_TagString: RegistersInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -994,7 +1055,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1069,6 +1130,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &185785883
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 185785879}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &225550402
 GameObject:
   m_ObjectHideFlags: 0
@@ -1080,9 +1155,11 @@ GameObject:
   - component: {fileID: 225550403}
   - component: {fileID: 225550405}
   - component: {fileID: 225550404}
+  - component: {fileID: 225550406}
+  - component: {fileID: 225550407}
   m_Layer: 0
   m_Name: RegisterInvalid (3)
-  m_TagString: Untagged
+  m_TagString: RegistersInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1132,7 +1209,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1207,6 +1284,34 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &225550406
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225550402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 0
+--- !u!114 &225550407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 225550402}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &254987016
 GameObject:
   m_ObjectHideFlags: 0
@@ -1218,9 +1323,10 @@ GameObject:
   - component: {fileID: 254987017}
   - component: {fileID: 254987019}
   - component: {fileID: 254987018}
+  - component: {fileID: 254987020}
   m_Layer: 0
   m_Name: BathroomInvalid (8)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1270,7 +1376,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -1345,6 +1451,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &254987020
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 254987016}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &277220964
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6334,9 +6454,10 @@ GameObject:
   - component: {fileID: 405387333}
   - component: {fileID: 405387335}
   - component: {fileID: 405387334}
+  - component: {fileID: 405387336}
   m_Layer: 0
   m_Name: BathroomInvalid (7)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6386,7 +6507,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -6461,6 +6582,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &405387336
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 405387332}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &451071290
 GameObject:
   m_ObjectHideFlags: 0
@@ -6472,9 +6607,10 @@ GameObject:
   - component: {fileID: 451071291}
   - component: {fileID: 451071293}
   - component: {fileID: 451071292}
+  - component: {fileID: 451071294}
   m_Layer: 0
   m_Name: BathroomInvalid (1)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6524,7 +6660,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -6599,6 +6735,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &451071294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 451071290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &462572986
 GameObject:
   m_ObjectHideFlags: 0
@@ -6651,9 +6801,10 @@ GameObject:
   - component: {fileID: 468741273}
   - component: {fileID: 468741275}
   - component: {fileID: 468741274}
+  - component: {fileID: 468741276}
   m_Layer: 0
   m_Name: ProduceInvalid (8)
-  m_TagString: Untagged
+  m_TagString: ProduceInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6703,7 +6854,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -6778,6 +6929,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &468741276
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 468741272}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &474242391
 GameObject:
   m_ObjectHideFlags: 0
@@ -6885,9 +7050,10 @@ GameObject:
   - component: {fileID: 535679130}
   - component: {fileID: 535679132}
   - component: {fileID: 535679131}
+  - component: {fileID: 535679133}
   m_Layer: 0
   m_Name: ProduceInvalid (6)
-  m_TagString: Untagged
+  m_TagString: ProduceInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6937,7 +7103,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -7012,6 +7178,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &535679133
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 535679129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &595148842
 GameObject:
   m_ObjectHideFlags: 0
@@ -8070,9 +8250,10 @@ GameObject:
   - component: {fileID: 615581720}
   - component: {fileID: 615581722}
   - component: {fileID: 615581721}
+  - component: {fileID: 615581723}
   m_Layer: 0
   m_Name: FreezerBox_Invalid (1)
-  m_TagString: Untagged
+  m_TagString: FreezerInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8122,7 +8303,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -8197,6 +8378,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &615581723
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 615581719}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &619394800
 GameObject:
   m_ObjectHideFlags: 0
@@ -8408,9 +8603,10 @@ GameObject:
   - component: {fileID: 663419053}
   - component: {fileID: 663419055}
   - component: {fileID: 663419054}
+  - component: {fileID: 663419056}
   m_Layer: 0
   m_Name: BathroomValid
-  m_TagString: Untagged
+  m_TagString: BathroomValid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8460,7 +8656,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -8535,6 +8731,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &663419056
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 663419052}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!4 &683999579 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7322257597507409367, guid: 80823a899c150d1498c1a0573f9564ff, type: 3}
@@ -8645,9 +8855,10 @@ GameObject:
   - component: {fileID: 759984856}
   - component: {fileID: 759984858}
   - component: {fileID: 759984857}
+  - component: {fileID: 759984859}
   m_Layer: 0
   m_Name: RegisterValid
-  m_TagString: Untagged
+  m_TagString: RegistersValid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8697,7 +8908,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -8772,6 +8983,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &759984859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 759984855}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &767534226
 GameObject:
   m_ObjectHideFlags: 0
@@ -8783,9 +9008,10 @@ GameObject:
   - component: {fileID: 767534227}
   - component: {fileID: 767534229}
   - component: {fileID: 767534228}
+  - component: {fileID: 767534230}
   m_Layer: 0
   m_Name: RegisterInvalid
-  m_TagString: Untagged
+  m_TagString: RegistersInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8835,7 +9061,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -8910,6 +9136,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &767534230
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 767534226}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &801204284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9309,9 +9549,10 @@ GameObject:
   - component: {fileID: 888322747}
   - component: {fileID: 888322749}
   - component: {fileID: 888322748}
+  - component: {fileID: 888322750}
   m_Layer: 0
   m_Name: ProduceInvalid (5)
-  m_TagString: Untagged
+  m_TagString: ProduceInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9361,7 +9602,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -9436,6 +9677,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &888322750
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888322746}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &888643242
 GameObject:
   m_ObjectHideFlags: 0
@@ -9447,9 +9702,10 @@ GameObject:
   - component: {fileID: 888643243}
   - component: {fileID: 888643245}
   - component: {fileID: 888643244}
+  - component: {fileID: 888643246}
   m_Layer: 0
   m_Name: ProduceInvalid (4)
-  m_TagString: Untagged
+  m_TagString: ProduceInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9499,7 +9755,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -9574,6 +9830,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &888643246
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 888643242}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &937041461
 GameObject:
   m_ObjectHideFlags: 0
@@ -9714,9 +9984,10 @@ GameObject:
   - component: {fileID: 985075669}
   - component: {fileID: 985075671}
   - component: {fileID: 985075670}
+  - component: {fileID: 985075672}
   m_Layer: 0
   m_Name: BathroomInvalid (3)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9766,7 +10037,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -9841,6 +10112,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &985075672
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 985075668}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &1001347380
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9918,9 +10203,10 @@ GameObject:
   - component: {fileID: 1022914625}
   - component: {fileID: 1022914627}
   - component: {fileID: 1022914626}
+  - component: {fileID: 1022914628}
   m_Layer: 0
   m_Name: ProduceInvalid (3)
-  m_TagString: Untagged
+  m_TagString: ProduceInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9970,7 +10256,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -10045,6 +10331,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1022914628
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1022914624}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1098315754
 GameObject:
   m_ObjectHideFlags: 0
@@ -85931,9 +86231,10 @@ GameObject:
   - component: {fileID: 1164628887}
   - component: {fileID: 1164628889}
   - component: {fileID: 1164628888}
+  - component: {fileID: 1164628890}
   m_Layer: 0
   m_Name: ProduceInvalid (7)
-  m_TagString: Untagged
+  m_TagString: ProduceInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -85983,7 +86284,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -86058,6 +86359,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1164628890
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164628886}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1167138410
 GameObject:
   m_ObjectHideFlags: 0
@@ -86069,9 +86384,10 @@ GameObject:
   - component: {fileID: 1167138411}
   - component: {fileID: 1167138413}
   - component: {fileID: 1167138412}
+  - component: {fileID: 1167138414}
   m_Layer: 0
   m_Name: ProduceInvalid
-  m_TagString: Untagged
+  m_TagString: ProduceInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86121,7 +86437,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -86196,6 +86512,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1167138414
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1167138410}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1236964170
 GameObject:
   m_ObjectHideFlags: 0
@@ -86207,9 +86537,10 @@ GameObject:
   - component: {fileID: 1236964171}
   - component: {fileID: 1236964173}
   - component: {fileID: 1236964172}
+  - component: {fileID: 1236964174}
   m_Layer: 0
   m_Name: BathroomInvalid (5)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -86259,7 +86590,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -86334,6 +86665,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1236964174
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1236964170}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &1237486746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -162184,9 +162529,10 @@ GameObject:
   - component: {fileID: 1458864450}
   - component: {fileID: 1458864452}
   - component: {fileID: 1458864451}
+  - component: {fileID: 1458864453}
   m_Layer: 0
   m_Name: ProduceInvalid (1)
-  m_TagString: Untagged
+  m_TagString: ProduceInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162236,7 +162582,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -162311,6 +162657,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1458864453
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458864449}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &1473648042
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -162388,9 +162748,10 @@ GameObject:
   - component: {fileID: 1481623704}
   - component: {fileID: 1481623706}
   - component: {fileID: 1481623705}
+  - component: {fileID: 1481623707}
   m_Layer: 0
   m_Name: BathroomInvalid
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162440,7 +162801,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -162515,6 +162876,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1481623707
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1481623703}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &1495348567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -162592,9 +162967,10 @@ GameObject:
   - component: {fileID: 1542188634}
   - component: {fileID: 1542188636}
   - component: {fileID: 1542188635}
+  - component: {fileID: 1542188637}
   m_Layer: 0
   m_Name: ShelfInvalid (1)
-  m_TagString: Untagged
+  m_TagString: ShelvesInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162644,7 +163020,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -162719,6 +163095,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1542188637
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1542188633}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1567023118
 GameObject:
   m_ObjectHideFlags: 0
@@ -162730,9 +163120,10 @@ GameObject:
   - component: {fileID: 1567023119}
   - component: {fileID: 1567023121}
   - component: {fileID: 1567023120}
+  - component: {fileID: 1567023122}
   m_Layer: 0
   m_Name: ProduceInvalid (2)
-  m_TagString: Untagged
+  m_TagString: ProduceInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -162782,7 +163173,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -162857,6 +163248,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1567023122
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1567023118}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1606609628
 GameObject:
   m_ObjectHideFlags: 0
@@ -168417,9 +168822,10 @@ GameObject:
   - component: {fileID: 1679248137}
   - component: {fileID: 1679248139}
   - component: {fileID: 1679248138}
+  - component: {fileID: 1679248140}
   m_Layer: 0
   m_Name: ProduceValid
-  m_TagString: Untagged
+  m_TagString: ProduceValid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168469,7 +168875,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -168544,6 +168950,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1679248140
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1679248136}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1702607172
 GameObject:
   m_ObjectHideFlags: 0
@@ -168555,9 +168975,10 @@ GameObject:
   - component: {fileID: 1702607173}
   - component: {fileID: 1702607175}
   - component: {fileID: 1702607174}
+  - component: {fileID: 1702607176}
   m_Layer: 0
   m_Name: ShelfInvalid (2)
-  m_TagString: Untagged
+  m_TagString: ShelvesInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168607,7 +169028,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -168682,6 +169103,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1702607176
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1702607172}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &1726321330
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -168755,9 +169190,10 @@ GameObject:
   - component: {fileID: 1751886698}
   - component: {fileID: 1751886700}
   - component: {fileID: 1751886699}
+  - component: {fileID: 1751886701}
   m_Layer: 0
   m_Name: BathroomInvalid (10)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168807,7 +169243,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -168882,6 +169318,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1751886701
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1751886697}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1754686050
 GameObject:
   m_ObjectHideFlags: 0
@@ -168893,9 +169343,10 @@ GameObject:
   - component: {fileID: 1754686051}
   - component: {fileID: 1754686053}
   - component: {fileID: 1754686052}
+  - component: {fileID: 1754686054}
   m_Layer: 0
   m_Name: BathroomInvalid (2)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -168945,7 +169396,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -169020,6 +169471,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1754686054
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754686050}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1771972864
 GameObject:
   m_ObjectHideFlags: 0
@@ -169031,9 +169496,10 @@ GameObject:
   - component: {fileID: 1771972865}
   - component: {fileID: 1771972867}
   - component: {fileID: 1771972866}
+  - component: {fileID: 1771972868}
   m_Layer: 0
   m_Name: FreezerBox_Valid
-  m_TagString: Untagged
+  m_TagString: FreezerValid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169083,7 +169549,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -169158,6 +169624,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1771972868
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1771972864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1780448731
 GameObject:
   m_ObjectHideFlags: 0
@@ -169206,9 +169686,10 @@ GameObject:
   - component: {fileID: 1799960496}
   - component: {fileID: 1799960498}
   - component: {fileID: 1799960497}
+  - component: {fileID: 1799960499}
   m_Layer: 0
   m_Name: BathroomInvalid (11)
-  m_TagString: Untagged
+  m_TagString: BathroomInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169258,7 +169739,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -169333,6 +169814,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1799960499
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1799960495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1 &1820851555
 GameObject:
   m_ObjectHideFlags: 0
@@ -169891,9 +170386,10 @@ GameObject:
   - component: {fileID: 1947984826}
   - component: {fileID: 1947984828}
   - component: {fileID: 1947984827}
+  - component: {fileID: 1947984829}
   m_Layer: 0
   m_Name: ShelfValid
-  m_TagString: Untagged
+  m_TagString: ShelvesValid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -169943,7 +170439,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -170018,6 +170514,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1947984829
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1947984825}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &1962182972
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -170399,7 +170909,7 @@ GameObject:
   - component: {fileID: 2007195453}
   m_Layer: 0
   m_Name: CollectTalisman
-  m_TagString: Untagged
+  m_TagString: TalismanCollect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170597,9 +171107,10 @@ GameObject:
   - component: {fileID: 2048936067}
   - component: {fileID: 2048936069}
   - component: {fileID: 2048936068}
+  - component: {fileID: 2048936070}
   m_Layer: 0
   m_Name: FreezerBox_Invalid
-  m_TagString: Untagged
+  m_TagString: FreezerInvalid
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -170649,7 +171160,7 @@ BoxCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 1
+  m_IsTrigger: 0
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -170724,6 +171235,20 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &2048936070
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2048936066}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6280838afc5f27343aff1724fd49eca8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::PuzzleInteractable
+  maxInteractionDistance: 5
+  currentRiddle: 1
 --- !u!1001 &862234186410815062
 PrefabInstance:
   m_ObjectHideFlags: 0

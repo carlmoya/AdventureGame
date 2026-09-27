@@ -9,6 +9,17 @@ TagManager:
   - Talisman
   - Friendly
   - DialogueBox
+  - FreezerInvalid
+  - FreezerValid
+  - ProduceInvalid
+  - ProduceValid
+  - ShelvesInvalid
+  - ShelvesValid
+  - RegistersValid
+  - RegistersInvalid
+  - BathroomValid
+  - BathroomInvalid
+  - TalismanCollect
   layers:
   - Default
   - TransparentFX

@@ -5,18 +5,19 @@ public class PuzzleTriggers : MonoBehaviour
 {
     public AudioSource source;
     public AudioClip pu;
-
+    //int riddle;
     
     //PF This script is for managing puzzle logic.
     void Start()
     {
         source = GetComponent<AudioSource>();
+        //riddle = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+
     }
 
     private void OnTriggerEnter2D(Collider2D col)
@@ -29,4 +30,9 @@ public class PuzzleTriggers : MonoBehaviour
             Destroy(col.gameObject);
         }
     }
+
+    //private void CheckRiddle(int riddle)
+    //{
+
+    //}
 }
