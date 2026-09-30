@@ -26,7 +26,7 @@ public class PuzzleTriggers : MonoBehaviour
             source.clip = talismanPU;
             source.Play();
 
-            GameObject.FindFirstObjectByType<GameManager>().Win(); // Line added by Carl Moya
+            PuzzleInteractable.currentRiddle = 8;
 
             Destroy(col.gameObject);
         }

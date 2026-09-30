@@ -10,7 +10,7 @@ public class Collisions : MonoBehaviour
     public AudioSource source;
     public AudioClip damaged, energyPU;
 
-    private HealthBar healthBar; // Line added by Carl Moya
+    private HealthBar healthBar;
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
@@ -19,7 +19,7 @@ public class Collisions : MonoBehaviour
 
         source = GetComponent<AudioSource>();
 
-        healthBar = FindFirstObjectByType<HealthBar>(); // Line added by Carl Moya
+        healthBar = FindFirstObjectByType<HealthBar>();
     }
 
     // Update is called once per frame
@@ -39,7 +39,7 @@ public class Collisions : MonoBehaviour
 
             currentEnergy += 10f;
 
-            healthBar.AnimateHealth(Color.green); // Line added by Carl Moya
+            healthBar.AnimateHealth(Color.green);
 
             Destroy(col.gameObject);
 
@@ -51,12 +51,24 @@ public class Collisions : MonoBehaviour
 
         if (col.CompareTag("Enemy"))
         {
+            if (PuzzleInteractable.currentRiddle >= 8)
+            {
+                Destroy(col.gameObject);
+
+                if (GameObject.FindGameObjectsWithTag("Enemy").Length <= 1)
+                {
+                    FindFirstObjectByType<GameManager>().Win();
+                }
+
+                return;
+            }
+
             source.clip = damaged;
             source.Play();
 
             currentEnergy -= enemyDmgVal;
 
-            healthBar.AnimateHealth(Color.red); // Line added by Carl Moya
+            healthBar.AnimateHealth(Color.red);
         }
 
     }
