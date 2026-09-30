@@ -1,12 +1,11 @@
 using UnityEngine;
 using static Unity.VisualScripting.Member;
 
-//PHOEBE: i 
+//PHOEBE: puzzle trigger for win condition
 public class PuzzleTriggers : MonoBehaviour
 {
-    public AudioSource source;
+    public AudioSource source; 
     public AudioClip talismanPU;
-    //int riddle;
     
     void Start()
     {
@@ -21,7 +20,7 @@ public class PuzzleTriggers : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D col)
     {
-        if (col.CompareTag("Talisman"))
+        if (col.CompareTag("Talisman")) //Collect talisman, destroy sprite, play sound
         {
             source.clip = talismanPU;
             source.Play();
