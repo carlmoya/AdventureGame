@@ -292,6 +292,10 @@ PrefabInstance:
       propertyPath: animationCurve.m_Curve.Array.data[1].value
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4098133591962486129, guid: 37f3807478842164fbdfe89363928615, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -8541112391319344107, guid: 004bc5f9c845b5e45b81b1e84ef88cae, type: 3}
     - target: {fileID: 5595358621687050690, guid: 37f3807478842164fbdfe89363928615, type: 3}
       propertyPath: m_Name
       value: Interaction Prompt

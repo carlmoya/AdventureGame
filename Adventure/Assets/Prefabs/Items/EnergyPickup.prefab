@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 8698868311660474586}
   - component: {fileID: 5890946083956831927}
   - component: {fileID: 5298488271881867401}
+  - component: {fileID: 6940256992431512185}
   m_Layer: 0
   m_Name: EnergyPickup
   m_TagString: EnergyPU
@@ -138,3 +139,18 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 2.0558043}
   m_EdgeRadius: 0
+--- !u!114 &6940256992431512185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7626009311815534966}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6e6bc36e50108774a9ced69d3eb585f3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Hover
+  amplitudes: {x: 0, y: 0.1}
+  frequencies: {x: 0, y: 4}
+  useUnscaledDeltaTime: 0

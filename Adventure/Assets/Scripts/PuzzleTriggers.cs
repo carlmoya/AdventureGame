@@ -27,6 +27,8 @@ public class PuzzleTriggers : MonoBehaviour
             source.clip = pu;
             source.Play();
 
+            GameObject.FindFirstObjectByType<GameManager>().Win(); // Line added by Carl Moya
+
             Destroy(col.gameObject);
         }
     }

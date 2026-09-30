@@ -7,16 +7,26 @@ public class GameManager : MonoBehaviour
 {
     // Fields
 
-    [HideInInspector]
-    public bool isPaused = false;
+    [HideInInspector] public bool isPaused = false;
 
     public GameObject pauseButton;
+    public GameObject loseScreen;
+    public GameObject winScreen;
+
+    private Collisions collisions;
 
     // Methods
 
     private void Start()
     {
+        collisions = GameObject.FindFirstObjectByType<Collisions>();
+
         Pause();
+    }
+
+    private void Update()
+    {
+        CheckDeath();
     }
 
     public void EnablePause()
@@ -43,27 +53,50 @@ public class GameManager : MonoBehaviour
         Time.timeScale = 1f;
     }
 
+    private void CheckDeath()
+    {
+        if (collisions.currentEnergy <= 0)
+        {
+            Die();
+        }
+    }
+
     public void Die()
     {
+        DisablePause();
 
+        Pause();
+
+        loseScreen.SetActive(true);
     }
 
     public void Win()
     {
+        DisablePause();
 
+        Pause();
+
+        winScreen.SetActive(true);
     }
 
     public void Restart()
     {
         Time.timeScale = 1f;
 
-        Scene currentScene = SceneManager.GetActiveScene();
-
-        SceneManager.LoadScene(currentScene.buildIndex);
+        SceneManager.LoadScene(CurrentScene().buildIndex);
     }
 
     public void Quit()
     {
         Application.Quit();
+    }
+
+    // Return Methods
+
+    public Scene CurrentScene()
+    {
+        Scene currentScene = SceneManager.GetActiveScene();
+
+        return currentScene;
     }
 }
