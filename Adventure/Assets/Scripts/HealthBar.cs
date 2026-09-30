@@ -1,5 +1,6 @@
 using UnityEngine;
 using UnityEngine.UI;
+using System.Collections;
 
 // Script written by Carl Moya
 
@@ -7,7 +8,12 @@ public class HealthBar : MonoBehaviour
 {
     // Fields
 
+    [Header("Assignment Settings")] [Space(15)]
     public Image healthBarFill;
+    public SpriteRenderer playerSpriteRenderer;
+
+    [Header("Animation Settings")] [Space(15)]
+    public float healthChangeAnimationDuration = 0.5f;
 
     private Collisions collisions;
 
@@ -18,31 +24,49 @@ public class HealthBar : MonoBehaviour
         collisions = FindFirstObjectByType<Collisions>();
     }
 
-    private void FixedUpdate()
+    public void AnimateHealth(Color startColor)
     {
-        UpdateFillAmount();
+        StopAllCoroutines();
+
+        StartCoroutine(HealthChangeAnimation(startColor));
     }
 
-    private void UpdateFillAmount()
+    // Coroutines
+
+    private IEnumerator HealthChangeAnimation(Color startColor)
     {
-        if (collisions == null) return;
+        // Get start health bar fill amount from health bar fill amount
+        float startFillAmount = healthBarFill.fillAmount;
 
-        healthBarFill.fillAmount = Mathf.MoveTowards(healthBarFill.fillAmount, (collisions.currentEnergy / 100f), 0.005f);
-    }
+        // Get target health bar fill amount from current energy
+        float targetFillAmount = collisions.currentEnergy / 100f;
 
-    // Return Methods
+        // Track & increase the elapsed time of the animation
+        for (float elapsedTime = 0f; elapsedTime < healthChangeAnimationDuration; elapsedTime += Time.deltaTime)
+        {
+            // Normalize elapsed time
+            float time = elapsedTime / healthChangeAnimationDuration;
 
-    public float InterpolatedEnergyPercentage()
-    {
-        float interpolatedEnergyPercentage = Mathf.MoveTowards(healthBarFill.fillAmount, CurrentEnergyPercentage(), 0.005f);
+            // Interpolate player sprite renderer color over time
+            Color currentColor = Color.Lerp(startColor, Color.white, time);
 
-        return interpolatedEnergyPercentage;
-    }
+            // Interpolate health bar fill amount over time
+            float currentFillAmount = Mathf.Lerp(startFillAmount, targetFillAmount, time);
 
-    public float CurrentEnergyPercentage()
-    {
-        float currentEnergyPercentage = collisions.currentEnergy / 100f;
+            // Apply current color to player sprite renderer
+            playerSpriteRenderer.color = currentColor;
 
-        return currentEnergyPercentage;
+            // Apply current fill amount to health bar fill
+            healthBarFill.fillAmount = currentFillAmount;
+
+            // Wait for next frame
+            yield return null;
+        }
+
+        // Ensure target player sprite renderer color
+        playerSpriteRenderer.color = Color.white;
+
+        // Ensure target health bar fill amount
+        healthBarFill.fillAmount = targetFillAmount;
     }
 }

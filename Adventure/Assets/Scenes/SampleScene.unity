@@ -166127,54 +166127,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1699083632162231155, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: pu
-      value: 
-      objectReference: {fileID: 8300000, guid: fc7b6202a907e2e458aeedd0d6c11fb4, type: 3}
-    - target: {fileID: 1699083632162231155, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: source
-      value: 
-      objectReference: {fileID: 8171688157217841725}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: speed
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: directionTriggers.Array.size
-      value: 8
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: 'directionTriggers.Array.data[0]'
-      value: Moving East
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: 'directionTriggers.Array.data[1]'
-      value: Moving NorthEast
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: 'directionTriggers.Array.data[2]'
-      value: Moving North
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: 'directionTriggers.Array.data[3]'
-      value: Moving NorthWest
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: 'directionTriggers.Array.data[4]'
-      value: Moving West
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: 'directionTriggers.Array.data[5]'
-      value: Moving SouthWest
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: 'directionTriggers.Array.data[6]'
-      value: Moving South
-      objectReference: {fileID: 0}
-    - target: {fileID: 2070130649217798616, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: 'directionTriggers.Array.data[7]'
-      value: Moving SouthEast
-      objectReference: {fileID: 0}
     - target: {fileID: 2075561122586499976, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
       propertyPath: m_LocalPosition.x
       value: -17.22
@@ -166215,10 +166167,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3270745925838980683, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-      propertyPath: Loop
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 4889362278299658697, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
       propertyPath: m_Name
       value: Player
@@ -166231,11 +166179,6 @@ PrefabInstance:
 --- !u!4 &8171688157217841724 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 2075561122586499976, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
-  m_PrefabInstance: {fileID: 8171688157217841715}
-  m_PrefabAsset: {fileID: 0}
---- !u!82 &8171688157217841725 stripped
-AudioSource:
-  m_CorrespondingSourceObject: {fileID: 3270745925838980683, guid: 8a7f7e133a3fff54cbbe179d4db81885, type: 3}
   m_PrefabInstance: {fileID: 8171688157217841715}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807

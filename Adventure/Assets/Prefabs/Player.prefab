@@ -589,6 +589,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HealthBar
   healthBarFill: {fileID: 5930510335457261619}
+  playerSpriteRenderer: {fileID: 7212438787442544782}
+  healthChangeAnimationDuration: 0.5
 --- !u!1 &7515867568985166850
 GameObject:
   m_ObjectHideFlags: 0
