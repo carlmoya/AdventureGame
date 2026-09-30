@@ -77,8 +77,6 @@ public class PlayerInput : MonoBehaviour
 
     private Vector2 ScreenPositionToWorldPosition(Vector2 screenPosition)
     {
-        Vector2 worldPosition = (Vector2)mainCamera.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, mainCamera.nearClipPlane));
-
-        return worldPosition;
+        return (Vector2)mainCamera.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, mainCamera.nearClipPlane));
     }
 }

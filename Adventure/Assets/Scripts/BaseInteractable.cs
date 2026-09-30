@@ -31,15 +31,11 @@ public abstract class BaseInteractable : MonoBehaviour
 
     public virtual bool WithinMaxInteractionDistance()
     {
-        bool WithinMaxInteractionDistance = DistanceFromPlayer() <= maxInteractionDistance ? true : false;
-
-        return WithinMaxInteractionDistance;
+        return DistanceFromPlayer() <= maxInteractionDistance ? true : false;
     }
 
     public virtual float DistanceFromPlayer()
     {
-        float distanceFromPlayer = Vector2.Distance(transform.position, player.position);
-
-        return distanceFromPlayer;
+        return Vector2.Distance(transform.position, player.position);
     }
 }

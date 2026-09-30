@@ -10,7 +10,6 @@ public class Dialogue : BaseInteractable
     public string[] dialogueLines = new string[0];
 
     private TextBox textBox;
-    private int currentLine = 0;
 
     // Methods
 
@@ -23,23 +22,23 @@ public class Dialogue : BaseInteractable
 
     public override void Interact()
     {
-        StartCoroutine(textBox.TextAnimation(dialogueLines[currentLine], transform.position));
-
-        IterateLine();
+        StartCoroutine(textBox.TextAnimation(CurrentLine(), transform.position));
     }
 
     public override bool CanInteract()
     {
-        bool canInteract = textBox.isAnimating == false && base.WithinMaxInteractionDistance() && base.gameManager.isPaused == false;
-
-        return canInteract;
+        return textBox.isAnimating == false && base.WithinMaxInteractionDistance() == true && base.gameManager.isPaused == false;
     }
 
-    private void IterateLine()
+    // Return Methods
+
+    public string CurrentLine()
     {
-        if ((currentLine + 1) < dialogueLines.Length)
-        {
-            currentLine++;
-        }
+        return dialogueLines[CurrentLineIndex()];
+    }
+
+    public int CurrentLineIndex()
+    {
+        return PuzzleInteractable.currentRiddle - 1;
     }
 }

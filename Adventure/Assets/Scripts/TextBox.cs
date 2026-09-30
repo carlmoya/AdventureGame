@@ -21,8 +21,6 @@ public class TextBox : MonoBehaviour
     private CanvasGroup canvasGroup;
 
     private Transform player;
-    private PlayerInput playerInput;
-
     private GameManager gameManager;
 
     // Methods
@@ -33,8 +31,6 @@ public class TextBox : MonoBehaviour
         canvasGroup = GetComponent<CanvasGroup>();
 
         player = GameObject.FindWithTag("Player").transform;
-        playerInput = player.GetComponent<PlayerInput>();
-
         gameManager = GameObject.FindFirstObjectByType<GameManager>();
 
         canvasGroup.alpha = 0f;

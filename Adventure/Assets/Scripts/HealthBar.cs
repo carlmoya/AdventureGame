@@ -12,7 +12,7 @@ public class HealthBar : MonoBehaviour
     public Image healthBarFill;
     public SpriteRenderer playerSpriteRenderer;
 
-    [Header("Animation Settings")] [Space(15)]
+    [Header("Health Change Animation Settings")] [Space(15)]
     public float healthChangeAnimationDuration = 0.5f;
 
     private Collisions collisions;
@@ -39,7 +39,7 @@ public class HealthBar : MonoBehaviour
         float startFillAmount = healthBarFill.fillAmount;
 
         // Get target health bar fill amount from current energy
-        float targetFillAmount = collisions.currentEnergy / 100f;
+        float targetFillAmount = CurrentEnergyPercentage();
 
         // Track & increase the elapsed time of the animation
         for (float elapsedTime = 0f; elapsedTime < healthChangeAnimationDuration; elapsedTime += Time.deltaTime)
@@ -68,5 +68,12 @@ public class HealthBar : MonoBehaviour
 
         // Ensure target health bar fill amount
         healthBarFill.fillAmount = targetFillAmount;
+    }
+
+    // Return Methods
+
+    public float CurrentEnergyPercentage()
+    {
+        return collisions.currentEnergy / 100f;
     }
 }

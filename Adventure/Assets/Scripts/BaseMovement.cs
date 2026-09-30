@@ -40,8 +40,6 @@ public abstract class BaseMovement : MonoBehaviour
 
     protected virtual bool IsMoving()
     {
-        bool isMoving = rb.linearVelocity.magnitude < 0.01f ? false : true;
-
-        return isMoving;
+        return rb.linearVelocity.magnitude < 0.01f ? false : true;
     }
 }

@@ -60,15 +60,11 @@ public class AiMovement : BaseMovement
 
     protected Vector2 PositionAwayFromPosition(Vector2 position, float distanceFromPosition)
     {
-        Vector2 positionAwayFromPosition = (Vector2)transform.position + (DirectionAwayFromPosition(position) * distanceFromPosition);
-
-        return positionAwayFromPosition;
+        return (Vector2)transform.position + (DirectionAwayFromPosition(position) * distanceFromPosition);
     }
 
     protected Vector2 DirectionAwayFromPosition(Vector2 position)
     {
-        Vector2 directionAwayFromPosition = ((Vector2)transform.position - position).normalized;
-
-        return directionAwayFromPosition;
+        return ((Vector2)transform.position - position).normalized;
     }
 }

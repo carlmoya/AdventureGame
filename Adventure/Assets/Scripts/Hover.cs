@@ -6,7 +6,7 @@ public class Hover : MonoBehaviour
 {
     // Fields
 
-    [Header("Hover Settings")] [Space(15)]
+    [Header("Movement Settings")] [Space(15)]
     public Vector2 amplitudes = Vector2.zero;
     public Vector2 frequencies = Vector2.zero;
 
@@ -48,15 +48,11 @@ public class Hover : MonoBehaviour
         float targetX = midline.x + SinePoint(amplitudes.x, frequencies.x);
         float targetY = midline.y + SinePoint(amplitudes.y, frequencies.y);
 
-        Vector2 targetPosition = new Vector2(targetX, targetY);
-
-        return targetPosition;
+        return new Vector2(targetX, targetY);
     }
 
     private float SinePoint(float amplitude, float frequency)
     {
-        float sinePoint = amplitude * Mathf.Sin(elapsedTime * frequency);
-
-        return sinePoint;
+        return amplitude * Mathf.Sin(elapsedTime * frequency);
     }
 }

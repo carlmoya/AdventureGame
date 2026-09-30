@@ -83,6 +83,8 @@ public class GameManager : MonoBehaviour
     {
         Time.timeScale = 1f;
 
+        PuzzleInteractable.currentRiddle = 1;
+
         SceneManager.LoadScene(CurrentScene().buildIndex);
     }
 
