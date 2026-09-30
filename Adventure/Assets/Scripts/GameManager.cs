@@ -14,6 +14,11 @@ public class GameManager : MonoBehaviour
 
     // Methods
 
+    private void Start()
+    {
+        Pause();
+    }
+
     public void EnablePause()
     {
         pauseButton.SetActive(true);
@@ -36,6 +41,16 @@ public class GameManager : MonoBehaviour
         isPaused = false;
 
         Time.timeScale = 1f;
+    }
+
+    public void Die()
+    {
+
+    }
+
+    public void Win()
+    {
+
     }
 
     public void Restart()
