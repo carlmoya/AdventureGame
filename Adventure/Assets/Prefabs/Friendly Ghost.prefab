@@ -197,7 +197,7 @@ CircleCollider2D:
   m_CallbackLayers:
     serializedVersion: 2
     m_Bits: 4294967295
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
@@ -242,9 +242,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5820942cd5859f642a35d080ce5aa32b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::AiMovement
-  speed: 250
-  likes: []
-  dislikes: []
+  speed: 10
+  likes:
+  - Player
+  dislikes:
+  - Enemy
   targetSearchRadius: 10
 --- !u!114 &5217904229175042511
 MonoBehaviour:
@@ -260,10 +262,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::Dialogue
   maxInteractionDistance: 7.5
   dialogueLines:
-  - Test 1 Test 1 Test 1 Test 1 Test 1 Test 1
-  - Test 2 Test 2 Test 2 Test 2 Test 2 Test 2
-  - Test 3 Test 3 Test 3 Test 3 Test 3 Test 3
-  - Test 4 Test 4 Test 4 Test 4 Test 4 Test 4
+  - Freezer hint here
+  - Produce hint here
+  - Shelves hint here
+  - Registers hint here
+  - Bathroom hint here
+  - Door hint here
+  - Talisman hint here
 --- !u!1001 &1911712232992494820
 PrefabInstance:
   m_ObjectHideFlags: 0

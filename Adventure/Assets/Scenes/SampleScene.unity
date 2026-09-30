@@ -164864,58 +164864,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1646424871589280317, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: speed
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646424871589280317, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: likes.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646424871589280317, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: dislikes.Array.size
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646424871589280317, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: 'likes.Array.data[0]'
-      value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 1646424871589280317, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: 'dislikes.Array.data[0]'
-      value: Enemy
-      objectReference: {fileID: 0}
-    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: dialogueLines.Array.size
-      value: 7
-      objectReference: {fileID: 0}
-    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: 'dialogueLines.Array.data[0]'
-      value: Freezer hint here
-      objectReference: {fileID: 0}
-    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: 'dialogueLines.Array.data[1]'
-      value: Produce hint here
-      objectReference: {fileID: 0}
-    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: 'dialogueLines.Array.data[2]'
-      value: Shelves hint here
-      objectReference: {fileID: 0}
-    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: 'dialogueLines.Array.data[3]'
-      value: Registers hint here
-      objectReference: {fileID: 0}
-    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: 'dialogueLines.Array.data[4]'
-      value: Bathroom hint here
-      objectReference: {fileID: 0}
-    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: 'dialogueLines.Array.data[5]'
-      value: Door hint here
-      objectReference: {fileID: 0}
-    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: 'dialogueLines.Array.data[6]'
-      value: Talisman hint here
-      objectReference: {fileID: 0}
     - target: {fileID: 7701066825995082330, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29
