@@ -11,7 +11,7 @@ public class Ghost_Enemy_Movement : MonoBehaviour
     void Start()
     {
         speed = 3.0f; // Value for ghost move speed
-        distance = 3.25f; // Value for ghost chase distance
+        distance = 5f; // Value for ghost chase distance
     }
 
     // Update is called once per frame
