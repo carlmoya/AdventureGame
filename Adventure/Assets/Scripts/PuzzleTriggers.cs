@@ -11,7 +11,6 @@ public class PuzzleTriggers : MonoBehaviour
     void Start()
     {
         source = GetComponent<AudioSource>();
-        //riddle = 0;
     }
 
     // Update is called once per frame
@@ -33,8 +32,4 @@ public class PuzzleTriggers : MonoBehaviour
         }
     }
 
-    //private void CheckRiddle(int riddle)
-    //{
-
-    //}
 }
