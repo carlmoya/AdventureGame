@@ -10,12 +10,14 @@ public abstract class BaseInteractable : MonoBehaviour
     public float maxInteractionDistance = 5f;
 
     protected Transform player;
+    protected GameManager gameManager;
 
     // Methods
 
     protected virtual void Start()
     {
         player = GameObject.FindWithTag("Player").transform;
+        gameManager = GameObject.FindFirstObjectByType<GameManager>();
     }
 
     public abstract void Interact();
@@ -24,7 +26,7 @@ public abstract class BaseInteractable : MonoBehaviour
 
     public virtual bool CanInteract()
     {
-        return WithinMaxInteractionDistance();
+        return WithinMaxInteractionDistance() && gameManager.isPaused == false;
     }
 
     public virtual bool WithinMaxInteractionDistance()

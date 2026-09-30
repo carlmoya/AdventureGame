@@ -30,7 +30,7 @@ public class Dialogue : BaseInteractable
 
     public override bool CanInteract()
     {
-        bool canInteract = textBox.isAnimating == false && base.WithinMaxInteractionDistance();
+        bool canInteract = textBox.isAnimating == false && base.WithinMaxInteractionDistance() && base.gameManager.isPaused == false;
 
         return canInteract;
     }

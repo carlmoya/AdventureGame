@@ -23,6 +23,8 @@ public class TextBox : MonoBehaviour
     private Transform player;
     private PlayerInput playerInput;
 
+    private GameManager gameManager;
+
     // Methods
 
     private void Start()
@@ -32,6 +34,8 @@ public class TextBox : MonoBehaviour
 
         player = GameObject.FindWithTag("Player").transform;
         playerInput = player.GetComponent<PlayerInput>();
+
+        gameManager = GameObject.FindFirstObjectByType<GameManager>();
 
         canvasGroup.alpha = 0f;
         transform.localScale = Vector3.one * 0.75f;
@@ -43,7 +47,7 @@ public class TextBox : MonoBehaviour
     {
         text.text = "";
 
-        playerInput.OnDisable();
+        gameManager.DisablePause();
 
         isAnimating = true;
 
@@ -61,7 +65,7 @@ public class TextBox : MonoBehaviour
 
         isAnimating = false;
 
-        playerInput.OnEnable();
+        gameManager.EnablePause();
     }
 
     private IEnumerator CharacterAnimation(string inputText)
