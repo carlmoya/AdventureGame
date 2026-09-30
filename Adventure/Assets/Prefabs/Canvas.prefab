@@ -172,11 +172,11 @@ RectTransform:
   - {fileID: 5147974019432686450}
   m_Father: {fileID: 984160572095371842}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0}
-  m_AnchorMax: {x: 0.5, y: 0}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 1920, y: 300}
-  m_Pivot: {x: 0.5, y: 0}
+  m_AnchorMin: {x: 1, y: 0}
+  m_AnchorMax: {x: 1, y: 0}
+  m_AnchoredPosition: {x: -975, y: 565}
+  m_SizeDelta: {x: 950, y: 300}
+  m_Pivot: {x: 1, y: 0}
 --- !u!222 &1256458794765379092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -228,8 +228,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::DialogueBox
   characterDisplayDelay: 0.025
-  textBoxAnimationDuration: 0.5
-  textBoxAnimationCurve:
+  textBoxAnimationDuration: 0.25
+  cameraMoveAnimationDuration: 0.5
+  animationCurve:
     serializedVersion: 2
     m_Curve:
     - serializedVersion: 3
@@ -2213,8 +2214,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -50, y: -10}
-  m_SizeDelta: {x: 1600, y: 225}
+  m_AnchoredPosition: {x: -30, y: -10}
+  m_SizeDelta: {x: 775, y: 225}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &4108838582006092710
 CanvasRenderer:

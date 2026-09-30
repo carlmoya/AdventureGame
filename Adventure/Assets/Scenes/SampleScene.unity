@@ -164691,6 +164691,34 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_PostInfinity
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_Curve.Array.data[1].inSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_Curve.Array.data[1].inWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_Curve.Array.data[1].outSlope
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_Curve.Array.data[0].outWeight
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_Curve.Array.data[0].weightedMode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: animationCurve.m_Curve.Array.data[1].weightedMode
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 3671726920270674650, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
       propertyPath: m_Name
       value: Canvas

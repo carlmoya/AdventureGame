@@ -11,9 +11,10 @@ public class TextBox : MonoBehaviour
     [Header("Character Display Settings")] [Space(15)]
     public float characterDisplayDelay = 0.025f;
 
-    [Header("Text Box Animation Settings")] [Space(15)]
-    public float textBoxAnimationDuration = 0.5f;
-    public AnimationCurve textBoxAnimationCurve;
+    [Header("Animation Settings")] [Space(15)]
+    public float textBoxAnimationDuration = 0.25f;
+    public float cameraMoveAnimationDuration = 0.5f;
+    public AnimationCurve animationCurve;
 
     public bool isAnimating {  get; private set; }
 
@@ -21,6 +22,7 @@ public class TextBox : MonoBehaviour
     private CanvasGroup canvasGroup;
 
     private Transform player;
+    private Camera mainCamera;
     private GameManager gameManager;
 
     // Methods
@@ -31,6 +33,7 @@ public class TextBox : MonoBehaviour
         canvasGroup = GetComponent<CanvasGroup>();
 
         player = GameObject.FindWithTag("Player").transform;
+        mainCamera = Camera.main;
         gameManager = GameObject.FindFirstObjectByType<GameManager>();
 
         canvasGroup.alpha = 0f;
@@ -49,6 +52,8 @@ public class TextBox : MonoBehaviour
 
         Time.timeScale = 0f;
 
+        yield return StartCoroutine(CameraMoveAnimation(new Vector3(speakerPosition.x, speakerPosition.y, mainCamera.transform.position.z)));
+
         yield return StartCoroutine(TextBoxAnimation(1f, Vector3.one, new Vector3(speakerPosition.x, speakerPosition.y, -10f)));
 
         yield return StartCoroutine(CharacterAnimation(inputText));
@@ -56,6 +61,8 @@ public class TextBox : MonoBehaviour
         yield return new WaitForSecondsRealtime(1f);
 
         yield return StartCoroutine(TextBoxAnimation(0f, Vector3.one * 0.75f, new Vector3(player.position.x, player.position.y, -10f)));
+
+        yield return StartCoroutine(CameraMoveAnimation(new Vector3(player.position.x, player.position.y, mainCamera.transform.position.z)));
 
         Time.timeScale = 1f;
 
@@ -83,7 +90,7 @@ public class TextBox : MonoBehaviour
         Vector3 startScale = transform.localScale;
 
         // Get start camera position from main camera
-        Vector3 startCameraPosition = Camera.main.transform.position;
+        //Vector3 startCameraPosition = Camera.main.transform.position;
 
         // Track & increase the elapsed time of the animation
         for (float elapsedTime = 0f; elapsedTime < textBoxAnimationDuration; elapsedTime += Time.unscaledDeltaTime)
@@ -92,22 +99,22 @@ public class TextBox : MonoBehaviour
             float time = elapsedTime / textBoxAnimationDuration;
 
             // Interpolate opacity over time
-            float currentOpacity = Mathf.Lerp(startOpacity, targetOpacity, textBoxAnimationCurve.Evaluate(time));
+            float currentOpacity = Mathf.Lerp(startOpacity, targetOpacity, animationCurve.Evaluate(time));
 
             // Apply current opacity to canvas group
             canvasGroup.alpha = currentOpacity;
 
             // Interpolate scale over time
-            Vector3 currentScale = Vector3.Lerp(startScale, targetScale, textBoxAnimationCurve.Evaluate(time));
+            Vector3 currentScale = Vector3.Lerp(startScale, targetScale, animationCurve.Evaluate(time));
 
             // Apply current scale to transform
             transform.localScale = currentScale;
 
             // Interpolate camera position over time
-            Vector3 currentCameraPosition = Vector3.Lerp(startCameraPosition, targetCameraPosition, textBoxAnimationCurve.Evaluate(time));
+            //Vector3 currentCameraPosition = Vector3.Lerp(startCameraPosition, targetCameraPosition, animationCurve.Evaluate(time));
 
             // Apply current camera position to main camera
-            Camera.main.transform.position = currentCameraPosition;
+            //Camera.main.transform.position = currentCameraPosition;
 
             // Wait for next frame
             yield return null;
@@ -120,6 +127,31 @@ public class TextBox : MonoBehaviour
         transform.localScale = targetScale;
 
         // Ensure target camera location
-        Camera.main.transform.position = targetCameraPosition;
+        //Camera.main.transform.position = targetCameraPosition;
+    }
+
+    private IEnumerator CameraMoveAnimation(Vector3 targetCameraPosition)
+    {
+        // Get start camera position from camera
+        Vector3 startCameraPosition = mainCamera.transform.position;
+
+        // Track & increase the elapsed time of the animation
+        for (float elapsedTime = 0f; elapsedTime < cameraMoveAnimationDuration; elapsedTime += Time.unscaledDeltaTime)
+        {
+            // Normalize elapsed time
+            float time = elapsedTime / cameraMoveAnimationDuration;
+
+            // Interpolate camera position over time
+            Vector3 currentCameraPosition = Vector3.Lerp(startCameraPosition, targetCameraPosition, animationCurve.Evaluate(time));
+
+            // Apply current camera position to main camera
+            mainCamera.transform.position = currentCameraPosition;
+
+            // Wait for next frame
+            yield return null;
+        }
+
+        // Ensure target camera location
+        mainCamera.transform.position = targetCameraPosition;
     }
 }
