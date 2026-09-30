@@ -18,8 +18,31 @@ public class HealthBar : MonoBehaviour
         collisions = FindFirstObjectByType<Collisions>();
     }
 
-    private void Update()
+    private void FixedUpdate()
     {
-        
+        UpdateFillAmount();
+    }
+
+    private void UpdateFillAmount()
+    {
+        if (collisions == null) return;
+
+        healthBarFill.fillAmount = Mathf.MoveTowards(healthBarFill.fillAmount, (collisions.currentEnergy / 100f), 0.005f);
+    }
+
+    // Return Methods
+
+    public float InterpolatedEnergyPercentage()
+    {
+        float interpolatedEnergyPercentage = Mathf.MoveTowards(healthBarFill.fillAmount, CurrentEnergyPercentage(), 0.005f);
+
+        return interpolatedEnergyPercentage;
+    }
+
+    public float CurrentEnergyPercentage()
+    {
+        float currentEnergyPercentage = collisions.currentEnergy / 100f;
+
+        return currentEnergyPercentage;
     }
 }
