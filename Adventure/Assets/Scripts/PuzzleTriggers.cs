@@ -1,13 +1,13 @@
 using UnityEngine;
 using static Unity.VisualScripting.Member;
 
+//PHOEBE: i 
 public class PuzzleTriggers : MonoBehaviour
 {
     public AudioSource source;
-    public AudioClip pu;
+    public AudioClip talismanPU;
     //int riddle;
     
-    //PF This script is for managing puzzle logic.
     void Start()
     {
         source = GetComponent<AudioSource>();
@@ -23,7 +23,7 @@ public class PuzzleTriggers : MonoBehaviour
     {
         if (col.CompareTag("Talisman"))
         {
-            source.clip = pu;
+            source.clip = talismanPU;
             source.Play();
 
             GameObject.FindFirstObjectByType<GameManager>().Win(); // Line added by Carl Moya
