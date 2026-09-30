@@ -13,20 +13,24 @@ public class PlayerInteract : MonoBehaviour
 
     private void Start()
     {
-        // Set reference to player input component
         playerInput = GetComponent<PlayerInput>();
     }
 
     private void Update()
     {
-        // If the screen is tapped
+        TryInteract();
+    }
+
+    private void TryInteract()
+    {
         if (playerInput.TryGetTappedWorldPosition(out Vector2 tappedWorldPosition))
         {
-            // If a valid interactable is found at the tapped world position
-            if (FoundInteractable(tappedWorldPosition, out BaseInteractable interactable) && interactable.CanInteract() == true)
+            if (FoundInteractable(tappedWorldPosition, out BaseInteractable interactable))
             {
-                // Interact with the interactable
-                interactable.Interact();
+                if (interactable.CanInteract() == true)
+                {
+                    interactable.Interact();
+                }
             }
         }
     }

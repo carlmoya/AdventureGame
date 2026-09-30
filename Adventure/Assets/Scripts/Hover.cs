@@ -6,13 +6,11 @@ public class Hover : MonoBehaviour
 {
     // Fields
 
-    [Header("Hover Settings")]
-    [Space(15)]
+    [Header("Hover Settings")] [Space(15)]
     public Vector2 amplitudes = Vector2.zero;
     public Vector2 frequencies = Vector2.zero;
 
-    [Header("Update Settings")]
-    [Space(15)]
+    [Header("Update Settings")] [Space(15)]
     public bool useUnscaledDeltaTime = false;
 
     private Vector2 midline;
@@ -22,36 +20,43 @@ public class Hover : MonoBehaviour
 
     private void Start()
     {
-        // Set midline to start position
         midline = transform.localPosition;
     }
 
     private void Update()
     {
-        // Set current position to target position
-        transform.localPosition = TargetPosition();
+        UpdateLocalPosition();
+        UpdateElapsedTime();
+    }
 
-        // Update hover state according to update settings
-        elapsedTime += useUnscaledDeltaTime ? Time.unscaledDeltaTime : Time.deltaTime;
+    private void UpdateLocalPosition()
+    {
+        transform.localPosition = TargetPosition();
+    }
+
+    private void UpdateElapsedTime()
+    {
+        float deltaTime = useUnscaledDeltaTime ? Time.unscaledDeltaTime : Time.deltaTime;
+
+        elapsedTime += deltaTime;
     }
 
     // Return Methods
 
     private Vector2 TargetPosition()
     {
-        // Calculate targetX using start position and sine point
         float targetX = midline.x + SinePoint(amplitudes.x, frequencies.x);
-
-        // Calculate targetY using start position and sine point
         float targetY = midline.y + SinePoint(amplitudes.y, frequencies.y);
 
-        // Return target position
-        return new Vector2(targetX, targetY);
+        Vector2 targetPosition = new Vector2(targetX, targetY);
+
+        return targetPosition;
     }
 
     private float SinePoint(float amplitude, float frequency)
     {
-        // Return a point on a sine wave
-        return amplitude * Mathf.Sin(elapsedTime * frequency);
+        float sinePoint = amplitude * Mathf.Sin(elapsedTime * frequency);
+
+        return sinePoint;
     }
 }

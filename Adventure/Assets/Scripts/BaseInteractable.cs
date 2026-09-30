@@ -6,33 +6,38 @@ public abstract class BaseInteractable : MonoBehaviour
 {
     // Fields
 
-    [Header("Inherited Settings")]
-    [Space(15)]
+    [Header("Inherited Settings")] [Space(15)]
     public float maxInteractionDistance = 5f;
 
-    protected PlayerInteract playerInteract;
+    protected Transform player;
 
     // Methods
 
-    protected virtual void Start() // Can be overwritten by inheritor classes
+    protected virtual void Start()
     {
-        // Set reference to player interact component
-        playerInteract = FindFirstObjectByType<PlayerInteract>();
+        player = GameObject.FindWithTag("Player").transform;
     }
 
-    public abstract void Interact(); // Must be overwritten by inheritor classes
+    public abstract void Interact();
 
     // Return Methods
 
-    public virtual bool CanInteract() // Can be overwritten by inheritor classes
+    public virtual bool CanInteract()
     {
-        // Return true if the interactable is within the max interaction distance
         return WithinMaxInteractionDistance();
     }
 
-    public virtual bool WithinMaxInteractionDistance() // Can be overwritten by inheritor classes
+    public virtual bool WithinMaxInteractionDistance()
     {
-        // Return true if the interactable is within the max interaction distance
-        return Vector2.Distance(transform.position, playerInteract.transform.position) < maxInteractionDistance;
+        bool WithinMaxInteractionDistance = DistanceFromPlayer() <= maxInteractionDistance ? true : false;
+
+        return WithinMaxInteractionDistance;
+    }
+
+    public virtual float DistanceFromPlayer()
+    {
+        float distanceFromPlayer = Vector2.Distance(transform.position, player.position);
+
+        return distanceFromPlayer;
     }
 }

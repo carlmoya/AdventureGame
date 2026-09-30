@@ -7,12 +7,10 @@ public class InteractPrompt : MonoBehaviour
 {
     // Fields
 
-    [Header("Interactable Settings")]
-    [Space(15)]
+    [Header("Interactable Settings")] [Space(15)]
     public BaseInteractable interactable;
 
-    [Header("Animation Settings")]
-    [Space(15)]
+    [Header("Animation Settings")] [Space(15)]
     public AnimationCurve animationCurve;
     public float animationDuration = 0.25f;
 
@@ -23,10 +21,8 @@ public class InteractPrompt : MonoBehaviour
 
     private void Start()
     {
-        // Set reference to sprite renderer component
         spriteRenderer = GetComponent<SpriteRenderer>();
 
-        // Set opacity and scale to match can interact state last frame
         StartCoroutine(CanInteractStateAnimation(0f, Vector3.zero));
     }
 

@@ -15,38 +15,36 @@ public class PlayerInput : MonoBehaviour
     public Vector2 lastTouchedWorldPosition { get; private set; }
     public Vector2 lastTouchedScreenPosition { get; private set; }
 
+    private Camera mainCamera;
+
     // Methods
 
     private void Awake()
     {
-        // Set press action to appropriate input system action
         pressAction = InputSystem.actions.FindAction("Press");
-
-        // Set position action to appropriate input system action
         positionAction = InputSystem.actions.FindAction("Position");
     }
 
     public void OnEnable()
     {
-        // Enable gameplay action map
         inputActions.FindActionMap("Gameplay").Enable();
     }
 
     public void OnDisable()
     {
-        // Disable gameplay action map
         inputActions.FindActionMap("Gameplay").Disable();
+    }
+
+    private void Start()
+    {
+        mainCamera = Camera.main;
     }
 
     private void Update()
     {
-        // If the screen is pressed
         if (TryGetPressedScreenPosition(out Vector2 pressedScreenPosition))
         {
-            // Set the last touched screen position using the pressed screen position
             lastTouchedScreenPosition = pressedScreenPosition;
-
-            // Set the last touched world using the last touched screen position
             lastTouchedWorldPosition = ScreenPositionToWorldPosition(lastTouchedScreenPosition);
         }
     }
@@ -79,10 +77,8 @@ public class PlayerInput : MonoBehaviour
 
     private Vector2 ScreenPositionToWorldPosition(Vector2 screenPosition)
     {
-        // Convert screen position to world position
-        Vector3 worldPosition = Camera.main.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, Camera.main.nearClipPlane));
+        Vector2 worldPosition = (Vector2)mainCamera.ScreenToWorldPoint(new Vector3(screenPosition.x, screenPosition.y, mainCamera.nearClipPlane));
 
-        // Return world position
-        return new Vector2(worldPosition.x, worldPosition.y);
+        return worldPosition;
     }
 }

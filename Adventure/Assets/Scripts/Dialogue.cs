@@ -6,36 +6,40 @@ public class Dialogue : BaseInteractable
 {
     // Fields
 
-    [Header("\nDialogue Settings")]
-    [Space(15)]
+    [Header("\nDialogue Settings")] [Space(15)]
     public string[] dialogueLines = new string[0];
 
+    private TextBox textBox;
     private int currentLine = 0;
-    private DialogueBox dialogueBox;
 
     // Methods
 
-    protected override void Start() // Defined by base class
+    protected override void Start()
     {
-        // Run inherited behaviors
         base.Start();
 
-        // Set reference to dialogue box component
-        dialogueBox = FindFirstObjectByType<DialogueBox>();
+        textBox = FindFirstObjectByType<TextBox>();
     }
 
-    public override void Interact() // Defined by base class
+    public override void Interact()
     {
-        // Tell dialogue box to animate text
-        StartCoroutine(dialogueBox.TextAnimation(dialogueLines[currentLine], transform.position));
+        StartCoroutine(textBox.TextAnimation(dialogueLines[currentLine], transform.position));
 
-        // Iterate the current line if possible
-        if (currentLine + 1 < dialogueLines.Length) { currentLine++; }
+        IterateLine();
     }
 
-    public override bool CanInteract() // Defined by base class
+    public override bool CanInteract()
     {
-        // Return true if the dialogue box is not animating and the current position is within the max interaction distance
-        return dialogueBox.isAnimating == false && base.WithinMaxInteractionDistance();
+        bool canInteract = textBox.isAnimating == false && base.WithinMaxInteractionDistance();
+
+        return canInteract;
+    }
+
+    private void IterateLine()
+    {
+        if ((currentLine + 1) < dialogueLines.Length)
+        {
+            currentLine++;
+        }
     }
 }

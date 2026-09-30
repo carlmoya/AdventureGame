@@ -4,37 +4,36 @@ using System.Collections;
 
 // Script written by Carl Moya
 
-public class DialogueBox : MonoBehaviour
+public class TextBox : MonoBehaviour
 {
     // Fields
 
+    [Header("Character Display Settings")] [Space(15)]
     public float characterDisplayDelay = 0.025f;
-    public float animationDuration = 0.5f;
-    public AnimationCurve animationCurve;
+
+    [Header("Text Box Animation Settings")] [Space(15)]
+    public float textBoxAnimationDuration = 0.5f;
+    public AnimationCurve textBoxAnimationCurve;
 
     public bool isAnimating {  get; private set; }
 
     private TMP_Text text;
-    private Transform player;
     private CanvasGroup canvasGroup;
+
+    private Transform player;
+    private PlayerInput playerInput;
 
     // Methods
 
     private void Start()
     {
-        // Get reference to text component
         text = GetComponentInChildren<TMP_Text>();
-
-        // Get reference to canvas group component
         canvasGroup = GetComponent<CanvasGroup>();
 
-        // Get reference to player transform component
         player = GameObject.FindWithTag("Player").transform;
+        playerInput = player.GetComponent<PlayerInput>();
 
-        // Hide dialogue box
         canvasGroup.alpha = 0f;
-
-        // Scale down to 75%
         transform.localScale = Vector3.one * 0.75f;
     }
 
@@ -42,12 +41,9 @@ public class DialogueBox : MonoBehaviour
 
     public IEnumerator TextAnimation(string inputText, Vector2 speakerPosition)
     {
-        // TODO Write comments
-        // TODO Clean up method
-
-        player.GetComponent<PlayerInput>().OnDisable();
-
         text.text = "";
+
+        playerInput.OnDisable();
 
         isAnimating = true;
 
@@ -55,31 +51,27 @@ public class DialogueBox : MonoBehaviour
 
         yield return StartCoroutine(TextBoxAnimation(1f, Vector3.one, new Vector3(speakerPosition.x, speakerPosition.y, -10f)));
 
-        // Go thru characters in input text
-        foreach (char character in inputText)
-        {
-            // Add character to text contents
-            text.text += character;
-
-            // Wait for character display delay
-            yield return new WaitForSecondsRealtime(characterDisplayDelay);
-        }
+        yield return StartCoroutine(CharacterAnimation(inputText));
 
         yield return new WaitForSecondsRealtime(1f);
 
-        //player.GetComponent<PlayerInput>().OnEnable();
-
-        StopAllCoroutines();
-
-        //isAnimating = false;
+        yield return StartCoroutine(TextBoxAnimation(0f, Vector3.one * 0.75f, new Vector3(player.position.x, player.position.y, -10f)));
 
         Time.timeScale = 1f;
 
-        yield return StartCoroutine(TextBoxAnimation(0f, Vector3.one * 0.75f, new Vector3(player.position.x, player.position.y, -10f)));
-
         isAnimating = false;
 
-        player.GetComponent<PlayerInput>().OnEnable();
+        playerInput.OnEnable();
+    }
+
+    private IEnumerator CharacterAnimation(string inputText)
+    {
+        foreach (char character in inputText)
+        {
+            text.text += character;
+
+            yield return new WaitForSecondsRealtime(characterDisplayDelay);
+        }
     }
 
     private IEnumerator TextBoxAnimation(float targetOpacity, Vector3 targetScale, Vector3 targetCameraPosition)
@@ -94,25 +86,25 @@ public class DialogueBox : MonoBehaviour
         Vector3 startCameraPosition = Camera.main.transform.position;
 
         // Track & increase the elapsed time of the animation
-        for (float elapsedTime = 0f; elapsedTime < animationDuration; elapsedTime += Time.unscaledDeltaTime)
+        for (float elapsedTime = 0f; elapsedTime < textBoxAnimationDuration; elapsedTime += Time.unscaledDeltaTime)
         {
             // Normalize elapsed time
-            float time = elapsedTime / animationDuration;
+            float time = elapsedTime / textBoxAnimationDuration;
 
             // Interpolate opacity over time
-            float currentOpacity = Mathf.Lerp(startOpacity, targetOpacity, animationCurve.Evaluate(time));
+            float currentOpacity = Mathf.Lerp(startOpacity, targetOpacity, textBoxAnimationCurve.Evaluate(time));
 
             // Apply current opacity to canvas group
             canvasGroup.alpha = currentOpacity;
 
             // Interpolate scale over time
-            Vector3 currentScale = Vector3.Lerp(startScale, targetScale, animationCurve.Evaluate(time));
+            Vector3 currentScale = Vector3.Lerp(startScale, targetScale, textBoxAnimationCurve.Evaluate(time));
 
             // Apply current scale to transform
             transform.localScale = currentScale;
 
             // Interpolate camera position over time
-            Vector3 currentCameraPosition = Vector3.Lerp(startCameraPosition, targetCameraPosition, animationCurve.Evaluate(time));
+            Vector3 currentCameraPosition = Vector3.Lerp(startCameraPosition, targetCameraPosition, textBoxAnimationCurve.Evaluate(time));
 
             // Apply current camera position to main camera
             Camera.main.transform.position = currentCameraPosition;

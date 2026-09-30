@@ -13,26 +13,21 @@ public class PlayerMovement : BaseMovement
 
     // Methods
 
-    protected virtual void Awake() // Can be overwritten by inheritor classes
+    protected virtual void Awake()
     {
-        // Set reference to player input component
         playerInput = GetComponent<PlayerInput>();
-
-        // Set reference to animator component
         playerAnimator = GetComponentInChildren<Animator>();
     }
 
-    protected virtual void Update() // Can be overwritten by inheritor classes
+    protected virtual void Update()
     {
         SetPlayerAnimatorValues();
     }
 
-    protected virtual void SetPlayerAnimatorValues() // Can be overwritten by inheritor classes
+    protected virtual void SetPlayerAnimatorValues()
     {
-        // Set animator velocity value to the current velocity
         playerAnimator.SetFloat("Velocity", rb.linearVelocity.magnitude);
 
-        // If the rigidbody has velocity in any direction
         if (base.IsMoving())
         {
             // Get the angle of the rigidbody velocity in degrees
@@ -41,14 +36,16 @@ public class PlayerMovement : BaseMovement
             // Avoid negative angles
             if (angleInDegrees < 0) { angleInDegrees += 360f; }
 
-            // Set the trigger that cooresponds to the angle's direction
-            playerAnimator.SetTrigger(directionTriggers[Mathf.FloorToInt((angleInDegrees + 22.5f) / 45f) % 8]);
+            // Get the trigger that cooresponds to the angle's direction
+            string desiredTrigger = directionTriggers[Mathf.FloorToInt((angleInDegrees + 22.5f) / 45f) % 8];
+
+            playerAnimator.SetTrigger(desiredTrigger);
         }
     }
 
     // Return Methods
 
-    protected override Vector2 TargetPosition() // Defined by base class
+    protected override Vector2 TargetPosition()
     {
         // Return the pressed world position or the current position
         return playerInput.TryGetPressedWorldPosition(out Vector2 pressedWorldPosition) ? pressedWorldPosition : rb.position;
