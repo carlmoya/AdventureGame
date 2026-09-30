@@ -168091,10 +168091,6 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 1646424871589280317, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
-      propertyPath: dislikes.Array.size
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7701066825995082330, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29

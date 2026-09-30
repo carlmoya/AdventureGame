@@ -245,8 +245,7 @@ MonoBehaviour:
   speed: 10
   likes:
   - Player
-  dislikes:
-  - Enemy
+  dislikes: []
   targetSearchRadius: 10
 --- !u!114 &5217904229175042511
 MonoBehaviour:
@@ -269,6 +268,7 @@ MonoBehaviour:
   - Bathroom hint here
   - Door hint here
   - Talisman hint here
+  - Kill all enemys text here
 --- !u!1001 &1911712232992494820
 PrefabInstance:
   m_ObjectHideFlags: 0
