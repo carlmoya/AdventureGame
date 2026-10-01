@@ -1384,7 +1384,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: You were protected by the talisman and survived the night at the supermarket!
+  m_text: You were protected by the talisman and survived the night at Boo Market!
     Thank you so very much for playing!
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 468036caa69dd2b448855a8089916d3b, type: 2}
@@ -1419,8 +1419,8 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
@@ -1674,10 +1674,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 72
-  m_fontSizeBase: 42
+  m_fontSize: 36
+  m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 1
+  m_enableAutoSizing: 0
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -2649,7 +2649,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Game Title Here
+  m_text: BOO MARKET
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 468036caa69dd2b448855a8089916d3b, type: 2}
   m_sharedMaterial: {fileID: -7750318235170729135, guid: 468036caa69dd2b448855a8089916d3b, type: 2}
@@ -3905,13 +3905,10 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 'You are stuck in a haunted supermarket. You must search each area for
-    an item to give to the friendly ghost. Avoid the mean ghosts because they are
-    evil and will sap your energy.
-
-
-    To move, just press anywhere on the screen.
-    To interact with something, just tap on it.'
+  m_text: "You are trapped in a haunted supermarket, and must survive until morning.
+    \n\nTAP to interact, LURE the bad ghosts away from areas you need to access,
+    UNLOCK the office door, and FIND the talisman. \n\nA friendly little ghost beckons
+    you closer..."
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 468036caa69dd2b448855a8089916d3b, type: 2}
   m_sharedMaterial: {fileID: -7750318235170729135, guid: 468036caa69dd2b448855a8089916d3b, type: 2}
@@ -3938,15 +3935,15 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 64.35
+  m_fontSize: 52.05
   m_fontSizeBase: 2
   m_fontWeight: 400
   m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
-  m_HorizontalAlignment: 1
-  m_VerticalAlignment: 256
+  m_HorizontalAlignment: 2
+  m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
   m_characterHorizontalScale: 1
