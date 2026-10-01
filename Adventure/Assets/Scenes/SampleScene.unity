@@ -167653,6 +167653,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1428671774897151266, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: m_text
+      value: BOO MARKET
+      objectReference: {fileID: 0}
     - target: {fileID: 1512283150275589710, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
       propertyPath: animationCurve.m_PostInfinity
       value: 2
@@ -167685,9 +167689,37 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 4217437592731200623, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: m_text
+      value: You were protected by the talisman and survived the night at Boo Market!
+        Thank you so very much for playing!
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217437592731200623, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 4217437592731200623, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8455252418796531746, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: m_text
+      value: "You are trapped in a haunted supermarket, and must survive until morning.
+        \n\nTAP to interact, LURE the bad ghosts away from areas you need to access,
+        UNLOCK the office door, and FIND the talisman. \n\nA friendly little ghost
+        beckons you closer..."
+      objectReference: {fileID: 0}
     - target: {fileID: 8455252418796531746, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
       propertyPath: m_fontSize
-      value: 54.35
+      value: 52.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8455252418796531746, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: m_VerticalAlignment
+      value: 512
+      objectReference: {fileID: 0}
+    - target: {fileID: 8455252418796531746, guid: 887ba5fdc0a225a40987658154be984b, type: 3}
+      propertyPath: m_HorizontalAlignment
+      value: 2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -167937,7 +167969,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8698868311660474586, guid: 2976a6b960c54e64a876a15177fabfe2, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5.8260427
+      value: -4.02
       objectReference: {fileID: 0}
     - target: {fileID: 8698868311660474586, guid: 2976a6b960c54e64a876a15177fabfe2, type: 3}
       propertyPath: m_LocalPosition.z
@@ -168091,6 +168123,57 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: dialogueLines.Array.size
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[0]'
+      value: The talisman is in the manager's office, but I can't remember where
+        he hides the extra key... It's a little warm in here... Maybe a cold treat
+        would help my memory...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[1]'
+      value: 'That was so good! But I have a bit of a tummy ache now... Can you find
+        me something a little healthier? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[2]'
+      value: Can I ask you for one more thing? I loved cereal when I was alive...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[3]'
+      value: 'Thank you for your help, kid! I remember where the key is, but you''ll
+        need some scissors to get it. I''ve seen one of the cashiers keep them at
+        her station, but... I cant remember which is hers... Maybe search them all? '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[4]'
+      value: 'Good job! The manager keeps the key on a string behind one of the toilets. '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[5]'
+      value: 'Yes, you got it! Okay, now go open the door! '
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[6]'
+      value: The talisman is right there on the desk... didn't you see it? Maybe
+        your mom needs to take you to the eye doctor...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[7]'
+      value: To make extra sure you're safe, you should touch the bad ghosts with
+        the talisman. It will make them disappear! Um... until tomorrow, at least...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[8]'
+      value: Kill all enemys text here
+      objectReference: {fileID: 0}
+    - target: {fileID: 5217904229175042511, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
+      propertyPath: 'dialogueLines.Array.data[9]'
+      value: Kill all enemys text here
+      objectReference: {fileID: 0}
     - target: {fileID: 7701066825995082330, guid: b4fba8c22f848cf4fb7f20051fc32b24, type: 3}
       propertyPath: m_LocalPosition.x
       value: -29
